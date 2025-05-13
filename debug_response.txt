@@ -1,0 +1,431 @@
+[
+    {
+        "is_data_profile": 1,
+        "profile": "BI",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["teradata", "shell"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["analyse d’impact", "data management"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["remote sensing", "geospatial data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["qlik", "splunk"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data security"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data protection", "gdpr"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["dml", "data modeling"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 20,
+        "seniorite": "Expert",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 20,
+        "seniorite": "Expert",
+        "competences_techniques": ["cloud data", "big data"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["bigdata"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["spring data"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["kubernetes", "cloud", "big data"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "BI",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["teradata", "sql"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 2,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 2,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 2,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 3,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 4,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": ["generative ai", "llm", "machine learning"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data-driven"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": ["python", "sql", "big data"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 3,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["ux/ui design", "data-driven"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["xgboost", "tensorflow", "sql", "python"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": ["data security"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 3,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["power bi"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["gcp", "data engineering"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["kafka", "mongodb", "postgresql"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 20,
+        "seniorite": "Expert",
+        "competences_techniques": ["python", "javascript", "leaflet", "mapbox"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["ged", "kibana", "powerbi"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": ["power bi", "excel"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 4,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 3,
+        "seniorite": "Junior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["sql", "bigquery", "looker"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["wes", "rna data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data management"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA SCIENCE",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": ["data analysis"]
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ENGINEERING",
+        "niveau_etudes": 4,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": ["azure", "data platform"]
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 10,
+        "seniorite": "Expert",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 1,
+        "profile": "DATA ANALYST",
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
+    },
+    {
+        "is_data_profile": 0,
+        "niveau_etudes": 5,
+        "niveau_experience": 5,
+        "seniorite": "Senior",
+        "competences_techniques": []
