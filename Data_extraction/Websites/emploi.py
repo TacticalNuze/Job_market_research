@@ -244,6 +244,10 @@ def main():
     return new_jobs
 
 
+<<<<<<< HEAD
+main()
+=======
 if __name__ == "__main__":
     logger = setup_logger("emploi.log")
     main()
+>>>>>>> 06572de2b55ec9ee969bebf9f33ea25d80aa546d

@@ -1,23 +1,10 @@
 [
     {
-        "titre": "Formateur- Assistante de direction -Kenitra - Kénitra",
-        "region": "Kénitra",
-        "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10121819/Formateur-Assistante-de-direction-Kenitra.html",
-        "via": "Maroc_annonces",
-        "publication_date": "8 May-14:55",
-        "domaine": "Informatique / Multimédia / Internet",
-        "fonction": "RH/Personnel/Formation",
-        "contrat": "A discuter",
-        "salaire": "A discuter",
-        "ville": "Kénitra",
-        "extra": "nadir"
-    },
-    {
         "titre": "Administration/administrative assistant (english) / rabat",
-        "region": "u",
+        "region": "o",
         "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10125516/Administrationadministrative-assistant-(english)-rabat.html",
         "via": "Maroc_annonces",
-        "publication_date": "7 May-16:35",
+        "publication_date": "12 May-16:35",
         "domaine": "Services aux Entreprises / Formation",
         "fonction": "Assistant/Ventes/Accueil",
         "contrat": "Anapec",
@@ -92,10 +79,17 @@
         "ville": "Casablanca"
     },
     {
-        "titre": "Désolé",
-        "region": "LA PAGE QUE VOUS AVEZ DEMANDÉE N'EXISTE PAS, OU ELLE N'EST PLUS ACCESSIBLE À CET URL",
+        "titre": "Ingénieur data scientist junior / casablanca",
+        "region": "Casablanca",
         "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10097857/Ing%C3%A9nieur-data-scientist-junior-casablanca.html",
-        "via": "Maroc_annonces"
+        "via": "Maroc_annonces",
+        "publication_date": "25 Mar-11:18",
+        "domaine": "Banque / Finance / Assurance",
+        "fonction": "Informatique - Systèmes d'Information",
+        "contrat": "CDI",
+        "salaire": "A discuter",
+        "ville": "Casablanca",
+        "extra": "H&B JOB"
     },
     {
         "titre": "Contrôleur de caisse ( Homme ) - AGADIR",
@@ -165,10 +159,17 @@
         "extra": "Oumaima Lahrach"
     },
     {
-        "titre": "Désolé",
-        "region": "LA PAGE QUE VOUS AVEZ DEMANDÉE N'EXISTE PAS, OU ELLE N'EST PLUS ACCESSIBLE À CET URL",
+        "titre": "Analyste Business Data - Casablanca",
+        "region": "Casablanca",
         "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10069332/Analyste-Business-Data.html",
-        "via": "Maroc_annonces"
+        "via": "Maroc_annonces",
+        "publication_date": "6 Feb-23:26",
+        "domaine": "Autre",
+        "fonction": "Informatique - Systèmes/Réseaux",
+        "contrat": "CDI",
+        "salaire": "A discuter",
+        "ville": "Casablanca",
+        "extra": "H&B JOB"
     },
     {
         "titre": "Développeur PHP/Laravel (H/F) - Casablanca",
@@ -284,10 +285,17 @@
         "extra": "confidentiel"
     },
     {
-        "titre": "Désolé",
-        "region": "LA PAGE QUE VOUS AVEZ DEMANDÉE N'EXISTE PAS, OU ELLE N'EST PLUS ACCESSIBLE À CET URL",
+        "titre": "Analyste Business Data - Casablanca",
+        "region": "Casablanca",
         "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10019582/Analyste-Business-Data.html",
-        "via": "Maroc_annonces"
+        "via": "Maroc_annonces",
+        "publication_date": "29 Nov-11:30",
+        "domaine": "Grande Distribution",
+        "fonction": "Informatique - Systèmes/Réseaux",
+        "contrat": "CDI",
+        "salaire": "A discuter",
+        "ville": "Casablanca",
+        "extra": "H&B Job"
     },
     {
         "titre": "CONTROLEUR DE CAISSE - KHOURIBGA",
@@ -328,5 +336,43 @@
         "salaire": "A discuter",
         "ville": "Casablanca",
         "extra": "Karima052-2******"
+    },
+    {
+        "titre": "Hr assistant / tanger",
+        "region": "Tanger",
+        "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10119641/Hr-assistant-tanger.html",
+        "via": "Maroc_annonces",
+        "publication_date": "14 May-10:22",
+        "domaine": "Ressources Humaines / Recrutement / Intérim",
+        "fonction": "RH/Personnel/Formation",
+        "contrat": "Anapec",
+        "salaire": "4 000 - 6 000 DH",
+        "ville": "Tanger",
+        "extra": "Confidentiel"
+    },
+    {
+        "titre": "Customer service manager / casablanca",
+        "region": "Casablanca",
+        "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10139762/Customer-service-manager-casablanca.html",
+        "via": "Maroc_annonces",
+        "publication_date": "19 May-14:20",
+        "domaine": "Autre",
+        "fonction": "Logistique/Métiers du Transport",
+        "contrat": "CDI",
+        "ville": "Casablanca",
+        "extra": "responsable recrutement"
+    },
+    {
+        "titre": "électriciens - data stewards (h/f) / casablanca",
+        "region": "Casablanca",
+        "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10122369/%C3%A9lectriciens-data-stewards-(hf)-casablanca.html",
+        "via": "Maroc_annonces",
+        "publication_date": "15 May-13:29",
+        "domaine": "Industrie / Ingénierie / Energie",
+        "fonction": "Ingénierie - Electro-tech./Automat",
+        "contrat": "CDI",
+        "salaire": "8 000 - 10 000 DH",
+        "ville": "Casablanca",
+        "extra": "M. MIMOUNI"
     }
 ]

@@ -9,6 +9,12 @@
 
 
 *.log
-
+*.txt
 *pyc
 *.env
+
+*.lock
+~$one_shot_enriched.xlsx
+~$one_shot_enriched_gemini.xlsx
+~$one_shot_enriched_gemini2.xlsx
+debug_response.txt

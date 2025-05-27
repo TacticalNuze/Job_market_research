@@ -195,6 +195,10 @@ def main():
     return new_data
 
 
+<<<<<<< HEAD
+main()
+=======
 if __name__ == "__main__":
     logger = setup_logger("maroc_ann.log")
     main()
+>>>>>>> 06572de2b55ec9ee969bebf9f33ea25d80aa546d

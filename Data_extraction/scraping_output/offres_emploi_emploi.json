@@ -362,5 +362,57 @@
         "competences": "AGILE - APP - COCOA - CVS - FOUNDATION - GIT - SWIFT - TMS",
         "publication_date": "2025-02-27",
         "via": "emploi.ma"
+    },
+    {
+        "job_url": "https://www.emploi.ma/offre-emploi-maroc/lead-data-engineer-architecte-data-freelance-casablanca-8889151",
+        "titre": "",
+        "companie": "VISION BUSINESS CONSULTING",
+        "description": "Dans le cadre d’un projet stratégique pour un grand client industriel, nous recherchons un Lead Data Engineer / Architecte Data pour concevoir et mettre en œuvre une plateforme data hybride . L’objectif est de livrer un MVP fonctionnel de la plateforme en 4 mois, incluant un premier use case orienté optimisation énergétique . Stack technique & outils : MinIO : stockage objet (équivalent S3) DBT (Data Build Tool) : transformation de données ClickHouse : base de données analytique Machine Learning : mise en place de modèles pour use case énergétique Atlas Cloud (MongoDB Atlas ou autre cloud data platform)",
+        "niveau_etudes": "Bac+5 et plus",
+        "niveau_experience": "Expérience entre 5 ans et 10 ans & Expérience > 10 ans",
+        "contrat": "Freelance",
+        "region": "Casablanca-Mohammedia",
+        "competences": "ATLAS - MONGODB",
+        "publication_date": "2025-05-20",
+        "via": "emploi.ma"
+    },
+    {
+        "job_url": "https://www.emploi.ma/offre-emploi-maroc/dataops-engineer-casablanca-8889169",
+        "titre": "",
+        "companie": "VISION BUSINESS CONSULTING",
+        "description": "Nous recherchons un(e) DataOps Engineer expérimenté(e) pour accompagner un client bancaire de premier plan dans la mise en place, l'industrialisation et la supervision de ses pipelines data. Vous interviendrez dans un environnement technique exigeant , au sein d’équipes data & IT agiles et dynamiques, pour une mission de longue durée. DevOps / Infra : Excellente maîtrise de Kubernetes et Docker Très bonnes connaissances des pratiques CI/CD (GitLab CI, Jenkins, etc.) Monitoring / observabilité / gestion des environnements Stack Data : Apache Spark : traitement de données massives Airflow : orchestration des pipelines Dremio : moteur de virtualisation / exploration S3...",
+        "niveau_etudes": "Bac+5 et plus",
+        "niveau_experience": "Expérience entre 5 ans et 10 ans & Expérience > 10 ans",
+        "contrat": "Freelance",
+        "region": "Casablanca-Mohammedia",
+        "competences": "APACHE - DOCKER - GITLAB - JENKINS - SPARK",
+        "publication_date": "2025-05-20",
+        "via": "emploi.ma"
+    },
+    {
+        "job_url": "https://www.emploi.ma/offre-emploi-maroc/developpeur-bi-tableau-python-casablanca-8889141",
+        "titre": "",
+        "companie": "VISION BUSINESS CONSULTING",
+        "description": "Dans le cadre du lancement d’un projet BI stratégique, nous recherchons deux Développeurs BI pour renforcer notre équipe sur une mission de 3 mois. Les profils retenus interviendront sur la conception de dashboards dynamiques, le traitement et la valorisation des données, ainsi que l’intégration de sources de données multiples.",
+        "niveau_etudes": "Bac+5 et plus",
+        "niveau_experience": "Expérience entre 5 ans et 10 ans & Expérience > 10 ans",
+        "contrat": "Freelance",
+        "region": "Casablanca-Mohammedia",
+        "competences": "API - BI - POSTGRESQL - PYTHON",
+        "publication_date": "2025-05-20",
+        "via": "emploi.ma"
+    },
+    {
+        "job_url": "https://www.emploi.ma/offre-emploi-maroc/expert-integration-homologation-sab-at-casablanca-8889134",
+        "titre": "",
+        "companie": "VISION BUSINESS CONSULTING",
+        "description": "Pour notre client en secteur bancaire, dans le cadre du projet de montée de version SAB AT6, incluant : Le déploiement d’une nouvelle plateforme technique, L’upgrade applicatif des modules SAB, Le report des développements spécifiques vers une version standardisée, Et la refonte de la structure de la base de données, Nous recherchons un Expert Intégration et Homologation SAB AT pour piloter le chantier IT/Métier de bout en bout. Missions : En tant qu’Expert Intégration & Homologation, vous serez responsable de : Piloter l’intégration et l’homologation IT / Métier du projet, Définir les objectifs, le planning et le budget de votre chantier, Veiller à la...",
+        "niveau_etudes": "Bac+5 et plus",
+        "niveau_experience": "Expérience entre 5 ans et 10 ans & Expérience > 10 ans",
+        "contrat": "Freelance",
+        "region": "Casablanca-Mohammedia",
+        "competences": "ALM",
+        "publication_date": "2025-05-20",
+        "via": "emploi.ma"
     }
 ]
