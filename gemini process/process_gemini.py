@@ -297,7 +297,6 @@ SYSTEM_PROMPT = (
     "3) NO ADDITIONAL FIELDS. RETURN ONLY THE JSON ARRAY OF OBJECTS."
 )
 
-
 def clean_and_extract(raw_text: str) -> list[dict]:
     """
     Extracts a JSON array from a raw string, attempting multiple robust strategies

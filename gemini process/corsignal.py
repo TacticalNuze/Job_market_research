@@ -25,7 +25,6 @@ from google.generativeai import types
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-
 # --- Logger Configuration
 def setup_logger():
     logger = logging.getLogger("PROCESS_GEMINI")
@@ -47,7 +46,6 @@ def setup_logger():
     logger.addHandler(fh)
 
     return logger
-
 
 logger = setup_logger()
 

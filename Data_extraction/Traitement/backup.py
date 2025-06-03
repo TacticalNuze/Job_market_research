@@ -26,7 +26,6 @@ if SCRAPING_DIR is None:
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-
 def infer_source_from_filename(fname):
     m = re.match(r"offres_emploi_(.+)\.json", fname, re.IGNORECASE)
     return m.group(1).capitalize() if m else fname.replace(".json", "")
@@ -62,7 +61,6 @@ def load_and_annotate():
     print(f"[INFO] Total offres chargées : {len(all_offers)}")
     return all_offers
 
-
 def save_backup_and_excel(all_offers):
     if not all_offers:
         print("Aucune offre à sauvegarder.")
@@ -95,7 +93,6 @@ def save_backup_and_excel(all_offers):
                 group.to_excel(writer, sheet_name=sheet, index=False)
 
     print(f"[OK] Rapport Excel: {excel_path}")
-
 
 if __name__ == "__main__":
     print(f"Utilisation de scraping_output : {SCRAPING_DIR}")
