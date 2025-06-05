@@ -3,11 +3,10 @@ import os
 from minio import Minio
 from minio.error import S3Error
 
-# --- Configuration MinIO avec ton lien ngrok actif ---
-MINIO_URL = "3470-41-137-171-178.ngrok-free.app"
-ACCESS_KEY = "minioadmin"
-SECRET_KEY = "minioadmin"
-BUCKET_NAME = "job-data"
+MINIO_URL = "http://127.0.0.1:9090/"
+ACCESS_KEY = os.environ.get("MINIO_ROOT_USER")
+SECRET_KEY = os.environ.get("MINIO_ROOT_PASSWORD")
+BUCKET_NAME = "webscraping"
 FOLDER_PATH = "./Data_extraction/scraping_output"  # Dossier JSON du projet GitHub
 
 # --- Connexion à MinIO ---

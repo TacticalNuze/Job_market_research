@@ -1,5 +1,5 @@
 # Stage 1: Installing uv and the project dependencies
-FROM python:3.10-slim-bullseye AS builder
+FROM python:3.10-slim-bookworm AS builder
 WORKDIR /app
 RUN python -m venv .venv
 ENV PATH="/app/.venv/bin:$PATH"
@@ -7,7 +7,7 @@ COPY pyproject.toml uv.lock ./
 RUN pip install uv && uv sync
 
 # Stage 2: Final image with Chrome only (no ChromeDriver)
-FROM python:3.10-slim-bullseye AS celery_setup
+FROM python:3.10-slim-bookworm AS celery_setup
 
 COPY --from=builder /app/.venv /app/.venv
 # Create user for Celery
@@ -40,8 +40,12 @@ RUN CHROME_VERSION=$(curl -s https://googlechromelabs.github.io/chrome-for-testi
     && chmod +x /opt/chrome/chrome \
     && rm chrome-linux64.zip
 # Creation du dossier pour le chromedriver
+
+
 RUN mkdir -p /home/celery_user/.local/share/undetected_chromedriver \
-    && chown -R celery_user:celery_group /home/celery_user/.local
+ && chown -R celery_user:celery_group /home/celery_user/.local \
+ && chmod -R u+rw /home/celery_user/.local
+
 # Téléchargement automatique de la dernière version stable de Chromedriver
 RUN CHROME_VERSION=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json \
     | jq -r '.channels.Stable.version') \
@@ -50,7 +54,8 @@ RUN CHROME_VERSION=$(curl -s https://googlechromelabs.github.io/chrome-for-testi
     && mv /tmp/chromedriver-linux64/chromedriver /home/celery_user/.local/share/undetected_chromedriver \
     && chmod +x /home/celery_user/.local/share/undetected_chromedriver \
     && rm -rf /tmp/chromedriver-linux64 chromedriver-linux64.zip
-
+RUN chown celery_user:celery_group /home/celery_user/.local/share/undetected_chromedriver/chromedriver \
+&& chmod u+rw /home/celery_user/.local/share/undetected_chromedriver/chromedriver
 
 
 WORKDIR /app

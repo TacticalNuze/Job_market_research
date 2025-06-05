@@ -7264,7 +7264,7 @@
         "niveau_etudes": "Bac +5 et plus",
         "contrat": "CDI - Télétravail : Hybride",
         "via": "Rekrute",
-<<<<<<< HEAD
+
         "job_url": "https://www.rekrute.com/offre-emploi-consultant-business-object---casablanca-hf-recrutement-capgemini-casablanca-170772.html"
     },
     {
@@ -20300,7 +20300,7 @@
         "companie": "Pour l'un de nos projets, nous recrutons un Chef de projet organisation et avant vente ( H/F).",
         "description": "Vous aurez comme principale mission: Modélisation des processus métiers et support (en interne et externe clients : banque, Assurance et Industrie/distribution) Participation à l’ensemble des étapes projets (Etude,...",
         "secteur": "Informatique / Electronique , Informatique / Electronique",
-=======
+
         "job_url": "https://www.rekrute.com/offre-emploi-data-analyst-confirme-hf-recrutement-alten-maroc-rabat-171354.html"
     },
     {
@@ -20336,12 +20336,12 @@
         "companie": "Créée en 2003, sous la tutelle du Ministère de l’Agriculture et de la Pêche Maritime,  la Société Royale d’Encouragement du Cheval (SOREC) a pour principales missions l’encadrement de...",
         "description": "Rattaché à la Direction Courses & Utilisations du Cheval, votre principale mission sera de participer à l'optimisation de la performance des métiers via l'analyse et l'exploitation des données de la...",
         "secteur": "Informatique / Electronique",
->>>>>>> 06572de2b55ec9ee969bebf9f33ea25d80aa546d
+
         "niveau_experience": "De 3 à 5 ans",
         "niveau_etudes": "Bac +5 et plus",
         "contrat": "CDI - Télétravail : Non",
         "via": "Rekrute",
-<<<<<<< HEAD
+
         "job_url": "https://www.rekrute.com/offre-emploi-chef-de-projet-organisation-et-avant-vente-hf-recrutement-confidentiel-casablanca-169618.html"
     },
     {
@@ -20369,9 +20369,7 @@
         "contrat": "Autre - Télétravail : Hybride",
         "via": "Rekrute",
         "job_url": "https://www.rekrute.com/offre-emploi-developpeurs-java-4-ans-dexperience-minimum-recrutement-sqli-maroc-rabat-casablanca-oujda-162130.html"
-=======
-        "job_url": "https://www.rekrute.com/offre-emploi-data-performance-analyst-hf-recrutement-sorec-rabat-171335.html"
-<<<<<<< HEAD
+
     },
     {
         "titre": "MPI Testing – QA Engineer - Manual Testing AZURE - | Rabat (Maroc)",
@@ -20658,8 +20656,6 @@
         "contrat": "CDI - Télétravail : Non",
         "via": "Rekrute",
         "job_url": "https://www.rekrute.com/offre-emploi-manager-bps-recrutement-ntt-data-tetouan-171492.html"
-=======
->>>>>>> 06572de2b55ec9ee969bebf9f33ea25d80aa546d
->>>>>>> f734d2a9057db911f121e74d92961180bc52ef67
+
     }
 ]

@@ -55,4 +55,4 @@ def web_scrape():
         emploi_task.s(), rekrute_task.s(), bayt_task.s(), marocann_task.s()
     )
     result = scrapers.apply_async()
-    print(f"The group finished running with these results: {result.get()}")
+    return result

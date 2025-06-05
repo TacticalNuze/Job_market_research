@@ -9,3 +9,6 @@ scrape_configs:
   - job_name: flower
     static_configs:
       - targets: ['flower:5555']
+  - job_name: Minio
+    static_configs:
+    - targets:  ['minio:9000']

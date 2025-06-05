@@ -32,12 +32,9 @@ services:
       - ./celery_app:/app/celery_app
       - ./data_extraction/Websites:/app/data_extraction/Websites
       - output:/app/data_extraction/scraping_output
-      - logs:/app/data_extraction/Websites/log
-
-    environment:
-    - PYTHONPATH=/app
-    - CHROME_BIN=/opt/chrome/chrome
-    - CHROME_DRIVER_DIR=/home/celery_user/.local/share/undetected_chromedriver
+      - logs:/var/log
+    env_file:
+      - .env
 
 
 
@@ -53,7 +50,7 @@ services:
       - ./celery_app:/app/celery_app
       - ./data_extraction/Websites:/app/data_extraction/Websites
       - output:/app/data_extraction/scraping_output
-      - logs:/app/data_extraction/Websites/log
+      - logs:/var/log
     depends_on:
       - redis
       - celery
@@ -67,28 +64,28 @@ services:
       - ./celery_app:/app/celery_app
       - ./data_extraction/Websites:/app/data_extraction/Websites
       - output:/app/data_extraction/scraping_output
-      - logs:/app/data_extraction/Websites/log
+      - logs:/var/log
 
     depends_on:
       - redis
       - celery
     user: celery_user
     command: ["python", "/app/data_extraction/web_scrape.py"]
-    environment:
-    - PYTHONPATH=/app
-    - CHROME_BIN=/opt/chrome/chrome
-    - CHROME_DRIVER_DIR=/home/celery_user/.local/share/undetected_chromedriver
+    env_file:
+      - .env
   minio:
     image: minio/minio
+
     container_name: minio_storage_server
     volumes:
       - minio_data:/data
     ports:
       - 9000:9000
-      - 9090:9090
+      - 9080:9080
     env_file:
       - .env
-    command: ["minio","server",'--console-address',":9090","/data"]
+    command: ["minio","server",'--console-address',":9080","/data"]
+
 
 
 
