@@ -297,3 +297,7 @@ def setup_logger(filename="app.log", level=logging.INFO):
         logger.setLevel(level)
 
     return logger
+
+
+if __name__ == "__main__":
+    print("You called the websites module init file!")
