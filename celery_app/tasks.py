@@ -1,13 +1,16 @@
 import docker
 from celery import Celery, chain, group, shared_task
+from docker.types import LogConfig
+from dotenv import load_dotenv
 
 from data_extraction.Websites import MarocAnn, Rekrute, bayt, emploi
 from database import scraping_upload
-from skillner.skillner import skillner_extract
+
+# from skillner.skillner_logic import skillner_extract_and_upload
 
 celery_app = Celery("celery_app")
 celery_app.config_from_object("celery_app.celeryconfig")
-celery_app.autodiscover_tasks()
+
 
 # 🚀 Tâches de scraping
 
@@ -52,14 +55,13 @@ def emploi_task(self):
         raise self.retry(exc=e)
 
 
-# 📤 Tâche d'upload
-@shared_task(name="extract_skills")
-def extract_skills():
-    try:
-        skillner_extract()
-        print("Skillner skill extraction successfull")
-    except Exception as e:
-        print(f"Couldn't extract skills: {e}")
+# @shared_task(name="extract_skills")
+# def extract_skills():
+#    try:
+#        skillner_extract_and_upload()
+#        print("Skillner skill extraction successfull")
+#    except Exception as e:
+#        print(f"Couldn't extract skills: {e}")
 
 
 @shared_task(name="scrape_upload")
@@ -76,20 +78,43 @@ def scrape_upload():
 @shared_task(name="spark_cleaning")
 def spark_cleaning():
     client = docker.from_env()
+    load_dotenv(".docker.env")
+
     try:
+        # Build image from Dockerfile
+        client.images.build(
+            path="/app/spark_pipeline",
+            dockerfile="Dockerfile.spark",
+            tag="job_analytics_app-spark_transform",
+        )
+
+        # Run the container
         container = client.containers.run(
             image="job_analytics_app-spark_transform",
             name="spark_transform",
-            command="spark-submit /opt/transform_job.py",  # adapte si différent
+            command="spark-submit /opt/transform_job.py",
             volumes={
                 "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
-                # Ajoute ici d'autres volumes si nécessaires
             },
-            env_file=["/app/.docker.env"],
+            network="job_analytics_app_default",
+            environment={
+                "MINIO_API": "minio:9000",
+                "MINIO_ROOT_USER": "TEST",
+                "MINIO_ROOT_PASSWORD": "12345678",
+            },
+            log_config=LogConfig(
+                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
+            ),
             detach=True,
             remove=True,
         )
-        return f"Spark job lancé dans le conteneur : {container.name}"
+        # Attendre que le job se termine
+        exit_status = container.wait()
+        if exit_status:
+            logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+
+            return logs
+
     except docker.errors.APIError as e:
         return f"Erreur lors du lancement du Spark job : {str(e)}"
 
@@ -97,5 +122,9 @@ def spark_cleaning():
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
     scraping_tasks = group(emploi_task.s(), rekrute_task.s(), marocann_task.s())
-    workflow = chain(scraping_tasks | extract_skills.si() | scrape_upload.si())()
+    workflow = chain(scraping_tasks | scrape_upload.si() | spark_cleaning.si())()
     return workflow
+
+
+if __name__ == "__main__":
+    print("You launched the task.py script")
