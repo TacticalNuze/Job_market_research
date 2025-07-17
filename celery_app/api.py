@@ -24,5 +24,5 @@ def get_status(task_id: str):
     return {
         "task_id": task_id,
         "status": result.state,
-        "result": str(result.result),  # force string to avoid JSON issues
+        "result": str(result.result),
     }
