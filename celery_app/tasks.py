@@ -1,5 +1,7 @@
+import os
+
 import docker
-from celery import Celery, chain, group, shared_task
+from celery import Celery, chain, shared_task
 from docker.types import LogConfig
 from dotenv import load_dotenv
 
@@ -15,7 +17,7 @@ celery_app.config_from_object("celery_app.celeryconfig")
 # 🚀 Tâches de scraping
 
 
-@shared_task(name="rekrute", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="rekrute", bind=True, max_retries=3, default_retry_delay=5)
 def rekrute_task(self):
     try:
         print("Appel du script rekrute")
@@ -25,7 +27,7 @@ def rekrute_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="bayt", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="bayt", bind=True, max_retries=3, default_retry_delay=5)
 def bayt_task(self):
     try:
         print("Appel du script bayt")
@@ -35,7 +37,7 @@ def bayt_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="marocannonce", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="marocannonce", bind=True, max_retries=3, default_retry_delay=5)
 def marocann_task(self):
     try:
         print("Appel du script maroc annonces")
@@ -45,7 +47,7 @@ def marocann_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="emploi", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="emploi", bind=True, max_retries=3, default_retry_delay=5)
 def emploi_task(self):
     try:
         print("Appel du script emploi")
@@ -98,9 +100,9 @@ def spark_cleaning():
             },
             network="job_analytics_app_default",
             environment={
-                "MINIO_API": "minio:9000",
-                "MINIO_ROOT_USER": "TEST",
-                "MINIO_ROOT_PASSWORD": "12345678",
+                "MINIO_API": os.getenv("MINIO_API"),
+                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
+                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
             },
             log_config=LogConfig(
                 type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
@@ -121,7 +123,7 @@ def spark_cleaning():
 
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
-    scraping_tasks = group(emploi_task.s(), rekrute_task.s(), marocann_task.s())
+    scraping_tasks = chain(emploi_task.si() | rekrute_task.si() | marocann_task.si())
     workflow = chain(scraping_tasks | scrape_upload.si() | spark_cleaning.si())()
     return workflow
 
