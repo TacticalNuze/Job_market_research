@@ -182,8 +182,9 @@ def generate_output_filename():
     Génère un nom de fichier unique basé sur la date et un UUID.
     Exemple : processed_jobs_20250619_ab12cd34.json
     """
-    file_id = str(uuid.uuid4())[:8]
-    today = datetime.now().strftime("%Y%m%d")
+    file_id = str(uuid.uuid4())[:4]
+    today = datetime.now().strftime("%d_%m_%Y")
+
     return f"processed_jobs_{today}_{file_id}.json"
 
 
