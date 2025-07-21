@@ -4,7 +4,7 @@ from datetime import datetime
 
 from minio import Minio
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, split, to_date, trim
+from pyspark.sql.functions import col, split, trim, udf
 from pyspark.sql.types import StringType
 
 # -----------------------------------------------------------------------------------
@@ -93,6 +93,34 @@ def read_all_json_from_minio(spark):
 # -----------------------------------------------------------------------------------
 
 
+def normalize_date(date: str):
+    if date is None:
+        return None
+    formats = [
+        "%Y-%m-%d",  # 2025-05-09
+        "%d/%m/%Y",  # 20/05/2025
+        "%d %b-%H:%M",  # 1 May-12:53 , %b is for partial month name (Jan)
+        "%d %B-%H:%M",  # %B is for full month names
+    ]
+    for fmt in formats:
+        try:
+            # strptime parses the date
+            parsed_date = datetime.strptime(date, fmt)
+
+            if (
+                parsed_date.year == 1900
+            ):  # if no year is found in date it defaults to 1900
+                parsed_date = parsed_date.replace(year=datetime.today().year)
+
+            return parsed_date.strftime("%d-%m-%Y")
+        except ValueError:
+            continue
+    return None
+
+
+normalize_date_udf = udf(normalize_date, StringType())
+
+
 def clean_data(df):
     """
     Nettoie et transforme les données :
@@ -118,20 +146,25 @@ def clean_data(df):
         .withColumnRenamed("secteur", "sector")
         .withColumnRenamed("salaire", "salary_range")
         .withColumnRenamed("domaine", "domain")
-        .withColumn("hard_skills", split(col("hard_skills"), ",\\s*"))
+        .withColumnRenamed("publication_date", "date")
     )
 
-    # Cas conditionnel : soft_skills peut être absente
+    # Cas conditionnel : soft_skills ou hard_skills peut être absente
     if "soft_skills" in df.columns:
         df = df.withColumn("soft_skills", split(col("soft_skills"), ",\\s*"))
     else:
         print("⚠️ Colonne 'soft_skills' absente — elle sera ignorée.")
 
+    if "hard_skills" in df.columns:
+        df = df.withColumn("hard_skills", split(col("hard_skills"), ",\\s*"))
+    else:
+        print("⚠️ Colonne 'hard_skills' absente — elle sera ignorée.")
+
     df = (
         df.withColumn("sector", split(col("sector"), ",\\s*"))
         .withColumn("education_level", trim(col("education_level").cast(StringType())))
         .withColumn("seniority", trim(col("seniority").cast(StringType())))
-        .withColumn("publication_date", to_date(col("publication_date"), "yyyy-MM-dd"))
+        .withColumn("date", normalize_date_udf(col("date")))
         .dropDuplicates(["job_url"])
     )
 
