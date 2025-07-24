@@ -189,7 +189,7 @@ def change_page(driver, base_url, page_num):
         return False
 
 
-def main(logger=setup_logger("maroc_ann.log"), driver=init_driver()):
+def main(logger=setup_logger("maroc_ann.log")):
     """Exécute l'extraction des offres d'emploi sur MarocAnnonces.
 
     Orchestre l'initialisation du WebDriver, la navigation sur MarocAnnonces, l'extraction des offres, et leur sauvegarde.
@@ -200,7 +200,7 @@ def main(logger=setup_logger("maroc_ann.log"), driver=init_driver()):
     Returns:
         list: Liste des nouvelles offres d'emploi extraites.
     """
-
+    driver = init_driver()
     old_data = load_json("offres_marocannonces.json")
     all_offers, new_data = [], []
 

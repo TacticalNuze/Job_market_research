@@ -3,13 +3,29 @@ import uuid
 from datetime import datetime
 
 from minio import Minio
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, split, to_date, trim
-from pyspark.sql.types import StringType
+from pyspark.sql import DataFrame, SparkSession
+from pyspark.sql.functions import col, split, trim, udf
+from pyspark.sql.types import StringType, StructField, StructType
 
 # -----------------------------------------------------------------------------------
 # INITIALISATION
 # -----------------------------------------------------------------------------------
+# The schema used to read our json files
+global_schema = StructType(
+    [
+        StructField("job_url", StringType(), True),
+        StructField("publication_date", StringType(), True),
+        StructField("via", StringType(), True),
+        StructField("contrat", StringType(), True),
+        StructField("titre", StringType(), True),
+        StructField("description", StringType(), True),
+        StructField("companie", StringType(), True),
+        StructField("secteur", StringType(), True),
+        StructField("niveau_etudes", StringType(), True),
+        StructField("niveau_experience", StringType(), True),
+        StructField("competences", StringType(), True),
+    ]
+)
 
 
 def create_spark_session():
@@ -24,7 +40,7 @@ def create_spark_session():
     )
 
 
-def configure_minio(spark):
+def configure_minio(spark: SparkSession):
     """
     Configure l'accès à MinIO pour Spark via le protocole S3A.
 
@@ -66,7 +82,7 @@ def list_valid_json_objects():
     return valid_paths
 
 
-def read_all_json_from_minio(spark):
+def read_all_json_from_minio(spark: SparkSession, schema: StructType = global_schema):
     """
     Lit et fusionne tous les fichiers JSON valides depuis MinIO dans un DataFrame PySpark.
     """
@@ -81,10 +97,8 @@ def read_all_json_from_minio(spark):
     for path in valid_files:
         print(f"   → {path}")
 
-    df = spark.read.option("multiLine", True).json(valid_files)
-    total = df.count()
-    df.show(5, truncate=False)
-    print(f"✅ Nombre total d'offres chargées : {total}")
+    df = spark.read.schema(global_schema).option("multiLine", True).json(valid_files)
+    print(f"10 first examples read: {df.show(10)}")
     return df
 
 
@@ -93,7 +107,35 @@ def read_all_json_from_minio(spark):
 # -----------------------------------------------------------------------------------
 
 
-def clean_data(df):
+def normalize_date(date: str):
+    if date is None:
+        return None
+    formats = [
+        "%Y-%m-%d",  # 2025-05-09
+        "%d/%m/%Y",  # 20/05/2025
+        "%d %b-%H:%M",  # 1 May-12:53 , %b is for partial month name (Jan)
+        "%d %B-%H:%M",  # %B is for full month names
+    ]
+    for fmt in formats:
+        try:
+            # strptime parses the date
+            parsed_date = datetime.strptime(date, fmt)
+
+            if (
+                parsed_date.year == 1900
+            ):  # if no year is found in date it defaults to 1900
+                parsed_date = parsed_date.replace(year=datetime.today().year)
+
+            return parsed_date.strftime("%d-%m-%Y")
+        except ValueError:
+            continue
+    return None
+
+
+normalize_date_udf = udf(normalize_date, StringType())
+
+
+def clean_data(df: DataFrame):
     """
     Nettoie et transforme les données :
     - Vérifie la présence des colonnes clés
@@ -103,7 +145,7 @@ def clean_data(df):
     - Supprime les doublons selon `job_url`
     """
     print("🧼 Nettoyage des données...")
-
+    print(f"Les colonnes detectées sont: {df.columns}")
     # Champs obligatoires
     required = ["job_url", "titre", "via", "publication_date"]
     for field in required:
@@ -111,31 +153,33 @@ def clean_data(df):
 
     # Renommage et nettoyage
     df = (
-        df.withColumnRenamed("companie", "company_name")
-        .withColumnRenamed("niveau_etudes", "education_level")
-        .withColumnRenamed("niveau_experience", "seniority")
-        .withColumnRenamed("competences", "hard_skills")
-        .withColumnRenamed("secteur", "sector")
-        .withColumnRenamed("salaire", "salary_range")
-        .withColumnRenamed("domaine", "domain")
-        .withColumn("hard_skills", split(col("hard_skills"), ",\\s*"))
+        df.withColumnRenamed("companie", "compagnie")
+        .withColumnRenamed("competences", "skills")
+        .withColumnRenamed("publication_date", "date")
     )
 
-    # Cas conditionnel : soft_skills peut être absente
+    # Cas conditionnel : soft_skills ou hard_skills peut être absente
     if "soft_skills" in df.columns:
         df = df.withColumn("soft_skills", split(col("soft_skills"), ",\\s*"))
     else:
         print("⚠️ Colonne 'soft_skills' absente — elle sera ignorée.")
 
+    if "hard_skills" in df.columns:
+        df = df.withColumn("hard_skills", split(col("hard_skills"), ",\\s*"))
+    else:
+        print("⚠️ Colonne 'hard_skills' absente — elle sera ignorée.")
+    # Modification des colonnes pour plus de clareté/format
     df = (
-        df.withColumn("sector", split(col("sector"), ",\\s*"))
-        .withColumn("education_level", trim(col("education_level").cast(StringType())))
-        .withColumn("seniority", trim(col("seniority").cast(StringType())))
-        .withColumn("publication_date", to_date(col("publication_date"), "yyyy-MM-dd"))
+        df.withColumn("secteur", split(col("secteur"), ",\\s*"))
+        .withColumn("niveau_etudes", trim(col("niveau_etudes").cast(StringType())))
+        .withColumn(
+            "niveau_experience", trim(col("niveau_experience").cast(StringType()))
+        )
+        .withColumn("date", normalize_date_udf(col("date")))
         .dropDuplicates(["job_url"])
     )
-
-    print("✅ Nettoyage terminé.")
+    df.fillna("Unspecified")
+    print(f"✅ Nettoyage terminé. Dataframe a {df.count()} lignes")
     return df
 
 
@@ -150,7 +194,8 @@ def generate_output_filename():
     Exemple : processed_jobs_20250619_ab12cd34.json
     """
     file_id = str(uuid.uuid4())[:8]
-    today = datetime.now().strftime("%Y%m%d")
+    today = datetime.now().strftime("%d_%m_%Y")
+
     return f"processed_jobs_{today}_{file_id}.json"
 
 
@@ -219,6 +264,7 @@ def main():
         df_cleaned = clean_data(df_raw)
         filename = generate_output_filename()
         local_path = "/tmp/cleaned_output"
+        df_cleaned.show(100)
         save_locally(df_cleaned, local_path)
         upload_to_minio(local_path, filename)
 

@@ -5,8 +5,8 @@
 /.venv/
 /venv/
 /.env
-# Ignore tous les .json sauf ceux nécessaires
-*.json
+skill_db_relax_20.json
+!token_dist.json
 !docker_spark/corsignal1.json
 !docker_spark/mcd_final.json
 __pycache__

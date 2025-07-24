@@ -1,18 +1,24 @@
+import os
+
 import docker
-from celery import Celery, chain, group, shared_task
+from celery import Celery, chain, shared_task
+from docker import errors as dock_errors
+from docker.types import LogConfig
+from dotenv import load_dotenv
 
 from data_extraction.Websites import MarocAnn, Rekrute, bayt, emploi
 from database import scraping_upload
-from skillner.skillner import skillner_extract
+
+# from skillner.skillner_logic import skillner_extract_and_upload
 
 celery_app = Celery("celery_app")
 celery_app.config_from_object("celery_app.celeryconfig")
-celery_app.autodiscover_tasks()
+
 
 # 🚀 Tâches de scraping
 
 
-@shared_task(name="rekrute", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="rekrute", bind=True, max_retries=3, default_retry_delay=5)
 def rekrute_task(self):
     try:
         print("Appel du script rekrute")
@@ -22,7 +28,7 @@ def rekrute_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="bayt", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="bayt", bind=True, max_retries=3, default_retry_delay=5)
 def bayt_task(self):
     try:
         print("Appel du script bayt")
@@ -32,7 +38,7 @@ def bayt_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="marocannonce", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="marocannonce", bind=True, max_retries=3, default_retry_delay=5)
 def marocann_task(self):
     try:
         print("Appel du script maroc annonces")
@@ -42,7 +48,7 @@ def marocann_task(self):
         raise self.retry(exc=e)
 
 
-@shared_task(name="emploi", bind=True, max_retries=3, default_retry_delay=10)
+@shared_task(name="emploi", bind=True, max_retries=3, default_retry_delay=5)
 def emploi_task(self):
     try:
         print("Appel du script emploi")
@@ -52,14 +58,13 @@ def emploi_task(self):
         raise self.retry(exc=e)
 
 
-# 📤 Tâche d'upload
-@shared_task(name="extract_skills")
-def extract_skills():
-    try:
-        skillner_extract()
-        print("Skillner skill extraction successfull")
-    except Exception as e:
-        print(f"Couldn't extract skills: {e}")
+# @shared_task(name="extract_skills")
+# def extract_skills():
+#    try:
+#        skillner_extract_and_upload()
+#        print("Skillner skill extraction successfull")
+#    except Exception as e:
+#        print(f"Couldn't extract skills: {e}")
 
 
 @shared_task(name="scrape_upload")
@@ -76,26 +81,57 @@ def scrape_upload():
 @shared_task(name="spark_cleaning")
 def spark_cleaning():
     client = docker.from_env()
+    load_dotenv(".docker.env")
     try:
+        print("Fetching the spark container")
+        spark_image = client.images.get("job_analytics_app-spark_transform")
+    except dock_errors.ImageNotFound as e:
+        # Build image from Dockerfile
+        print(f"Spark image couldn't be found, building new one: {e}")
+        spark_image, build_logs = client.images.build(
+            path="/app/spark_pipeline",
+            dockerfile="Dockerfile.spark",
+            tag="job_analytics_app-spark_transform",
+        )
+    try:
+        # Run the container
         container = client.containers.run(
-            image="job_analytics_app-spark_transform",
+            image=spark_image,
             name="spark_transform",
-            command="spark-submit /opt/transform_job.py",  # adapte si différent
+            command="spark-submit /opt/transform_job.py",
             volumes={
                 "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
-                # Ajoute ici d'autres volumes si nécessaires
             },
-            env_file=["/app/.docker.env"],
+            network="job_analytics_app_default",
+            environment={
+                "MINIO_API": os.getenv("MINIO_API"),
+                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
+                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
+            },
+            log_config=LogConfig(
+                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
+            ),
             detach=True,
             remove=True,
         )
-        return f"Spark job lancé dans le conteneur : {container.name}"
     except docker.errors.APIError as e:
         return f"Erreur lors du lancement du Spark job : {str(e)}"
+
+    # Attendre que le job se termine
+    exit_status = container.wait()
+    if exit_status:
+        logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+        print(logs)
+    else:
+        return "No logs for spark build"
 
 
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
-    scraping_tasks = group(emploi_task.s(), rekrute_task.s(), marocann_task.s())
-    workflow = chain(scraping_tasks | extract_skills.si() | scrape_upload.si())()
+    scraping_tasks = chain(emploi_task.si() | rekrute_task.si() | marocann_task.si())
+    workflow = chain(scraping_tasks | scrape_upload.si() | spark_cleaning.si())()
     return workflow
+
+
+if __name__ == "__main__":
+    print("You launched the task.py script")
