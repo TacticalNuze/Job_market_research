@@ -2,6 +2,7 @@ import os
 
 import docker
 from celery import Celery, chain, shared_task
+from docker import errors as dock_errors
 from docker.types import LogConfig
 from dotenv import load_dotenv
 
@@ -81,18 +82,21 @@ def scrape_upload():
 def spark_cleaning():
     client = docker.from_env()
     load_dotenv(".docker.env")
-
     try:
+        print("Fetching the spark container")
+        spark_image = client.images.get("job_analytics_app-spark_transform")
+    except dock_errors.ImageNotFound as e:
         # Build image from Dockerfile
-        client.images.build(
+        print(f"Spark image couldn't be found, building new one: {e}")
+        spark_image, build_logs = client.images.build(
             path="/app/spark_pipeline",
             dockerfile="Dockerfile.spark",
             tag="job_analytics_app-spark_transform",
         )
-
+    try:
         # Run the container
         container = client.containers.run(
-            image="job_analytics_app-spark_transform",
+            image=spark_image,
             name="spark_transform",
             command="spark-submit /opt/transform_job.py",
             volumes={
@@ -110,15 +114,16 @@ def spark_cleaning():
             detach=True,
             remove=True,
         )
-        # Attendre que le job se termine
-        exit_status = container.wait()
-        if exit_status:
-            logs = container.logs(stdout=True, stderr=True).decode("utf-8")
-
-            return logs
-
     except docker.errors.APIError as e:
         return f"Erreur lors du lancement du Spark job : {str(e)}"
+
+    # Attendre que le job se termine
+    exit_status = container.wait()
+    if exit_status:
+        logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+        print(logs)
+    else:
+        return "No logs for spark build"
 
 
 @shared_task(name="scraping_workflow")
