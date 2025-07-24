@@ -15,7 +15,7 @@ superset init
 # Ajout de la connexion PostgreSQL
 superset dbs add \
     --database-name "offers" \
-    --sqlalchemy-uri "postgresql://root:123456@postgres/offers" \
+    --sqlalchemy-uri "postgresql://root:123456@postgres:5432/offers" \
     --extra '{"metadata_params": {}, "engine_params": {}, "metadata_cache_timeout": {}, "schemas_allowed_for_csv_upload": []}' \
     --expose-in-sql-lab || true
 
