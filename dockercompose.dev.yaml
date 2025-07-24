@@ -133,7 +133,7 @@ services:
 
     env_file:
       - .docker.env
-    restart: unless-stopped
+   
     
 
   pipeline_loader:
