@@ -33,6 +33,7 @@ services:
       - ./celery_app:/app/celery_app
       - ./skillner:/app/skillner
       - ./data_extraction/Websites:/app/data_extraction/Websites
+      - ./spark_pipeline:/app/spark_pipeline
       - output:/app/data_extraction/scraping_output
       - logs:/var/log
       - /var/run/docker.sock:/var/run/docker.sock
