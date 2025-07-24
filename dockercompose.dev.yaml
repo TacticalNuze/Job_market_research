@@ -152,10 +152,6 @@ services:
       - postgres
     command: ["/bin/bash", "/app/setup.sh"]
 
-
-   
-    
-
   pipeline_loader:
    build:
     context: .
