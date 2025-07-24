@@ -4,7 +4,7 @@ import os
 import spacy
 from spacy.matcher import PhraseMatcher
 
-from database import save_to_minio
+from skillner import save_to_minio
 
 # load default skills data base
 from skillNer.general_params import SKILL_DB
