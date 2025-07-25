@@ -148,6 +148,7 @@ services:
       - SUPERSET_SECRET_KEY=super-secret-key
     volumes:
       - superset_home:/app/superset_home
+      - ./superset:/app/pythonpath
     depends_on:
       - postgres
     command: ["/bin/bash", "/app/setup.sh"]
