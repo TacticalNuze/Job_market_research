@@ -156,14 +156,13 @@ services:
   gemini_processor:
     build:
       context: .
-      dockerfile: Dockerfile.gemini
+      dockerfile: gemini_process/Dockerfile.gemini
+
     container_name: gemini_processor
     depends_on:
       - minio
     volumes:
-      - ./gemini process:/app/gemini_process
-      - ./utils__init__.py:/app/utils__init__.py
-      - ./output:/app/output
+      - .:/app
     env_file:
       - .docker.env
     environment:

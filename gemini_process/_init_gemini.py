@@ -47,6 +47,11 @@ def normalize_text(s: str | None) -> str:
     s = unicodedata.normalize("NFKD", s).encode("ASCII", "ignore").decode()
     return unicodedata.normalize("NFKC", s).lower().strip()
 
+# ─── HTML Cleaning ───────────────────────────────────────────────
+def clean_html(raw_html: str) -> str:
+    cleanr = re.compile('<.*?>')
+    text = re.sub(cleanr, '', raw_html)
+    return re.sub(r'\s+', ' ', text).strip()
 
 # ─── Date Normalization ───────────────────────────────────────────────
 MONTHS = {
@@ -108,31 +113,6 @@ def normalize_date(s: str | None) -> str | None:
     logger.warning(f"❗ Date non reconnue : {s}")
     return None
 
-
-# ─── Location Parsing ───────────────────────────────────────────────
-def parse_location(s: str | None) -> dict:
-    location = {"city": None, "region": None, "country": None, "remote": False}
-    if not s:
-        return location
-
-    s_clean = normalize_text(s)
-    if any(k in s_clean for k in ["remote", "télétravail", "distance"]):
-        location["remote"] = True
-        parts = [p for p in s_clean.split(",") if "remote" not in p]
-        if parts:
-            location["city"] = parts[0]
-    else:
-        parts = [normalize_text(p) for p in s.split(",")]
-        if parts:
-            location["city"] = parts[0]
-            if len(parts) > 1:
-                location["region"] = parts[1]
-            if len(parts) > 2:
-                location["country"] = parts[-1]
-
-    return location
-
-
 # ─── Clean JSON Output from Gemini ──────────────────────────────────
 def clean_and_extract(raw_text: str) -> list[dict]:
     try:
@@ -140,7 +120,7 @@ def clean_and_extract(raw_text: str) -> list[dict]:
         return json.loads(raw_text[start:end+1])
     except Exception:
         logger.warning("⛔ Extraction JSON directe échouée. Fallback regex...")
-    
+
     matches = re.findall(r"\{.*?\}", raw_text, re.DOTALL)
     results = []
     for m in matches:
@@ -151,7 +131,6 @@ def clean_and_extract(raw_text: str) -> list[dict]:
         except Exception:
             continue
     return results
-
 
 # ─── Prompt Gemini ───────────────────────────────────────────────────
 PRE_PROMPT = (
@@ -183,17 +162,18 @@ SYSTEM_PROMPT = (
     "Sinon, retourne simplement : {\"is_data_profile\": false}"
 )
 
-
 # ─── Appel à Gemini API ──────────────────────────────────────────────
 def call_gemini(batch: list[dict], max_retries: int = 3) -> list[dict]:
-    contents = [
-        {
-            "role": "user",
-            "parts": [{
-                "text": PRE_PROMPT + "\n" + SYSTEM_PROMPT + "\n" + json.dumps(batch, ensure_ascii=False)
-            }]
-        }
-    ]
+    formatted_text = PRE_PROMPT + "\n" + SYSTEM_PROMPT + "\n"
+
+    for i, job in enumerate(batch, start=1):
+        desc = clean_html(job.get("description", ""))
+        formatted_text += f"### Offre {i} ###\n"
+        formatted_text += f"URL: {job.get('job_url', 'inconnue')}\n"
+        formatted_text += f"Source: {job.get('source', 'inconnue')}\n"
+        formatted_text += f"Description:\n{desc}\n\n"
+
+    contents = [{"role": "user", "parts": [{"text": formatted_text}]}]
 
     config = types.GenerationConfig(
         temperature=0.7, top_p=0.95, top_k=40, response_mime_type="text/plain"
@@ -217,3 +197,24 @@ def call_gemini(batch: list[dict], max_retries: int = 3) -> list[dict]:
 
     logger.error("❌ Échec après plusieurs tentatives Gemini.")
     return [{} for _ in batch]
+def parse_location(s: str | None) -> dict:
+    location = {"city": None, "region": None, "country": None, "remote": False}
+    if not s:
+        return location
+
+    s_clean = normalize_text(s)
+    if any(k in s_clean for k in ["remote", "télétravail", "distance"]):
+        location["remote"] = True
+        parts = [p for p in s_clean.split(",") if "remote" not in p]
+        if parts:
+            location["city"] = parts[0]
+    else:
+        parts = [normalize_text(p) for p in s.split(",")]
+        if parts:
+            location["city"] = parts[0]
+            if len(parts) > 1:
+                location["region"] = parts[1]
+            if len(parts) > 2:
+                location["country"] = parts[-1]
+
+    return location
