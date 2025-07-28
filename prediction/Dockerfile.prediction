@@ -1,0 +1,22 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# 📦 Installer les dépendances système pour Prophet et psycopg2
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    python3-dev \
+    libgomp1 \
+    libpq-dev \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# 📝 Copier requirements.txt et installer les dépendances
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# 📁 Copier ton code dans le conteneur
+COPY ./prediction /app/prediction
+
+# ▶️ Commande de lancement
+CMD ["python", "/app/prediction/init.py"]
