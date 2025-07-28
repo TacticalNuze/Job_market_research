@@ -1,25 +1,26 @@
 # Base image with Python
 FROM python:3.10-slim
 
-
 # Set working directory
 WORKDIR /app
 
 # Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    curl \
+RUN apt-get update \
+    && apt-get upgrade -y \
+    && apt-get install -y --no-install-recommends curl git python3-venv python3-pip \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
-COPY requirements.txt .
-RUN pip install spacy==3.7.2 minio skillNer @ git+https://github.com/AI-Sweden/skillNER.git
 
-# Download SpaCy model (en_core_web_lg)
+COPY skillner_requirements.txt .
+RUN pip install --no-cache-dir -r  skillner_requirements.txt
 RUN python -m spacy download en_core_web_lg
 
-# Copy your project files into the container
+ENV PYTHONPATH=/app
+# Copy project files into the container
 COPY . .
 
 # Default command to run the script
-CMD ["python", "your_script_name.py"]
+CMD ["python", "skillner_logic.py"]
+#CMD ["ls", "-R"]

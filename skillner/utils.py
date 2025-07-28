@@ -1,6 +1,7 @@
 import os
 
 from minio import Minio, S3Error
+from minio.datatypes import Object
 
 
 def start_client(
@@ -54,23 +55,24 @@ def read_from_minio(file_path, object_name, bucket_name="webscraping"):
 
 
 def read_all_from_bucket(
-    object_name,
-    file_dir="data_extraction/scraping_output",
+    dest_dir="data_extraction/scraping_output",
     bucket_name="webscraping",
-) -> None:
+) -> list[Object]:
+    """Downloads all the objects found in the specified bucket to the destination folder for this function"""
     try:
         client = start_client()
     except Exception as e:
         print(f"Couldn't start client connection to Minio: {e}")
     try:
         file_names = client.list_objects(bucket_name=bucket_name)
-        for file in file_names:
-            file_path = os.path.join(file_dir, file)
-            client.fget_object(bucket_name, object_name, file_path)
-            print(f"Saved file {file} to path {file_path}")
+        for file_name in file_names:
+            file_path = os.path.join(dest_dir, file_name.object_name)
 
-    except Exception:
-        print("Couldn't list the objects in Minio")
+            client.fget_object(bucket_name, file_name.object_name, file_path)
+            print(f"----Saved file: {file_name.object_name} to path: {file_path}----")
+        return file_names
+    except Exception as e:
+        print(f"Couldn't list the objects in Minio: {e}")
 
 
 def scraping_upload(scraping_dir="/app/data_extraction/scraping_output"):
@@ -87,3 +89,43 @@ def scraping_upload(scraping_dir="/app/data_extraction/scraping_output"):
 
     except Exception as e:
         print(f"Couldn't list the files in the scraping folder:{e}")
+
+
+def list_valid_json_objects(bucket_name):
+    """
+    Retourne les chemins valides des objets JSON présents dans le bucket MinIO 'webscraping'.
+    Seuls les fichiers .json dont la taille > 10 octets sont conservés.
+    """
+    client = Minio(
+        os.getenv("MINIO_API"),
+        access_key=os.getenv("MINIO_ROOT_USER"),
+        secret_key=os.getenv("MINIO_ROOT_PASSWORD"),
+        secure=False,
+    )
+    objects = client.list_objects(bucket_name, recursive=True)
+    valid_paths = [
+        f"s3a://webscraping/{obj.object_name}"
+        for obj in objects
+        if obj.object_name.endswith(".json") and obj.size > 10
+    ]
+    return valid_paths
+
+
+def read_all_json_from_minio():
+    """
+    Lit et fusionne tous les fichiers JSON valides depuis MinIO dans un DataFrame PySpark.
+    """
+    print("📥 Lecture filtrée des fichiers JSON valides depuis MinIO...")
+    valid_files = list_valid_json_objects()
+
+    if not valid_files:
+        print("⚠️ Aucun fichier JSON valide trouvé dans le bucket.")
+        return None
+
+    print(f"🔍 Fichiers détectés : {len(valid_files)}")
+    for path in valid_files:
+        print(f"   → {path}")
+        read_all_from_bucket(
+            object_name=path, file_dir=os.getcwd(), bucket_name="webscraping"
+        )
+    return [valid_files]
