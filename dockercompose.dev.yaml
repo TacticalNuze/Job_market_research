@@ -115,14 +115,14 @@ services:
 
 
 
-      
+
   adminer:
     image: adminer
     container_name: adminer
     restart: always
     ports:
     - 8080:8080
-    
+
   spark_transform:
     build:
       context: ./spark_pipeline
@@ -136,8 +136,8 @@ services:
 
     env_file:
       - .docker.env
-   
-    
+
+
 
   pipeline_loader:
    build:
@@ -156,8 +156,19 @@ services:
     - minio
    restart: "no"
 
+  skillner:
+    build:
+      context: ./skillner
+      dockerfile: Dockerfile.skillner
+    container_name: skillner_container
+    env_file:
+      - .docker.env
+    volumes:
+      - ./skillner:/app
+    depends_on:
+      - minio
+    restart: "no"
 
-  
 volumes:
   redis_data:
   minio_data:
