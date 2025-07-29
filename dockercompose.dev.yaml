@@ -144,8 +144,8 @@ services:
     container_name: superset
     ports:
       - "8088:8088"
-    environment:
-      - SUPERSET_SECRET_KEY=super-secret-key
+    env_file:
+      - .docker.env
     volumes:
       - superset_home:/app/superset_home
       - ./superset:/app/pythonpath
@@ -161,10 +161,8 @@ services:
 
    volumes:
     - ./Postgres:/app/Postgres
-   environment:
-      MINIO_API: minio:9000
-      MINIO_ROOT_USER: TEST
-      MINIO_ROOT_PASSWORD: 12345678
+   env_file:
+      - .docker.env
    depends_on:
     - postgres
     - minio
