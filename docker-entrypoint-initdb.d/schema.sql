@@ -1,108 +1,95 @@
--- -------------------------------------------------------------------
--- DROP OLD TABLES
--- -------------------------------------------------------------------
-DROP TABLE IF EXISTS public.fact_offer_skill CASCADE;
-DROP TABLE IF EXISTS public.fact_offer       CASCADE;
-DROP TABLE IF EXISTS public.dim_contract     CASCADE;
-DROP TABLE IF EXISTS public.dim_work_type    CASCADE;
-DROP TABLE IF EXISTS public.dim_location     CASCADE;
-DROP TABLE IF EXISTS public.dim_company      CASCADE;
-DROP TABLE IF EXISTS public.dim_profile      CASCADE;
-DROP TABLE IF EXISTS public.dim_skill        CASCADE;
-DROP TABLE IF EXISTS public.dim_sector       CASCADE;
-DROP TABLE IF EXISTS public.dim_calendar     CASCADE;
-DROP TABLE IF EXISTS public.dim_education    CASCADE;
-DROP TABLE IF EXISTS public.dim_experience   CASCADE;
 
--- -------------------------------------------------------------------
--- DIMENSIONS
--- -------------------------------------------------------------------
-CREATE TABLE public.dim_contract (
-  contract_id      SERIAL PRIMARY KEY,
-  contract_type    TEXT   NOT NULL UNIQUE
+-- Table de dimension date
+DROP TABLE IF EXISTS dim_date CASCADE;
+CREATE TABLE dim_date (
+  id_date        SERIAL PRIMARY KEY,
+  full_date      DATE    NOT NULL UNIQUE,
+  jour           SMALLINT NOT NULL,
+  mois           SMALLINT NOT NULL,
+  trimestre      SMALLINT NOT NULL,
+  annee          SMALLINT NOT NULL,
+  jour_semaine   SMALLINT NOT NULL
 );
 
-CREATE TABLE public.dim_work_type (
-  work_type_id     SERIAL PRIMARY KEY,
-  work_type        TEXT   NOT NULL UNIQUE
+-- Table de dimension source
+DROP TABLE IF EXISTS dim_source CASCADE;
+CREATE TABLE dim_source (
+  id_source SERIAL PRIMARY KEY,
+  via       TEXT    NOT NULL UNIQUE
 );
 
-CREATE TABLE public.dim_location (
-  location_id      SERIAL PRIMARY KEY,
-  city             TEXT,
-  country          TEXT,
-  UNIQUE (city, country)
+-- Table de dimension contrat
+DROP TABLE IF EXISTS dim_contrat CASCADE;
+CREATE TABLE dim_contrat (
+  id_contrat SERIAL PRIMARY KEY,
+  contrat    TEXT    NOT NULL UNIQUE
 );
 
-CREATE TABLE public.dim_company (
-  company_id       SERIAL PRIMARY KEY,
-  company_name     TEXT   NOT NULL UNIQUE
+-- Table de dimension titre
+DROP TABLE IF EXISTS dim_titre CASCADE;
+CREATE TABLE dim_titre (
+  id_titre SERIAL PRIMARY KEY,
+  titre    TEXT    NOT NULL UNIQUE
 );
 
-CREATE TABLE public.dim_profile (
-  profile_id       SERIAL PRIMARY KEY,
-  profile          TEXT   NOT NULL UNIQUE
+-- Table de dimension compagnie
+DROP TABLE IF EXISTS dim_compagnie CASCADE;
+CREATE TABLE dim_compagnie (
+  id_compagnie SERIAL PRIMARY KEY,
+  compagnie    TEXT    NOT NULL UNIQUE,
+  secteur       TEXT
 );
 
-CREATE TABLE public.dim_skill (
-  skill_id         SERIAL PRIMARY KEY,
-  skill            TEXT   NOT NULL,
-  skill_type       TEXT   NOT NULL CHECK (skill_type IN ('hard','soft')),
-  UNIQUE(skill, skill_type)
+-- Table de dimension niveau d'études
+DROP TABLE IF EXISTS dim_niveau_etudes CASCADE;
+CREATE TABLE dim_niveau_etudes (
+  id_niveau_etudes SERIAL PRIMARY KEY,
+  niveau_etudes    TEXT    NOT NULL UNIQUE
 );
 
-CREATE TABLE public.dim_sector (
-  sector_id        SERIAL PRIMARY KEY,
-  sector           TEXT   NOT NULL UNIQUE
+-- Table de dimension niveau d'expérience
+DROP TABLE IF EXISTS dim_niveau_experience CASCADE;
+CREATE TABLE dim_niveau_experience (
+  id_niveau_experience SERIAL PRIMARY KEY,
+  niveau_experience    TEXT    NOT NULL UNIQUE
 );
 
-CREATE TABLE public.dim_calendar (
-  date_id           DATE     PRIMARY KEY,
-  year              INTEGER  NOT NULL,
-  quarter           INTEGER  NOT NULL,
-  month_number      INTEGER  NOT NULL,
-  month_name        TEXT     NOT NULL,
-  day               INTEGER  NOT NULL,
-  year_month        INTEGER    NOT NULL,
-  day_of_week       INTEGER  NOT NULL,
-  week_of_year      INTEGER  NOT NULL,
-  date_str          TEXT     NOT NULL
+-- Table de dimension skills (hard & soft)
+DROP TABLE IF EXISTS dim_skill CASCADE;
+CREATE TABLE dim_skill (
+  id_skill    SERIAL PRIMARY KEY,
+  nom         TEXT    NOT NULL UNIQUE,
+  type_skill  TEXT    NOT NULL CHECK(type_skill IN ('hard','soft'))
 );
 
-CREATE TABLE public.dim_education (
-  education_id      SERIAL PRIMARY KEY,
-  education_level   TEXT   NOT NULL UNIQUE
+-- Table de faits des offres
+DROP TABLE IF EXISTS fact_offre CASCADE;
+CREATE TABLE fact_offre (
+  id_offer              SERIAL PRIMARY KEY,
+  job_url               TEXT    NOT NULL UNIQUE,
+  id_date_publication   INT     NOT NULL REFERENCES dim_date(id_date),
+  id_source             INT     NOT NULL REFERENCES dim_source(id_source),
+  id_contrat            INT     NOT NULL REFERENCES dim_contrat(id_contrat),
+  id_titre              INT     NOT NULL REFERENCES dim_titre(id_titre),
+  id_compagnie          INT     NOT NULL REFERENCES dim_compagnie(id_compagnie),
+  id_niveau_etudes      INT     NOT NULL REFERENCES dim_niveau_etudes(id_niveau_etudes),
+  id_niveau_experience  INT     REFERENCES dim_niveau_experience(id_niveau_experience),
+  description           TEXT,
+  competences           TEXT,
+  secteur               TEXT
 );
 
-CREATE TABLE public.dim_experience (
-  experience_id     SERIAL PRIMARY KEY,
-  seniority         TEXT   NOT NULL UNIQUE
+-- Table de liaison offre ↔ skill
+DROP TABLE IF EXISTS offre_skill CASCADE;
+CREATE TABLE offre_skill (
+  id_offer  INT NOT NULL REFERENCES fact_offre(id_offer),
+  id_skill  INT NOT NULL REFERENCES dim_skill(id_skill),
+  PRIMARY KEY (id_offer, id_skill)
 );
 
--- -------------------------------------------------------------------
--- TABLE DES FAITS (SANS dim_source)
--- -------------------------------------------------------------------
-CREATE TABLE public.fact_offer (
-  offer_id           SERIAL   PRIMARY KEY,
-  source             TEXT,
-  job_url            TEXT,
-  title              TEXT,
-  date_id            DATE     NOT NULL REFERENCES public.dim_calendar(date_id),
-  contract_id        INTEGER  REFERENCES public.dim_contract(contract_id),
-  work_type_id       INTEGER  REFERENCES public.dim_work_type(work_type_id),
-  location_id        INTEGER  REFERENCES public.dim_location(location_id),
-  company_id         INTEGER  REFERENCES public.dim_company(company_id),
-  profile_id         INTEGER  REFERENCES public.dim_profile(profile_id),
-  education_id       INTEGER  REFERENCES public.dim_education(education_id),
-  experience_id      INTEGER  REFERENCES public.dim_experience(experience_id),
-  sector_id          INTEGER  REFERENCES public.dim_sector(sector_id)
-);
-
--- -------------------------------------------------------------------
--- LIAISON OFFRE ↔ COMPÉTENCE
--- -------------------------------------------------------------------
-CREATE TABLE public.fact_offer_skill (
-  offer_id INTEGER REFERENCES public.fact_offer(offer_id),
-  skill_id INTEGER REFERENCES public.dim_skill(skill_id),
-  PRIMARY KEY (offer_id, skill_id)
-);
+-- Indexes recommandés
+CREATE INDEX idx_fact_offre_date     ON fact_offre(id_date_publication);
+CREATE INDEX idx_fact_offre_source   ON fact_offre(id_source);
+CREATE INDEX idx_fact_offre_contrat  ON fact_offre(id_contrat);
+CREATE INDEX idx_fact_offre_titre    ON fact_offre(id_titre);
+CREATE INDEX idx_fact_offre_company  ON fact_offre(id_compagnie);
