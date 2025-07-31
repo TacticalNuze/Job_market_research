@@ -157,7 +157,6 @@ services:
     build:
       context: .
       dockerfile: gemini_process/Dockerfile.gemini
-
     container_name: gemini_processor
     depends_on:
       - minio
