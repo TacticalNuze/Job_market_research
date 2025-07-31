@@ -53,7 +53,9 @@ def init_driver():
         )
         if not uc_patcher.is_binary_patched():
             uc_patcher.patch_exe()
-        print("chromedriver binary has now been patched")
+            print("chromedriver binary has now been patched")
+        else:
+            print("chromedriver doesnt need patching")
     except Exception as e:
         print(f"Exception during patching {e}")
 
@@ -297,3 +299,7 @@ def setup_logger(filename="app.log", level=logging.INFO):
         logger.setLevel(level)
 
     return logger
+
+
+if __name__ == "__main__":
+    print("You called the websites module init file!")
