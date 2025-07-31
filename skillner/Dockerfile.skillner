@@ -23,4 +23,3 @@ COPY . .
 
 # Default command to run the script
 CMD ["python", "skillner_logic.py"]
-#CMD ["ls", "-R"]
