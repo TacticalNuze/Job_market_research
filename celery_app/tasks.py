@@ -164,11 +164,68 @@ def spark_cleaning():
         return "No logs for spark build"
 
 
+@shared_task(name="pipeline_loader")
+def pipeline_loader():
+    client = docker.from_env()
+    load_dotenv(".docker.env")
+    try:
+        print("Fetching the pipeline_loader container")
+        pipeline_loader_image = client.images.get("job_analytics_app-pipeline_loader")
+    except dock_errors.ImageNotFound as e:
+        # Build image from Dockerfile
+        print(f"pipeline_loader image couldn't be found, building new one: {e}")
+        pipeline_loader_image, build_logs = client.images.build(
+            path="/app/postgres",
+            dockerfile="Dockerfile.pipeline",
+            tag="job_analytics_app-pipeline_loader",
+        )
+    try:
+        # Run the container
+        container = client.containers.run(
+            image=pipeline_loader_image,
+            name="pipeline_loader_transform_temp",
+            command="python load_offers.py",
+            volumes={
+                "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
+            },
+            network="job_analytics_app_default",
+            environment={
+                "MINIO_API": os.getenv("MINIO_API"),
+                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
+                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
+                "POSTGRES_USER": os.getenv("POSTGRES_USER"),
+                "POSTGRES_PASSWORD": os.getenv("POSTGRES_PASSWORD"),
+                "POSTGRES_DB": os.getenv("POSTGRES_DB"),
+                "DB_HOST": os.getenv("DB_HOST"),
+                "DB_PORT": os.getenv("DB_PORT"),
+            },
+            log_config=LogConfig(
+                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
+            ),
+            detach=True,
+            remove=True,
+        )
+    except docker.errors.APIError as e:
+        return f"Erreur lors du lancement du pipeline_loader job : {str(e)}"
+
+    # Attendre que le job se termine
+    exit_status = container.wait()
+    if exit_status:
+        logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+        print(logs)
+    else:
+        return "No logs for pipeline_loader build"
+
+
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
     scraping_tasks = chain(emploi_task.si() | rekrute_task.si() | marocann_task.si())
     workflow = chain(
-        scraping_tasks | scrape_upload.si() | skillner_ner.si() | spark_cleaning.si()
+        scraping_tasks
+        | scrape_upload.si()
+        | skillner_ner.si()
+        | spark_cleaning.si()
+        | pipeline_loader.si()
     )()
     return workflow
 
