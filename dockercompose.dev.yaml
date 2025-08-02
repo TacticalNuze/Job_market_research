@@ -151,11 +151,11 @@ services:
     - minio
    restart: "no"
 
-  gemini_processor:
+  enrechissement_processor:
     build:
       context: .
-      dockerfile: gemini_process/Dockerfile.gemini
-    container_name: gemini_processor
+      dockerfile: enrechissement_process/Dockerfile.enrechissement
+    container_name: enrechissement_processor
     depends_on:
       - minio
     volumes:
@@ -164,6 +164,8 @@ services:
       - .docker.env
     environment:
       - PYTHONPATH=/app
+
+  
   skillner:
     build:
       context: ./skillner
