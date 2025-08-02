@@ -9,378 +9,300 @@ from groq import Groq
 
 load_dotenv()
 
-# Config logger
-logging.basicConfig(level=logging.INFO)
+# Configuration du logger
 logger = logging.getLogger(__name__)
 
-# Config API Groq
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL_NAME = os.getenv("GROQ_MODEL_NAME", "meta-llama/llama-4-scout-17b-16e-instruct")
-
-# Initialiser le client Groq
-client = Groq(api_key=GROQ_API_KEY)
+# Initialisation du client Groq
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 
 PRE_PROMPT = """
-Tu es un expert en Ressources Humaines et Intelligence Artificielle.
-Tu vas analyser des offres d'emploi et retourner leur version enrichie en JSON.
+Tu es un expert en analyse d'offres d'emploi. Tu dois analyser cette offre complète et retourner UN SEUL objet JSON enrichi.
 
-IMPORTANT: Essaie de remplir TOUS les champs possibles à partir du contexte:
-- Si job_url manque, mets null
-- Si date_publication manque, mets null 
-- Si niveau_experience manque, déduis-le des responsabilités (junior/senior/expert)
-- Extraie TOUS les skills possibles (minimum 3-5 par offre si possible)
-- Pour le titre, extraie le poste exact ou déduis-le de la description
+RÈGLES IMPORTANTES:
+1. Analyse TOUS les champs fournis de l'offre
+2. Retourne UNIQUEMENT un objet JSON valide (pas d'array)
+3. Ne laisse JAMAIS un champ à null - déduis toujours une valeur
+4. Enrichis les informations avec ton expertise
+5. Assure-toi que le secteur correspond au métier
 
-Format JSON exact:
-[
-  {
-    "job_url": "..." ou null,
-    "date_publication": "YYYY-MM-DD" ou null,
-    "source": "..." ou null,
-    "contrat": "CDI/CDD/Freelance/Stage" ou null,
-    "titre": "...",
-    "compagnie": "..." ou null,
-    "secteur": "..." ou null,
-    "niveau_etudes": "Bac/Licence/Master/Doctorat" ou null,
-    "niveau_experience": "junior/senior/expert" ou null,
-    "description": "...",
-    "skills": [
-      {"nom": "...", "type_skill": "hard"},
-      {"nom": "...", "type_skill": "soft"}
-    ],
-    "is_data_profile": true/false
-  }
-]
+FORMAT JSON EXACT:
+{
+  "job_url": "URL_COMPLETE",
+  "date_publication": "YYYY-MM-DD",
+  "source": "SITE_SOURCE",
+  "contrat": "CDI/CDD/Stage/Freelance",
+  "titre": "TITRE_POSTE",
+  "compagnie": "NOM_ENTREPRISE",
+  "secteur": "SECTEUR_ACTIVITE",
+  "niveau_etudes": "Bac/Licence/Master/Doctorat",
+  "niveau_experience": "junior/senior/expert",
+  "description": "DESCRIPTION_COMPLETE",
+  "skills": [
+    {"nom": "Compétence1", "type_skill": "hard"},
+    {"nom": "Compétence2", "type_skill": "soft"}
+  ]
+}
 
-📌 `is_data_profile` est `true` si l'offre concerne :
-- Data Science, Data Analysis, Data Engineering, Data Analyst
-- Big Data, Intelligence Artificielle, Machine Learning, Deep Learning
-- Business Intelligence, Analytics, Data Mining, ETL
-- Cloud Data (AWS, GCP, Azure), Data Architecture
-- Toute technologie ou rôle lié aux données
-
-🔹 Si une information est absente, remplace-la par `null`, ou `[]` pour les listes.
-🔹 Ne commente pas, retourne uniquement le **JSON valide**.
+IMPORTANT: Retourne UNIQUEMENT le JSON, aucun texte avant ou après.
 """
 
-def normalize_text(text: str) -> str:
-    """Normalise le texte en supprimant les espaces multiples"""
-    return re.sub(r"\s+", " ", text.strip()) if text else ""
+def call_groq_with_streaming(offer_data):
+    """Appelle Groq avec streaming en envoyant toute l'offre"""
+    
+    # Construire le contexte complet de l'offre
+    offer_context = f"""
+OFFRE D'EMPLOI COMPLÈTE À ANALYSER:
 
-def validate_profile_fields(profile: dict) -> dict:
-    """Valide et complète les champs d'un profil"""
-    expected_keys = {
-        "job_url": None,
-        "date_publication": None,
-        "source": None,
-        "contrat": None,
-        "titre": None,
-        "compagnie": None,
-        "secteur": None,
-        "niveau_etudes": None,
-        "niveau_experience": None,
-        "description": None,
-        "skills": [],
-        "is_data_profile": False
-    }
-    
-    # Ajouter les champs manquants avec leurs valeurs par défaut
-    for key, default in expected_keys.items():
-        profile.setdefault(key, default)
-    
-    # Validation spéciale pour les skills
-    if not isinstance(profile["skills"], list):
-        profile["skills"] = []
-    
-    # S'assurer que chaque skill a la bonne structure
-    validated_skills = []
-    for skill in profile["skills"]:
-        if isinstance(skill, dict) and "nom" in skill and "type_skill" in skill:
-            if skill["type_skill"] in ["hard", "soft"]:
-                validated_skills.append(skill)
-        elif isinstance(skill, str):
-            # Convertir les strings en dictionnaires
-            validated_skills.append({"nom": skill, "type_skill": "hard"})
-    
-    profile["skills"] = validated_skills
-    
-    return profile
+URL: {offer_data.get('job_url', 'Non spécifiée')}
+Titre: {offer_data.get('titre', offer_data.get('title', 'Non spécifié'))}
+Entreprise: {offer_data.get('compagnie', offer_data.get('company', 'Non spécifiée'))}
+Source: {offer_data.get('source', 'Non spécifiée')}
+Date de publication: {offer_data.get('date_publication', 'Non spécifiée')}
+Type de contrat: {offer_data.get('contrat', 'Non spécifié')}
+Niveau d'études: {offer_data.get('niveau_etudes', 'Non spécifié')}
+Niveau d'expérience: {offer_data.get('niveau_experience', 'Non spécifié')}
 
-def extract_json_from_response(text: str) -> list:
-    """Extrait le JSON de la réponse Groq avec plusieurs stratégies de fallback"""
-    if not text:
-        return []
+DESCRIPTION:
+{offer_data.get('description', 'Description non disponible')}
+
+COMPÉTENCES ACTUELLES:
+"""
     
-    # Stratégie 1: JSON direct
+    # Ajouter les compétences existantes si elles existent
+    if offer_data.get('skills'):
+        for skill in offer_data.get('skills', []):
+            if isinstance(skill, dict):
+                nom = skill.get('nom', '')
+                type_skill = skill.get('type_skill', 'hard')
+                offer_context += f"- {nom} ({type_skill})\n"
+            else:
+                offer_context += f"- {skill}\n"
+    else:
+        offer_context += "Aucune compétence spécifiée\n"
+    
+    # Ajouter d'autres champs s'ils existent
+    for key, value in offer_data.items():
+        if key not in ['job_url', 'titre', 'title', 'compagnie', 'company', 'source', 
+                       'date_publication', 'contrat', 'niveau_etudes', 'niveau_experience', 
+                       'description', 'skills'] and value:
+            offer_context += f"\n{key.upper()}: {value}"
+    
+    prompt = PRE_PROMPT + "\n\n" + offer_context
+    
     try:
-        start, end = text.find("["), text.rfind("]")
-        if 0 <= start < end:
-            json_block = text[start:end+1]
-            parsed = json.loads(json_block)
-            if isinstance(parsed, list):
-                return parsed
-    except json.JSONDecodeError:
-        logger.debug("❌ Stratégie 1 (JSON direct) échouée")
-
-    # Stratégie 2: Nettoyage des virgules en trop
-    try:
-        cleaned = re.sub(r",\s*([}\]])", r"\1", text)
-        match = re.search(r"\[.*?\]", cleaned, re.DOTALL)
-        if match:
-            parsed = json.loads(match.group(0))
-            if isinstance(parsed, list):
-                return parsed
-    except json.JSONDecodeError:
-        logger.debug("❌ Stratégie 2 (nettoyage virgules) échouée")
-
-    # Stratégie 3: Extraction de blocs JSON multiples
-    try:
-        json_objects = []
-        pattern = r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
-        matches = re.findall(pattern, text, re.DOTALL)
+        logger.debug("🧠 Appel Groq avec streaming...")
         
-        for match in matches:
-            try:
-                obj = json.loads(match)
-                json_objects.append(obj)
-            except json.JSONDecodeError:
-                continue
-        
-        if json_objects:
-            return json_objects
-    except Exception:
-        logger.debug("❌ Stratégie 3 (blocs multiples) échouée")
-
-    # Stratégie 4: Recherche de patterns spécifiques
-    try:
-        # Chercher les patterns typiques d'offres
-        patterns = [
-            r'"titre":\s*"([^"]*)"',
-            r'"description":\s*"([^"]*)"',
-            r'"is_data_profile":\s*(true|false)'
-        ]
-        
-        if any(re.search(pattern, text) for pattern in patterns):
-            # Il y a du contenu structuré, créer un profil basique
-            basic_profile = {
-                "job_url": None,
-                "date_publication": None,
-                "source": None,
-                "contrat": None,
-                "titre": None,
-                "compagnie": None,
-                "secteur": None,
-                "niveau_etudes": None,
-                "niveau_experience": None,
-                "description": text[:500],  # Utiliser le texte comme description
-                "skills": [],
-                "is_data_profile": False
-            }
-            return [basic_profile]
-    except Exception:
-        pass
-
-    logger.warning("⚠️ Impossible d'extraire le JSON de la réponse")
-    logger.debug(f"Réponse reçue (premiers 200 chars): {text[:200]}")
-    return []
-
-def deduplicate_profiles(profiles: list[dict]) -> list[dict]:
-    """Supprime les doublons basés sur titre + compagnie + description"""
-    if not profiles:
-        return profiles
-    
-    seen = set()
-    unique_profiles = []
-    
-    for profile in profiles:
-        # Créer une signature unique
-        signature = (
-            profile.get('titre', ''),
-            profile.get('compagnie', ''),
-            profile.get('description', '')[:100] if profile.get('description') else ''
+        completion = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{
+                "role": "user",
+                "content": prompt
+            }],
+            temperature=0.1,
+            max_completion_tokens=2048,
+            top_p=0.9,
+            stream=True,
+            stop=None,
         )
         
-        if signature not in seen:
-            seen.add(signature)
-            unique_profiles.append(profile)
-        else:
-            logger.debug(f"Doublon détecté et supprimé: {profile.get('titre', 'Sans titre')}")
-    
-    if len(profiles) != len(unique_profiles):
-        logger.info(f"Déduplication: {len(profiles)} -> {len(unique_profiles)} profils")
-    
-    return unique_profiles
+        # Reconstituer la réponse complète depuis le stream
+        full_response = ""
+        for chunk in completion:
+            content = chunk.choices[0].delta.content or ""
+            full_response += content
+        
+        logger.debug(f"📝 Réponse complète reçue ({len(full_response)} chars)")
+        return full_response.strip()
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur appel Groq: {e}")
+        return None
 
-def call_groq(batch: list, retries: int = 3, delay: float = 5.0) -> list:
-    """
-    Appelle l'API Groq pour enrichir un batch d'offres d'emploi
+def extract_json_from_response(response_text):
+    """Extrait et valide le JSON depuis la réponse Groq"""
+    if not response_text:
+        return None
     
-    Args:
-        batch: Liste des offres à traiter
-        retries: Nombre de tentatives en cas d'échec
-        delay: Délai entre les tentatives (secondes)
-    
-    Returns:
-        Liste des profils enrichis
-    """
-    if not batch:
-        return []
-    
-    # Préparer le prompt avec toutes les descriptions
-    prompt_text = PRE_PROMPT + "\n\n" + "\n---\n".join([
-        f"Offre {i+1}:\n{normalize_text(o.get('description', ''))}" 
-        for i, o in enumerate(batch)
-    ])
+    try:
+        # Nettoyer la réponse
+        cleaned_response = response_text.strip()
+        
+        # Chercher le JSON dans la réponse
+        start_idx = cleaned_response.find('{')
+        end_idx = cleaned_response.rfind('}')
+        
+        if start_idx == -1 or end_idx == -1 or start_idx >= end_idx:
+            logger.warning("❌ Pas de JSON valide trouvé dans la réponse")
+            return None
+        
+        json_str = cleaned_response[start_idx:end_idx + 1]
+        
+        # Nettoyer les caractères de contrôle
+        json_str = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', json_str)
+        
+        # Parser le JSON
+        parsed_json = json.loads(json_str)
+        
+        # Validation basique
+        required_fields = ['job_url', 'titre', 'compagnie', 'description']
+        for field in required_fields:
+            if field not in parsed_json or not parsed_json[field]:
+                logger.warning(f"⚠️ Champ manquant ou vide: {field}")
+        
+        logger.debug("✅ JSON extrait et validé")
+        return parsed_json
+        
+    except json.JSONDecodeError as e:
+        logger.error(f"❌ Erreur parsing JSON: {e}")
+        logger.debug(f"Réponse problématique: {response_text[:300]}...")
+        return None
+    except Exception as e:
+        logger.error(f"❌ Erreur extraction JSON: {e}")
+        return None
 
+def create_fallback_profile(offer_data, index=0):
+    """Crée un profil de base si Groq échoue"""
+    description = offer_data.get('description', '')
+    title = offer_data.get('titre', offer_data.get('title', f'Offre {index + 1}'))
+    
+    # Analyser le contenu pour déduire les informations
+    content_lower = f"{title} {description}".lower()
+    
+    # Déduire le secteur
+    if any(word in content_lower for word in ['aws', 'cloud', 'architect', 'data', 'développeur', 'informatique', 'tech']):
+        sector = "Informatique"
+    elif any(word in content_lower for word in ['commercial', 'vente', 'marketing']):
+        sector = "Commerce/Marketing"
+    elif any(word in content_lower for word in ['finance', 'comptable']):
+        sector = "Finance"
+    elif any(word in content_lower for word in ['santé', 'médical']):
+        sector = "Santé"
+    else:
+        sector = "Services"
+    
+    # Déduire le type de contrat
+    existing_contract = offer_data.get('contrat', '')
+    if 'cdi' in existing_contract.lower():
+        contract = "CDI"
+    elif 'cdd' in existing_contract.lower():
+        contract = "CDD"
+    elif 'freelance' in existing_contract.lower():
+        contract = "Freelance"
+    elif 'stage' in existing_contract.lower():
+        contract = "Stage"
+    else:
+        contract = "CDI"
+    
+    # Déduire le niveau d'expérience
+    exp_text = offer_data.get('niveau_experience', '').lower()
+    if any(word in exp_text for word in ['5 ans', '10 ans', 'senior', 'expert']):
+        experience = "expert"
+    elif any(word in exp_text for word in ['junior', 'débutant', '1 an', '2 ans']):
+        experience = "junior"
+    else:
+        experience = "senior"
+    
+    # Utiliser les skills existantes ou créer des basiques
+    skills = offer_data.get('skills', [])
+    if not skills:
+        skills = [
+            {"nom": "Communication", "type_skill": "soft"},
+            {"nom": "Travail d'équipe", "type_skill": "soft"},
+            {"nom": "Résolution de problèmes", "type_skill": "soft"},
+            {"nom": "Adaptabilité", "type_skill": "soft"}
+        ]
+    
+    return {
+        "job_url": offer_data.get('job_url', f'fallback_url_{index}'),
+        "date_publication": offer_data.get('date_publication', datetime.now().strftime('%Y-%m-%d')),
+        "source": offer_data.get('source', 'Source inconnue'),
+        "contrat": contract,
+        "titre": title,
+        "compagnie": offer_data.get('compagnie', offer_data.get('company', 'Entreprise non spécifiée')),
+        "secteur": sector,
+        "niveau_etudes": offer_data.get('niveau_etudes', 'Master'),
+        "niveau_experience": experience,
+        "description": description,
+        "skills": skills
+    }
+
+def process_single_offer(offer_data, index, retries=3):
+    """Traite une seule offre avec Groq"""
+    logger.info(f"🔄 Traitement offre {index + 1}: {offer_data.get('titre', offer_data.get('title', 'Sans titre'))}")
+    
     for attempt in range(1, retries + 1):
         try:
-            logger.info(f"🧠 Envoi à Groq (essai {attempt}/{retries}) pour {len(batch)} offre(s)")
+            logger.debug(f"Tentative {attempt}/{retries}")
             
-            # Appel à Groq
-            completion = client.chat.completions.create(
-                model=GROQ_MODEL_NAME,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt_text
-                    }
-                ],
-                temperature=0.1,  # Température basse pour la cohérence
-                max_completion_tokens=8192,  # Augmenté pour les réponses longues
-                top_p=0.9,
-                stream=False,
-                stop=None,
-            )
+            # Appel Groq avec streaming
+            response = call_groq_with_streaming(offer_data)
             
-            # Extraire le contenu de la réponse
-            response_text = completion.choices[0].message.content
+            if response:
+                # Extraction du JSON
+                profile = extract_json_from_response(response)
+                
+                if profile:
+                    # S'assurer que l'URL est préservée
+                    if not profile.get('job_url'):
+                        profile['job_url'] = offer_data.get('job_url')
+                    
+                    logger.info(f"✅ Offre {index + 1} traitée avec succès")
+                    return profile
             
-            if not response_text:
-                logger.warning("⚠️ Pas de contenu texte dans la réponse Groq")
-                if attempt < retries:
-                    time.sleep(delay)
-                    continue
-                return [{} for _ in batch]
-
-            # Extraire et valider les profils
-            profiles = extract_json_from_response(response_text)
-            
-            if not profiles:
-                logger.warning(f"⚠️ Aucun JSON détecté dans la réponse Groq (essai {attempt})")
-                logger.debug(f"Réponse reçue: {response_text[:300]}...")
-                if attempt < retries:
-                    time.sleep(delay)
-                    continue
-                return [{} for _ in batch]
-
-            # Valider chaque profil
-            validated_profiles = []
-            for profile in profiles:
-                if profile and isinstance(profile, dict):
-                    validated_profile = validate_profile_fields(profile)
-                    validated_profiles.append(validated_profile)
-
-            # Déduplication au niveau du batch
-            validated_profiles = deduplicate_profiles(validated_profiles)
-            
-            logger.info(f"✅ Groq a retourné {len(validated_profiles)} profils valides")
-            return validated_profiles
-
-        except Exception as e:
-            logger.error(f"❌ Erreur Groq (essai {attempt}/{retries}): {e}")
+            logger.warning(f"⚠️ Échec tentative {attempt}")
             if attempt < retries:
-                time.sleep(delay * attempt)  # Délai progressif
-            else:
-                logger.error("⛔ Toutes les tentatives Groq ont échoué")
-                # Retourner des profils vides plutôt que de crash
-                return [{} for _ in batch]
+                time.sleep(2)  # Délai avant retry
+                
+        except Exception as e:
+            logger.error(f"❌ Erreur tentative {attempt}: {e}")
+            if attempt < retries:
+                time.sleep(2)
+    
+    # Si toutes les tentatives échouent, créer un fallback
+    logger.warning(f"⚠️ Création d'un profil fallback pour l'offre {index + 1}")
+    return create_fallback_profile(offer_data, index)
 
-    return []
-
-def call_groq_streaming(batch: list, retries: int = 3, delay: float = 5.0) -> list:
-    """
-    Version streaming de l'appel Groq (optionnelle)
-    """
-    if not batch:
+def process_all_offers(offers_list):
+    """Traite toutes les offres une par une"""
+    if not offers_list:
+        logger.error("❌ Aucune offre à traiter")
         return []
     
-    prompt_text = PRE_PROMPT + "\n\n" + "\n---\n".join([
-        f"Offre {i+1}:\n{normalize_text(o.get('description', ''))}" 
-        for i, o in enumerate(batch)
-    ])
-
-    for attempt in range(1, retries + 1):
+    logger.info(f"🎯 Début du traitement de {len(offers_list)} offres")
+    
+    processed_profiles = []
+    
+    for i, offer in enumerate(offers_list):
         try:
-            logger.info(f"🧠 Envoi à Groq avec streaming (essai {attempt}/{retries}) pour {len(batch)} offre(s)")
+            profile = process_single_offer(offer, i)
+            if profile:
+                processed_profiles.append(profile)
             
-            completion = client.chat.completions.create(
-                model=GROQ_MODEL_NAME,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt_text
-                    }
-                ],
-                temperature=0.1,
-                max_completion_tokens=8192,
-                top_p=0.9,
-                stream=True,
-                stop=None,
-            )
-            
-            # Collecter toute la réponse streaming
-            response_text = ""
-            for chunk in completion:
-                if chunk.choices[0].delta.content:
-                    response_text += chunk.choices[0].delta.content
-            
-            if not response_text:
-                logger.warning("⚠️ Pas de contenu texte dans la réponse Groq streaming")
-                if attempt < retries:
-                    time.sleep(delay)
-                    continue
-                return [{} for _ in batch]
-
-            profiles = extract_json_from_response(response_text)
-            
-            if not profiles:
-                logger.warning(f"⚠️ Aucun JSON détecté dans la réponse Groq streaming (essai {attempt})")
-                if attempt < retries:
-                    time.sleep(delay)
-                    continue
-                return [{} for _ in batch]
-
-            validated_profiles = [validate_profile_fields(p) for p in profiles if p and isinstance(p, dict)]
-            validated_profiles = deduplicate_profiles(validated_profiles)
-            
-            return validated_profiles
-
+            # Délai entre les traitements pour respecter les limites de l'API
+            if i < len(offers_list) - 1:
+                time.sleep(1)
+                
         except Exception as e:
-            logger.error(f"❌ Erreur Groq streaming (essai {attempt}/{retries}): {e}")
-            if attempt < retries:
-                time.sleep(delay * attempt)
-            else:
-                logger.error("⛔ Toutes les tentatives Groq streaming ont échoué")
-
-    return [{} for _ in batch]
+            logger.error(f"❌ Erreur traitement offre {i + 1}: {e}")
+            # Créer un fallback même en cas d'erreur
+            fallback = create_fallback_profile(offer, i)
+            processed_profiles.append(fallback)
+    
+    logger.info(f"🎉 Traitement terminé: {len(processed_profiles)} profils créés")
+    return processed_profiles
 
 def test_groq_connection():
     """Teste la connexion à Groq"""
     try:
-        test_completion = client.chat.completions.create(
-            model=GROQ_MODEL_NAME,
-            messages=[{"role": "user", "content": "Hello"}],
-            max_completion_tokens=10
+        completion = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": "Test"}],
+            max_completion_tokens=10,
+            stream=False
         )
-        logger.info("✅ Connexion Groq testée avec succès")
+        logger.info("✅ Connexion Groq OK")
         return True
     except Exception as e:
-        logger.error(f"❌ Erreur de connexion Groq: {e}")
+        logger.error(f"❌ Erreur connexion Groq: {e}")
         return False
-
-# Test de la connexion au démarrage
-if __name__ == "__main__":
-    if not GROQ_API_KEY:
-        logger.error("❌ GROQ_API_KEY non définie dans les variables d'environnement")
-    else:
-        test_groq_connection()
