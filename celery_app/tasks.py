@@ -173,5 +173,57 @@ def scraping_workflow():
     return workflow
 
 
+##celery for enrechissement_process
+## celery for enrechissement_process
+@shared_task(name="enrichment_process")
+def enrichment_process():
+    client = docker.from_env()
+    load_dotenv(".docker.env")
+
+    try:
+        print("📦 Récupération de l'image enrechissement_processor...")
+        enrechissement_image = client.images.get("job_analytics_app-enrechissement_processor")
+    except dock_errors.ImageNotFound as e:
+        print(f"⚠️ Image non trouvée, création en cours : {e}")
+        enrechissement_image, build_logs = client.images.build(
+            path="/app/enrechissement_process",
+            dockerfile="Dockerfile.enrechissement",
+            tag="job_analytics_app-enrechissement_processor",
+        )
+
+    try:
+        container = client.containers.run(
+            image="job_analytics_app-enrechissement_processor",
+            name="enrechissement_process_temp",
+            command="python main_enrechissement_pipeline.py",
+            volumes={
+                os.getcwd(): {"bind": "/app", "mode": "rw"},
+                "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
+            },
+            network="job_analytics_app_default",
+            environment={
+                "GROQ_API_KEY": os.getenv("GROQ_API_KEY"),
+                "MINIO_API": os.getenv("MINIO_API"),
+                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
+                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
+                "PYTHONPATH": "/app",
+            },
+            log_config=LogConfig(
+                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
+            ),
+            detach=True,
+            remove=True,
+        )
+    except docker.errors.APIError as e:
+        return f"❌ Erreur lors du lancement du conteneur d’enrichissement : {str(e)}"
+
+    exit_status = container.wait()
+    logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+    print(logs)
+    return "✅ Enrichissement Groq terminé"
+
+    
+    
+
 if __name__ == "__main__":
     print("You launched the task.py script")
