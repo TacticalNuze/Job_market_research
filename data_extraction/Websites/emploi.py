@@ -134,7 +134,11 @@ def main(logger=setup_logger("emploi.log")):
                     job_url = ""
                 # Récupérer le titre de l'offre
                 try:
-                    titre = card.find_element(By.CSS_SELECTOR, "a").text.strip()
+                    titre = (
+                        card.find_element(By.CSS_SELECTOR, "h3")
+                        .find_element(By.CSS_SELECTOR, "a")
+                        .text.strip()
+                    )
                 except NoSuchElementException:
                     logger.error(f"[Carte {index} - page {page}] Titre non trouvé.")
                     titre = ""
