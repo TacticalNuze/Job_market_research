@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copier les sources
+COPY enrechissement_process /app/enrechissement_process
+COPY requirements.txt /app/requirements.txt
+
+# Mise à jour de pip
+RUN pip install --upgrade pip
+
+# Installation du package Gemini directement (au cas où il ne figure pas dans requirements.txt)
+#RUN pip install google-generativeai
+
+# Installation des dépendances restantes
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Commande de démarrage
+CMD ["python", "/app/enrechissement_process/main_enrechissement_pipeline.py"]

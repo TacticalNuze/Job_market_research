@@ -1,0 +1,5991 @@
+[
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/data-analyst-bricoma-casablanca-ain-sebaa-8958600",
+    "date_publication": "2025-07-24",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Data Analyst",
+    "compagnie": "Bricoma",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre de notre développement, nous recherchons un(e) Data Analyst talentueux(se) et motivé(e) pour renforcer notre équipe BI. Vous interviendrez principalement sur la conception, le développement et la maintenance de solutions de Business Intelligence (Power BI), ainsi que sur la gestion et l’orchestration des flux de données via des outils ETL (SSIS, Talend). Vous serez un acteur clé dans la transformation des données en informations exploitables, contribuant ainsi à la prise de décision stratégique de l’entreprise. Vous travaillerez en étroite collaboration avec les équipes métier et IT pour répondre aux besoins analytiques. Missions principales Concevoir, développer et maintenir des rapports et...",
+    "skills": [
+      {
+        "nom": "BI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Talend",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TensorFlow",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/developpeurse-odoo-crm-casablanca-8961750",
+    "date_publication": "2025-07-26",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Développeur(se) Odoo & CRM",
+    "compagnie": "CALLIOPE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre du renforcement de notre équipe technique, nous recherchons un(e) Développeur(se) Odoo & CRM . Vous serez chargé(e) de concevoir, personnaliser et maintenir des solutions basées sur Odoo (versions13 à17), en étroite collaboration avec les équipes métiers et les clients. Vos missions : Analyse des besoins Comprendre les besoins fonctionnels des utilisateurs et proposer des solutions efficaces et adaptées dans Odoo. Développement et personnalisation Concevoir et développer de nouveaux modules, ou adapter ceux existants (front-end et back-end) selon les exigences fonctionnelles. Intégration de systèmes Assurer l’interconnexion d’Odoo avec d’autres outils et systèmes",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SOAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/chef-projet-odoo-crm-casablanca-8961772",
+    "date_publication": "2025-07-26",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Chef de Projet Odoo & CRM",
+    "compagnie": "Calliope",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre de notre développement, nous recherchons un(e) Chef de Projet Odoo & CRM pour piloter la mise en œuvre, l’évolution et la maintenance des solutions ERP Odoo et CRM, en interne ou pour nos clients. Véritable chef d’orchestre, vous jouerez un rôle central dans la conduite de projets digitaux, en assurant la coordination entre les équipes métiers, techniques et partenaires externes. Vos principales responsabilités : Analyse des besoins Recueillir et formaliser les besoins des utilisateurs (finance, ventes, achats, RH, logistique...). Gestion de projet Piloter la mise en œuvre ou la migration vers Odoo (v14 à v17) : définition des roadmaps, plannings, budgets, ressources et suivi d’…",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Coordination d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/aws-solutions-architect-mf-8251961",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AWS Solutions Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AWS Solutions Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Design a robust, secure and optimized AWS architecture to implement large scale enterprise data solutions and applications. Develop and deliver AWS Cloud solutions in areas such as AIML, advanced analytics, microservices, serverless, etc. Build highly scalable, Cloud-native applications on AWS platform using services like API Gateway, Lambda, SQS, DynamoDB and ECS. Implement and manage KuberNetes environments. Ensure configuration and compliance with configuration management tools. Administer and troubleshoot Linux based...",
+    "skills": [
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BIG DATA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CENTOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DMS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HADOOP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTTP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "RDS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SPARK",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TALEND",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/java-jee-developer-mf-8251945",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "JAVA JEE Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for JAVA JEE Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Good exposure to Core Java, MySQL server as DB. Maintain source code control of all application code, scripts, and database definition language. Design, Develop, Implement and/or Manage project. Responsible for development, focusing on designs, coding, testing, quality assurance of complex product features in a development team. Show initiative and drive topics to resolution in a high level of quality, speed, reliability and efficiency considering the essential non-functional requirements. Analyzing clients' requirements and produce technical proposals...",
+    "skills": [
+      {
+        "nom": "JAVA JEE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Core Java",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MySQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Agile",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Angular JS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Azure",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Big Data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cassandra",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Couchbase",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Docker",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Git",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Hadoop",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Hibernate",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "J2EE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JavaScript",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JBoss",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Jenkins",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maven",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NoSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Oracle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Redis",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SOAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spark",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Struts",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "WebLogic",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-architect-mf-8251963",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons des profils de Cloud Architect pour partager avec nos clients pour leurs futures campagnes de recrutement. La mission consiste à mener des analyses, des recommandations et des présentations d'approches sur les feuille de route de migration vers le cloud, l'architecture/conception, etc. Impliqué dans la conduite d'évaluations et d'évaluations de l'état de préparation d'Azure et la fourniture de rapports d'évaluation, de documents d'architecture/conception/déploiement et de présentations. Concevoir des solutions Cloud pour de nouvelles applications. Concevoir des architectures, des environnements et des solutions Cloud qui répondent aux exigences métier avec un accent sur la satisfaction des objectifs métier globaux. Concevoir des solutions hautement disponibles, évolutives et sécurisées en utilisant...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "C#",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COSMOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PAAS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "VM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/aws-cloud-architect-mf-8251960",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AWS Cloud Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information et services informatiques",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AWS Cloud Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Support and advise clients in the adoption and deployment of AWS services (IT Strategy, Opportunity Study, Audit, Framework and Roadmap). Design solution platforms integrating AWS reference services (Serverless Architecture, Analytics, IoT, EKS, ...) in Native Cloud and Hybrid Cloud contexts. Conduct research, tests, and execute new techniques which could be reused and applied to the project. Accountable for designing, building, and optimizing automation systems that help to execute business web and data infrastructure platforms.",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "ALM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BASH",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTTP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "IOT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JENKINS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LOAD BALANCING",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PUPPET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REACT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "SSL",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-engineer-mf-8251965",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Engineer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Engineer profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Implement IAM policies and configure VPCs to create a scalable and secure Network for the application workloads. Develop and manage AWS development and migration programs. Build Data Integration scripts using Python to integrate with upstream/downstream systems (within AWS Cloud Services ecosystem). Develop application code for programs while following coding standards. Resolve queries/issues and provide Application/functional support. Recommend changes to improve established Data Integration processes.",
+    "skills": [
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BGP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "IAM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PUPPET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "RDS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/network-architect-mf-8251973",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Network Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information et communication",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Network Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Deliver Core Backbone Network Designs in alignment with industry best practices. Deliver Customer Network Designs in alignment with industry best practices. Support and Alignment with Internal Teams. Contributor to Automation Stakeholders to deliver speed and accuracy for the enablement of new services. Perform Core Network Changes. Manage technical Network solutions and framework of [24]7 Network infrastructure. Perform Network troubleshooting to isolate and diagnose common Network problems. Upgrade Network hardware and software components as required...",
+    "skills": [
+      {
+        "nom": "BGP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CISCO",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DHCP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETHERNET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JUNIPER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MPLS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SNMP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TCP IP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "WAN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de réseau",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de réseau",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/responsable-infrastructure-securite-si-casablanca-8948525",
+    "date_publication": "2025-07-16",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Responsable Infrastructure et Sécurité SI",
+    "compagnie": "VISION BUSINESS CONSULTING",
+    "secteur": "Informatique et Systèmes d'Information",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons un(e) Responsable Infrastructure et Sécurité SI expérimenté(e) pour accompagner notre client français pour une mission en CDI. En tant que Responsable Infrastructure et Sécurité, vous êtes le pilier garant de la robustesse, de la performance et de l'inviolabilité de notre système d'information. Rattaché(e) à la Direction des Systèmes d'Information (DSI), vous pilotez la stratégie de sécurité, managez une équipe technique et supervisez l'ensemble des projets d'infrastructure tout en accompagnant la transformation numérique de l’organisation dans un cadre de conformité réglementaire et de gouvernance IT renforcée. Vous jouerez un rôle clé en articulant vos...",
+    "skills": [
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Stratégie de sécurité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Transformation numérique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/datastage-architect-mf-8251971",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "DATASTAGE Architect (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for DATASTAGE Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Define and supervise all activities within your scope by using and optimising the resources allocated. Control the implementation of the activities under your responsibility and report on the results. Responsible for the level of service quality, compliance with standards and the level of safety within the assigned perimeter. Supervise and monitor of assigned projects (monitoring of workloads, definition of deadlines and delivery milestones, identification of deliverables and work to be carried out, task planning, monitoring of work, management of corrective measures,...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DATASTAGE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "INFORMATICA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "J2EE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ORACLE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TALEND",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Supervision d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Contrôle qualité",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/php-developer-mf-8251951",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "PHP Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement Web",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for PHP Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Writing clean, fast code PHP to a high standard, in a timely and scalable way. Design E-Commerce websites and Dashboards using PHP, and Strong Knowledge on Integrations Like, Payment gateway, APi s etc. Establishing and guiding the website s architecture. Conducting analysis of website and application requirements. Writing back-end code and building efficient PHP modules. Developing back-end portals with an optimized database. Updating and altering application features to enhance performance. Helping formulate an effective, responsive design and turning it...",
+    "skills": [
+      {
+        "nom": "AJAX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CODEIGNITER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS3",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LARAVEL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MAGENTO",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MERCURIAL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ORACLE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SYMFONY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ZEND",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-microservices-architect-mf-8251966",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Microservices Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Microservices Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Design, build, and maintain Cloud environments focusing on uptime, access, control, and Network security using automation and configuration management tools. Guide the definition of best practices in collaboration with other areas of engineering group. Research and provide guidance on adoption of new technologies. Provide guidance to Product Managers on feasibility pf product requests. You will be creating, recreating, rewriting and refactor applications. You will be working on Cloud-based application development...",
+    "skills": [
+      {
+        "nom": "ACCESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/nodejs-developer-mf-8251949",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "NODE.JS Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for NODE.JS Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Design and develop business logic and backend services for full-scale applications. Be responsible for designing, coding, testing, and implementing web applications. Write scalable, robust, testable, efficient, and easily maintainable code for our online comparison calculators and internal tools. Be responsible for system design and application development of web applications. Documenting Node.js processes, including database schemas, as well as preparing reports. Design and implementation of low-latency, high-availability, and high-performance applications...",
+    "skills": [
+      {
+        "nom": "NODE JS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REACT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDIS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BOOTSTRAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS3",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JQUERY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JSON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JIRA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Work in team",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Problem solving",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-system-administrator-mf-8251967",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud System Administrator",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud System Administrator profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Installing, configuring and maintain softwares, servers (on premise / Cloud), Networks and firewalls . Overseeing/troubleshoot system performance, troubleshooting issues and outages Creating a backup and safeguarding the data(on premise / Cloud) if there are any hindrances Performing system upgrades following new releases. Ensuring/Sustaining Network integrity, server deployment, security and efficiency of IT infrastructure . Monitoring and maintaining Network servers such as file servers, VPN gateways and intrusion detection systems...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CENTOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PERL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PREMISE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDHAT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "VPN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "WAN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de réseaux",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Administration système",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Dépannage",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/laravel-developer-mf-8251948",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "LARAVEL Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement Web",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for LARAVEL Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Develop, test, and maintain applications to specified designs & standards in Laravel. Develop & implement modern web services using service-oriented architecture, RESTful APIs, and SOAP. Write and execute unit tests. Implement front-end interfaces & experiences with modern HTML/CSS/jQuery. Test, troubleshoot, and optimize application components for maximum speed, security, stability and scalability. Developing and maintaining dynamic websites and web applications. Develop and deploy new features to facilitate related procedures and tools if...",
+    "skills": [
+      {
+        "nom": "AJAX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CODEIGNITER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JQUERY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LARAVEL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MARIADB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "QUERY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SOAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TFS",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/objective-c-developer-mf-8251950",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "OBJECTIVE-C Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for OBJECTIVE-C Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Design and build advanced applications for the iOS platform. Analyze client business requirements and user experience to shape, design, and build custom mobile experiences for the clients. Collaborate with cross-functional teams to define, design, and ship new features. Ensure the performance, quality, and responsiveness of applications. Unit-test code for robustness, including edge cases, usability, and general reliability. Work on bug fixing and improving application performance. Help maintain code quality, organization, and automatization.",
+    "skills": [
+      {
+        "nom": "Objective-C",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "iOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Android",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cocoa",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Git",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JavaScript",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "jQuery",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JSON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Linux",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Mac",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Mercurial",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "OSX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Swift",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de requirements",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Collaboration",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Test unitaires",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/qa-tester-mf-8251953",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "QA Tester",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for QA Tester profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Work on tasks identified in the testing strategy and plan. Be responsible for the accurate recording of defects and the collation of metrics and KPI information for reporting purposes. Articulation of defects in detailed manner, assigning defects to technical teams, capturing target fix dates. Identifie the tasks and resources needed to ensure that their specific portion of the testing process meets software quality requirements prior to release into a live environment. Establish the testing process such as test automation, performance testing, testing process, test...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "APP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MAVEN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SELENIUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/swift-developer-mf-8251956",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "SWIFT Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Développeur SWIFT pour développer et maintenir des applications iOS et OS X, avec 5-10 ans d'expérience, travaillant en Agile/SCRUM, maîtrise de GIT, REST, et SWIFT.",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SWIFT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MERCURIAL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/azure-solutions-architect-mf-8251962",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AZURE Solutions Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Informatique - Cloud Computing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AZURE Solutions Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Serve as in-house technical expert providing technical guidance on new features & functionalities, drive the deployment of the customers workloads into Azure and provide deployment guidance. Deliver Cloud platform architecture documents detailing the vision for how Azure infrastructure and platform services support the overall application architecture. Proven background in the design and implementation of large scale, global, complex custom application development systems (e.g., high transaction volumes). Experience problem solving...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ACCESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COSMOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PAAS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDIS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SHELL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Problem Solving",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-computing-virtualization-engineer-mf-8251964",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Computing and Virtualization Engineer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Cloud Computing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Computing and Virtualization Engineer profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Must be able to work independently and take ownership. Work proactively and should be result oriented. Discuss with customer to understand the project requirement and suggest industry level Cloud solutions. Design and develop best fit Cloud solutions architecture, Network architecture and evaluate architectural alternatives. Provide technical support for Cloud architecture design, deployment and maintenance. Design secure, scalable and HA / DR strategies on Cloud technologies. Analyse and resolve...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail indépendant",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Orientation résultats",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse et résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/ios-developer-mf-8251943",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD/Freelance",
+    "titre": "IOS Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for iOS Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Implement, develop, and fix code according to corporate coding standards. Design and build advanced applications for the iOS platform. IOS Developer, who is responsible for App development with quality and by following the best practices. Ability to write scalable and maintainable code. Coordinate with other team members to ensure that all TMs are in sync. Be self-starter and goal-oriented with strong analytical and problem-solving skills. Ability to work cooperatively within a strong diverse technical community to expedite development tasks. Collaborate...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "APP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COCOA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "FOUNDATION",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SWIFT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TMS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse et résolution de problèmes",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-analyst-cdd-recrutement-axa-services-maroc-rabat-173841.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "DATA Analyst",
+    "compagnie": "AXA Services Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Rattaché(e) au Responsable Reporting Central et Suivi de la Performance ,le Data Analyst a pour mission de Créer, administrer, analyser et mieux comprendre les données issues de...",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Système d'information",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-geologue-specialiste-en-geologie-structurale-recrutement-aya-gold-silver-taliouine-173830.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Géologue Spécialiste en Géologie Structurale",
+    "compagnie": "Aya Gold & Silver",
+    "secteur": "Minier",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "In this exciting role reporting to the Chief Production Geologist you will provide quality geological mapping and interpretation of the existing structural models to the mine geology team to aid in improving mineral resource outlines, mine planning and mine operations.",
+    "skills": [
+      {
+        "nom": "Datamine",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Surpac",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse géologique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-ingenieur-en-intelligence-artificielle---confirme-recrutement-alten-maroc-rabat-173817.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Ingénieur en Intelligence Artificielle - Confirmé",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Au cœur de notre transformation technologique, vous serez responsable de la conception, du développement et de l’industrialisation d’applications intelligentes exploitant les capacités des LLM (Large Language Models), de...",
+    "skills": [
+      {
+        "nom": "connaissances en vector database",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "langchain",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-ingenieur-en-intelligence-artificielle---junior-recrutement-alten-maroc-rabat-173815.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Ingénieur en Intelligence Artificielle - Junior",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Au cœur de notre transformation technologique, vous serez responsable de la conception, du développement et de l’industrialisation d’applications intelligentes exploitant les capacités des LLM (Large Language Models), de...",
+    "skills": [
+      {
+        "nom": "connaissances en vector database",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "langchain",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-project-management-business-partner-recrutement-capgemini-engineering-casablanca-173806.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Project Management Business Partner",
+    "compagnie": "Capgemini Engineering",
+    "secteur": "Gestion de projet",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Le poste consiste à appliquer les principes de gestion de projet pour structurer et suivre les activités, assurer le suivi des risques et opportunités tout au long du cycle projet et piloter le drumbeat d’actions.",
+    "skills": [
+      {
+        "nom": "data management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "visualisation de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Looker Studio",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Power BI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-business-analyst-data-specialisation-finance-recrutement-inetum-casablanca-173100.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Business Analyst DATA – Spécialisation Finance",
+    "compagnie": "Inetum",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Analyse des besoins métier Finance Recueillir et formaliser les besoins des équipes Finance (reporting financier, pilotage de la performance, contrôle budgétaire) Challenger les demandes pour proposer des indicateurs...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Reporting financier",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Pilotage de la performance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Contrôle budgétaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse métier",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-servicenow-developer-recrutement-inetum-casablanca-173096.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "ServiceNow Developer",
+    "compagnie": "Inetum",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Actively participate in major development projects of the platform. Develop and customize by using Workflow Designer, Flow Designer, Javascript and Data Querying Contribute to evolution of ServiceNow modules (ITSM, SPM, CSM,...)",
+    "skills": [
+      {
+        "nom": "Javascript",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Workflow Designer",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Flow Designer",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Querying",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST Web Services",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ServiceNow",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse et résolution de problèmes",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-senior-business-intelligence-consultant-bi-lead-recrutement-leyton-casablanca-173535.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Senior Business Intelligence Consultant / BI Lead",
+    "compagnie": "Leyton CognitX",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "As a Senior BI Consultant / BI Lead, you will: Lead the design, implementation, and optimization of end-to-end BI solutions. Build and maintain powerful dashboards and reports that translate data into business insights.",
+    "skills": [
+      {
+        "nom": "Data Analytics",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Business Intelligence",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Information Systems",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-monitoring-business-partner-recrutement-dxc---cdg-technopolis-sala-al-jadida-173801.html",
+    "date_publication": "2025-07-28",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Monitoring Business Partner",
+    "compagnie": "DXC Technology",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +4",
+    "niveau_experience": "senior",
+    "description": "Suivre et analyser les indicateurs de performance (KPI, SLA, OKR) des différentes entités / business units. Mettre en place des reportings réguliers à destination des directions métiers et du top management.",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-scientist-hf-recrutement-sofrecom-maroc-rabat-173796.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Data Scientist",
+    "compagnie": "Sofrecom Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons un Data Scientist talentueux et motivé pour rejoindre notre équipe. Vous serez responsable de l’analyse de données complexes, de la modélisation statistique et de la création d’algorithmes pour...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation statistique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Création d'algorithmes",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-scientist-in-complex-systems-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173768.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Research Scientist in Complex Systems",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Vanguard Center & UM6Ps School of Applied Sciences & Engineering invite applications for a Research Scientist in Complex Systems to support the Wicked Problems (WiP) program. This transdisciplinary position is designed for a...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation théorique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Intégration de données empiriques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication scientifique",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-scientist-in-data-science-machine-learning-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173769.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Research Scientist in DATA Science & Machine Learning",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Vanguard Center & The School of Applied Sciences & Engineering at UM6P invite applications for the position of Research Scientist in Data Science & Machine Learning to support the Wicked Problems (WiP) framework within our undergraduate program. The successful candidate will bring deep technical expertise and educational engagement to interdisciplinary projects requiring advanced data analysis, predictive modeling, and AI-based solutions to real-world societal challenges.",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Machine Learning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation prédictive",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Intelligence artificielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-scientist-in-cyber-physical-systems-and-digital-twins-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173767.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Research Scientist in Cyber-Physical Systems and Digital Twins",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Vanguard Center & UM6Ps School of Applied Sciences & Engineering are recruiting a Research Scientist in Cyber-Physical Systems and Digital Twins to lead technology-driven projects within the Wicked Problems (WiP) learning.",
+    "skills": [
+      {
+        "nom": "ROS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Unity",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modelica",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Simulink",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCADA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "modeling",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "simulation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "data-driven optimization",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-engineer-in-industrial-systems-and-smart-logistics-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173766.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Research Engineer in Industrial Systems and Smart Logistics",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique / Electronique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Vanguard Center & UM6Ps School of Applied Sciences & Engineering invite applications for a Research Engineer in Industrial Systems and Smart Logistics to support the Wicked Problems (WiP) learning ecosystem. This position is focused on developing advanced modeling, control, and optimization strategies for modern industrial systems spanning smart manufacturing, real-time logistics, predictive maintenance, and industrial automation while guiding student teams in designing impactful, data-driven solutions for industrial-scale challenges.",
+    "skills": [
+      {
+        "nom": "Modélisation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Optimisation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Smart Manufacturing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Logistique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Automatisation Industrielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-engineer-in-sustainability-systems-and-health-environment-modeling-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173764.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Research Engineer in Sustainability Systems and Health-Environment Modeling",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Enseignement/Recherche",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Vanguard Center & The School of Applied Sciences & Engineering at UM6P are seeking a Research Engineer in Sustainability Systems and Health-Environment Modeling to guide interdisciplinary projects within the Wicked Problems. The successful candidate will integrate real-world datasets from environmental sensors, climate archives, public health records, and remote sensing.",
+    "skills": [
+      {
+        "nom": "Intégration de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation de systèmes de durabilité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données environnementales",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail interdisciplinaire",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-scrum-master-hf-recrutement-orange-business-rabat-173752.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Scrum Master",
+    "compagnie": "Orange Business",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "En tant que Scrum Master au sein d’une organisation structurée autour du framework SAFe, vous êtes le moteur de la performance agile d’équipes de développement IT. Vous incarnez l’agilité au sein de l’équipe et garantissez l’application des principes et des pratiques agiles.",
+    "skills": [
+      {
+        "nom": "compréhension générale des architectures applicatives",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "culture technique sur les outils d’intégration continue",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "livraison continue (CI/CD)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "sensibilité aux enjeux IT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-admina-de-sostenibilidad-en-edificacion-recrutement-ntt-data-tetouan-173748.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Admin/a de Sostenibilidad en Edificación",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Immobilier / Promotion",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Apoyo en la gestión documental y técnica de proyectos de certificación ambiental. Colaboración en auditorías internas y preparación de entregables para los asesores",
+    "skills": [
+      {
+        "nom": "Gestion documentaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Audit interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-consultor-senior-de-soporte-recrutement-ntt-data-tetouan-173747.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Consultor Senior de soporte",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Support technique",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "senior",
+    "description": "Jefe de equipo para la ejecución de las actividades relacionadas con el seguimiento de la ejecución, apoyo a usuarios y gestión documental",
+    "skills": [
+      {
+        "nom": "Gestion documentaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Support utilisateur",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-support-consultant-recrutement-ntt-data-tetouan-173746.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Support Consultant",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Services Généraux",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Ejecución de las actividades relacionadas con el seguimiento de la ejecución, apoyo a usuarios y gestión documental",
+    "skills": [
+      {
+        "nom": "Gestion documentaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Support utilisateur",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-owner-recrutement-orange-business-rabat-173738.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Owner",
+    "compagnie": "Orange Business",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Au sein de la direction Prodcut and Marketing : Comprendre les fondations existantes sur les catalogues et en promouvoir la fédération. Porter le data management des informations catalogue",
+    "skills": [
+      {
+        "nom": "Data Management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Catalogue Management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-business-analyst-recrutement-orange-business-rabat-172475.html",
+    "date_publication": "2025-07-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Business Analyst",
+    "compagnie": "Orange Business",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "As a Product Owner within a project team operating in a collaborative Agile environment (Scrum or Kanban), you will act as the key interface between the business and the development team. You will work in close coordination with the Scrum Master, Software...",
+    "skills": [
+      {
+        "nom": "Agile",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Scrum",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Kanban",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Product Ownership",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Functional Design",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Environments",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Collaboration",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-mobile-app-developper-1-1-1-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173662.html",
+    "date_publication": "2025-07-23",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Mobile App Developper",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Technologie / Développement",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons un développeur d'applications mobiles talentueux pour rejoindre notre équipe de développement dynamique à A-Lab. Le développeur participera au développement d'applications agritech.",
+    "skills": [
+      {
+        "nom": "Développement d'applications mobiles",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de bases de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité des données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Optimisation des performances",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Revue de code",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Veille technologique",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Dépannage",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Documentation technique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-engineer-in-ai-remote-sensing-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173661.html",
+    "date_publication": "2025-07-23",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Research Engineer in AI & Remote Sensing",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "R&D",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Thematique : Classification des cultures cerealieres a partir dimagerie hyperspectraleDuree :1 anLieu : A-LAB, UM6P RABATContexte du projetCe poste sinscrit dans le cadre dun projet de recherche de pointe visant a developper une plateforme de cartographie des...",
+    "skills": [
+      {
+        "nom": "Geomatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Télédétection",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-mobile-app-developper-1-1-1-recrutement-um6p---universite-mohammed-vi-polytechnique-rabat-173591.html",
+    "date_publication": "2025-07-22",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Mobile App Developper",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Technologie / Développement",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons un développeur d'applications mobiles talentueux pour rejoindre notre équipe de développement dynamique à A-Lab. Le développeur participera au développement d'applications agritech.",
+    "skills": [
+      {
+        "nom": "Développement d'applications mobiles",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de bases de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité des données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Optimisation des performances",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Revue de code",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Veille technologique",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Dépannage",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Documentation technique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-it-tech-team-lead-hf-recrutement-cnexia-rabat-172233.html",
+    "date_publication": "2025-07-22",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "IT Tech Team Lead",
+    "compagnie": "Cnexia",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Manage locally a team of High-tech resources working in teams and pods to deliver high value programs Coordinate with hiring managers, supervise, organize your scope to ensure performance and consistency targets are met Contribute in the selection...",
+    "skills": [
+      {
+        "nom": "Project Management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-accountant---general-accounts-recrutement-air-arabia-casablanca-173577.html",
+    "date_publication": "2025-07-22",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Accountant - General Accounts",
+    "compagnie": "Air Arabia",
+    "secteur": "Comptabilité",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "To analyze, process and maintain Company’s financial transactions and records ensuring compliance with approved accounting standards and procedures. Assists in preparing budgets, financial reports and financial analysis, and in coordinating with...",
+    "skills": [
+      {
+        "nom": "Analyse financière",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Reporting financier",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion du temps",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Attention aux détails",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-destination-operations-manager-recrutement-jet2holidays-marrakech-173480.html",
+    "date_publication": "2025-07-22",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Destination Operations Manager",
+    "compagnie": "Jet2holidays",
+    "secteur": "Tourisme",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "senior",
+    "description": "Join our Jet2holidays team as a Destination Operations Manager in Marrakech! We have an exciting opportunity for an experienced, customer focused people Manager with a passion for travel to join us from October overseeing our Resort and Airports team in Marrakech.",
+    "skills": [
+      {
+        "nom": "senior management experience",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "excellent stakeholder and leadership skills",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "experience in team development & performance management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ability to perform under pressure",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "strong IT skills",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "high level of attention to detail",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "strong organisational skills",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "driving license",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-strategic-planning-and-institutional-insight-manager-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173551.html",
+    "date_publication": "2025-07-21",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Strategic Planning and Institutional Insight Manager",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Enseignement supérieur / Gestion de projet",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "L'Université Mohammed VI Polytechnique cherche un Strategic Planning and Institutional Insight Lead expérimenté pour diriger les initiatives de planification stratégique et les systèmes de gestion de la performance à l'échelle de l'université.",
+    "skills": [
+      {
+        "nom": "Gestion stratégique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de tableaux de bord",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement de KPI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de parties prenantes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-expert-dataiku-recrutement-capgemini-engineering-casablanca-173525.html",
+    "date_publication": "2025-07-21",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Expert DATAIKU",
+    "compagnie": "Capgemini Engineering",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Concevoir, développer et maintenir des workflows de traitement de données dans Dataiku DSS - Construire des modèles prédictifs (classification, régression, clustering) et les...",
+    "skills": [
+      {
+        "nom": "Dataiku DSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Statistiques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-chef-de-projet-bi-recrutement-cac-centrale-automobile-cherifienne-casablanca-173516.html",
+    "date_publication": "2025-07-21",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Chef de Projet BI",
+    "compagnie": "La Centrale Automobile Chérifienne (CAC)",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre de notre stratégie de valorisation des données, nous recrutons un Chef de Projet BI pour piloter les projets décisionnels en environnement Microsoft. Vous serez responsable de la coordination entre les métiers, les...",
+    "skills": [
+      {
+        "nom": "Power BI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DAX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Power Query",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL Server",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SSIS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SSAS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SSRS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projets",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Coordination",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de la relation client",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-scientist-ai-engineer-hf-recrutement-alten-maroc-fes-173506.html",
+    "date_publication": "2025-07-20",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Scientist & AI Engineer",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Design, develop, and train an AI model based on historical data from automotive thermal validation tests to predict key performance indicators (KPIs) for future vehicle lines. The ultimate goal is to reduce or eliminate physical testing, accelerate...",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Artificial Intelligence",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement de modèles",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-ingenieur-en-intelligence-artificielle-recrutement-aba-technology-casablanca-173497.html",
+    "date_publication": "2025-07-18",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Ingénieur en intelligence artificielle",
+    "compagnie": "ABA Technology",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Concevoir des programmes informatiques d'intelligence artificielle, en utilisant notamment l'analyse de Big Data, la recherche de solutions IA adéquates, et le développement de méthodes et techniques prédictives",
+    "skills": [
+      {
+        "nom": "Intelligence artificielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Big Data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Programmation informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-dispatcher-opm-logistic-dept-recrutement-aeolon-technology-co.ltd-nador-173278.html",
+    "date_publication": "2025-07-17",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Dispatcher (OPM/ Logistic Dept)",
+    "compagnie": "AEOLON Renewable Energy",
+    "secteur": "Logistique / Transport",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Join Our Team as a Dispatcher – OPM/Logistics Department | Nador, Morocco Are you looking for a dynamic and challenging role in the energy sector? This is your opportunity to join our team in Nador, Morocco as a Dispatcher within our OPM/Logistics...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Préparation de rapports opérationnels",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-senior-manager-generation-de-leads-b2c-recrutement-tersea-casablanca-173412.html",
+    "date_publication": "2025-07-16",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Senior Manager Génération de Leads B2C",
+    "compagnie": "Groupe Tersea",
+    "secteur": "Multimédia / Internet",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans un environnement ultra-concurrentiel, nous recrutons un(e) Senior Manager Génération de Leads B2C pour concevoir, déployer et piloter une stratégie d’acquisition digitale à forte valeur. Vous serez garant(e) de la réussite de nos campagnes de génération de leads B2C.",
+    "skills": [
+      {
+        "nom": "Google Analytics 4",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GTM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data analysis",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Stratégie digitale",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Lead generation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-office-manager-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173392.html",
+    "date_publication": "2025-07-16",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Office Manager",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Environnement",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "The Office Manager will serve as a central operational anchor for the Energy4Water (E4W) at UM6P, ensuring the seamless coordination of administrative processes and the effective functioning of daily activities. This role is designed for highly organized...",
+    "skills": [
+      {
+        "nom": "Microsoft Office Suite",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Scheduling platforms",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Internal databases",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Coordination",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-engineer-developer-machine-learningai-data-science-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173393.html",
+    "date_publication": "2025-07-16",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Engineer Developer (Machine Learning/AI & DATA Science)",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "L'offre d'emploi est pour un Engineer Developer spécialisé en Machine Learning/AI et DATA Science à l'Université Mohammed VI Polytechnique. Le poste nécessite un diplôme d'une école d'ingénieurs ou un master en informatique, data science, machine learning/ai ou domaines connexes. Le candidat idéal aura entre 3 à 5 ans d'expérience.",
+    "skills": [
+      {
+        "nom": "Machine Learning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-office-manager-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173391.html",
+    "date_publication": "2025-07-16",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Office Manager",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Environnement",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "The Office Manager will serve as a central operational anchor for the Energy4Water (E4W) at UM6P, ensuring the seamless coordination of administrative processes and the effective functioning of daily activities. This role is designed for highly organized individuals.",
+    "skills": [
+      {
+        "nom": "Microsoft Office Suite",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Scheduling platforms",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Internal databases",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Coordination",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-analyste-investisseurs-market-data-recrutement-bourse-de-casablanca-casablanca-173379.html",
+    "date_publication": "2025-07-15",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Analyste Investisseurs & Market DATA",
+    "compagnie": "La Bourse de Casablanca",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "En tant qu’Analyste Investisseurs & Market Data, vous contribuez activement au développement de l’activité Market Data, à la relation avec les investisseurs institutionnels marocains et étrangers, ainsi...",
+    "skills": [
+      {
+        "nom": "Connaissance des environnements boursiers",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Outils market data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Exigences réglementaires",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse financière",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-scientist-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173311.html",
+    "date_publication": "2025-07-14",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Scientist",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master/Doctorat",
+    "niveau_experience": "senior",
+    "description": "The Energy4Water (E4W) at UM6P is seeking a technically skilled and detail-oriented Data Scientist to lead the development of digital tools and structured data ecosystems that underpin experimental research and system design.",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Computer Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Software Engineering",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-accountant-analyst-cdd-recrutement-axa-gbs-morocco-rabat-173277.html",
+    "date_publication": "2025-07-11",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Accountant Analyst",
+    "compagnie": "AXA Global Business Services",
+    "secteur": "Finance",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "Accounting Analyst will support the Finance Transformation team in resolving long-standing internal audit issues related to asset reconciliation between operational (Silva) and financial (SAP) systems.",
+    "skills": [
+      {
+        "nom": "Analyse de données financières",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Réconciliation de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-stagiaire-en-data-science-hf-recrutement-sorec-rabat-173268.html",
+    "date_publication": "2025-07-11",
+    "source": "Rekrute",
+    "contrat": "Stage",
+    "titre": "Stagiaire en DATA Science (H/F)",
+    "compagnie": "Société Royale d'Encouragement du Cheval (SOREC)",
+    "secteur": "Data Science",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Rattaché à la Direction des Haras nationaux, votre principale mission sera de collecter, nettoyer et préparer les données en vue de leur exploitation.",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données statistiques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-trafic-manager-recrutement-lesieur-cristal-casablanca-172458.html",
+    "date_publication": "2025-07-11",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Trafic Manager",
+    "compagnie": "Lesieur Cristal",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Le/La Trafic Manager est responsable de la planification, du pilotage et de l’optimisation des campagnes médias digitales payantes (Meta Ads, Google Ads, TikTok Ads, YouTube, etc.) pour un portefeuille de8...",
+    "skills": [
+      {
+        "nom": "Marketing digital",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de campagnes média digitales",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Média planning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse et optimisation",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-content-community-manager-recrutement-confidentiel-casablanca-172504.html",
+    "date_publication": "2025-07-11",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Content & Community Manager",
+    "compagnie": "Leader national opérant dans FMCG",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Le chef de projet marketing est responsable de la planification, de la mise en œuvre et du suivi des stratégies et campagnes marketing. Il gère le budget, coordonne les équipes, et analyse les résultats pour atteindre les objectifs fixés.",
+    "skills": [
+      {
+        "nom": "Excel",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Studio",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Outils de reporting",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-ingenieur-core-network-voixdata-recrutement-capgemini-engineering-casablanca-173251.html",
+    "date_publication": "2025-07-11",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Ingénieur Core Network Voix/DATA",
+    "compagnie": "Capgemini Engineering",
+    "secteur": "Télécoms / Réseaux",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Concevoir et rédiger les spécifications techniques (HLD/LLD) pour les évolutions du cœur de réseau voix/data. Participer à l’ingénierie des interconnexions voix...",
+    "skills": [
+      {
+        "nom": "Réseau",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Télécoms",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de spécifications techniques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Ingénierie",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-business-analyst-recrutement-groupe-labelvie---carrefour-casablanca-172907.html",
+    "date_publication": "2025-07-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Business Analyst",
+    "compagnie": "Groupe Labelvie (Carrefour)",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Rattaché à la direction Excellence Commerciale, votre mission est de contribuer à l’optimisation de la performance commerciale à travers l’analyse de données, le pilotage de projets stratégiques et le développement d'outils de pilotage.",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Pilotage de projets",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Construction de tableaux de bord",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Dataviz",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Reporting",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-chief-data-officer-recrutement-cat-assurance-et-reassurance-casablanca-172180.html",
+    "date_publication": "2025-07-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Chief DATA Officer",
+    "compagnie": "CAT Assurance et réassurance",
+    "secteur": "Assurance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Élaboration et mise en œuvre d'une stratégie data globale, alignée avec les objectifs business et digitaux de l’entreprise. Définition des politiques de gouvernance des données : qualité, sécurité, confidentialité.",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gouvernance des données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Stratégie digitale",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-field-technician-for-remote-sensing-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-173139.html",
+    "date_publication": "2025-07-08",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Field Technician for remote sensing",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Agriculture / Recherche",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Field Technician in Soil and Crop Data Management to support research projects focused on the acquisition, organization, and preprocessing of soil and crop data. Key responsibilities include field data collection, conducting field missions to collect soil and crop type information using standardized protocols.",
+    "skills": [
+      {
+        "nom": "Collecte de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Protocoles standardisés",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail sur le terrain",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Attention aux détails",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Motivation",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-offre-demploi-cheffe-de-projet-deploiement-fixe-b2b-recrutement-btechnologie-rabat-173128.html",
+    "date_publication": "2025-07-08",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Chef(fe) de Projet Déploiement Fixe B2B",
+    "compagnie": "BTECHNOLOGIE",
+    "secteur": "Télécoms / Réseaux",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "La direction Entreprises de Bouygues Telecom continue de développer son activité sur le marché du fixe dans un contexte très concurrentiel. Vous êtes motivé(e) par le pilotage de projet dans un contexte dynamique et vous avez une première expérience dans le domaine du déploiement de solutions fixes entreprises.",
+    "skills": [
+      {
+        "nom": "infrastructure et offres fixes entreprises (voix/data)",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-storage-backup-administrator-recrutement-cnexia-tech-rabat-173106.html",
+    "date_publication": "2025-07-07",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Storage & Backup Administrator",
+    "compagnie": "Cnexia",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "Monitor technological trends and contribute to strategy and service evolution within communication and storage platforms. Provide support and management for NetBackup and related storage products. Implement and maintain multiprotocol environments...",
+    "skills": [
+      {
+        "nom": "Data storage technologies",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NetBackup",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Multiprotocol environments",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Ontap",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Hitachi",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "StorageGrid",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Brocade SAN (FC network)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "IBM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HPE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de tendances technologiques",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-english-speaking-back-office-customer-advisor-recrutement-marketing-call-center-rabat-172640.html",
+    "date_publication": "2025-07-07",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "English-speaking back-office customer advisor",
+    "compagnie": "Marketing Call Center",
+    "secteur": "Call Centers",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Join our team and contribute to the administrative and financial management of our English-speaking customers! As a Back-Office Customer Advisor, you will be responsible for the following operations: Collection management for English-speaking customers,...",
+    "skills": [
+      {
+        "nom": "Analyse de données financières",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-analyst-recrutement-fmps---fondation-marocaine-du-prescolaire-rabat-173068.html",
+    "date_publication": "2025-07-07",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Analyst",
+    "compagnie": "Fondation Marocaine du Préscolaire (FMPS)",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "Les principales missions d’un Data Analyst sont : - Consolider et traiter des données provenant de sources diverses, en assurant leur qualité et cohérence ; - Transformer et assainir les données et appliquer des analyses...",
+    "skills": [
+      {
+        "nom": "Statistiques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Big Data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Économétrie",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Informatique décisionnelle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-charge-de-reporting-administratif-recrutement-orh-assessment-casablanca-172442.html",
+    "date_publication": "2025-07-07",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Chargé de Reporting Administratif",
+    "compagnie": "ORH Assessment",
+    "secteur": "Gestion / Comptabilité / Finance",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "Vous êtes rigoureux(se), à l’aise avec les chiffres et doté(e) d’un excellent sens de l’analyse ? Rejoignez une entreprise dynamique où la donnée est au cœur des décisions stratégiques...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Finance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Contrôle de gestion",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Attention à la detail",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-programme-yeelen---pole-corporate-investment-banking-recrutement-attijariwafa-bank-casablanca-173035.html",
+    "date_publication": "2025-07-04",
+    "source": "Rekrute",
+    "contrat": "Autre",
+    "titre": "Programme Yeelen - Pôle Corporate Investment Banking",
+    "compagnie": "Attijariwafa bank",
+    "secteur": "Banque",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Dans le cadre de son leadership à dimension africaine, Attijariwafa bank a lancé depuis plus d’une décennie le dispositif Yeelen qui constitue un programme de recrutement d’excellence destiné aux jeunes subsahariens. Le programme offre une opportunité de carrière dans un environnement collaboratif et innovant, avec des projets diversifiés et à fort impact. Le candidat retenu rejoindra une multinationale panafricaine connue pour sa culture d'excellence et bénéficiera de larges opportunités de carrières à l’échelle continentale.",
+    "skills": [
+      {
+        "nom": "Analyse et synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Orientation résultats",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Sens de la collaboration et esprit d’équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Sens de l’initiative",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Finance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Audit & contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion des risques",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conformité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Management de projets",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Finance de marchés",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Corporate finance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Informatique (data et cybersécurité)",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-dev-python-data-analyst-scientist-recrutement-btechnologie-rabat-173025.html",
+    "date_publication": "2025-07-04",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Dév python DATA Analyst / Scientist",
+    "compagnie": "BTECHNOLOGIE",
+    "secteur": "Télécoms",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "La mission se déroulera au sein de la Direction Exploitation Déploiement, et plus précisément du Département Déploiement Réseaux Fibres, responsable de la mise en œuvre opérationnelle du...",
+    "skills": [
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Analysis",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Télécoms",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Réseaux",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-developpeur-ia-machine-learning-engineer-hf-recrutement-its-provider-casablanca-172592.html",
+    "date_publication": "2025-07-03",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Développeur IA / Machine Learning Engineer",
+    "compagnie": "IT SERVICE PROVIDER",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Dans le cadre du développement d’un agent conversationnel intelligent, nous recherchons un(e) Machine Learning Engineer passionné(e) par les modèles de langage (LLM) et le fine-tuning. Vous travaillerez au cœur d’un...",
+    "skills": [
+      {
+        "nom": "Modèles de langage (LLM)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Fine-tuning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Intelligence artificielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-engineer-hf-recrutement-sofrecom-maroc-casablanca-172966.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Engineer",
+    "compagnie": "Sofrecom Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Dans le cadre du développement de notre plateforme data, nous souhaitons intégrer un Data Engineer junior afin de renforcer notre équipe dans un environnement Agile. Le candidat participera à la mise en place de pipelines de...",
+    "skills": [
+      {
+        "nom": "Informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Génie logiciel",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Machine learning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe agile",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Curiosité",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-leader-bps-recrutement-ntt-data-tetouan-172952.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Leader BPS",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Gestion / Comptabilité / Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Driving the initiation and stabilization of operations by building teams, establishing processes, implementing control measures, and maintaining strong client relationships. Managing operations, monitoring performance, and enhancing services while...",
+    "skills": [
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de performance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Relation client",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-administrative-agent---english-speaking-recrutement-ntt-data-tetouan-172951.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Administrative Agent - English Speaking",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Services IT",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "We are looking for an administrative agent to join our team and provide support in the management of administrative and operational tasks. Responsabilities : • Manage inbound and/or outbounds calls and communications. • Follow various...",
+    "skills": [
+      {
+        "nom": "Gestion de calls",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Télétravail",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-administrative-agent---italien-speaking-recrutement-ntt-data-tetouan-172950.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Administrative Agent - Italien speaking",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Services IT",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Nous recherchons un agent administratif pour rejoindre notre équipe et fournir un soutien dans la gestion des tâches administratives et opérationnelles. Responsabilités : • Gérer les appels entrants et/ou sortants et les communications. • Suivre divers...",
+    "skills": [
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Italien",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-agente-administrativo---spanish-speaking-recrutement-ntt-data-tetouan-172949.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Agente Administrativo - Spanish Speaking",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Services administratifs et support",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "junior",
+    "description": "Nous sommes en recherche d'un/e agent administratif pour rejoindre notre équipe et fournir un soutien dans la gestion des tâches administratives et opérationnelles. La personne sélectionnée sera chargée de la révision et de l'organisation de...",
+    "skills": [
+      {
+        "nom": "Gestion administrative",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-modelador-bim-revit-mep-recrutement-ntt-data-tetouan-172948.html",
+    "date_publication": "2025-07-02",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Modelador BIM (Revit MEP)",
+    "compagnie": "NTT DATA Maroc",
+    "secteur": "Architecture",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "Modelador BIM (Revit MEP) | Tétouan (Maroc) - CDI - Télétravail : Hybride - Dominio técnico avanzado de Revit MEP, con capacidad para: • Modelar y parametrizar familias complejas, incluyendo el uso de parámetros compartidos, tipos anidados y configuraciones detalladas de visibilidad.",
+    "skills": [
+      {
+        "nom": "Revit MEP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BIM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modelado 3D",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-developpeur-bi-sql-server-talend-recrutement-cnexia-fes-172913.html",
+    "date_publication": "2025-07-01",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Développeur BI (SQL Server / Talend)",
+    "compagnie": "Cnexia",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "Développer et maintenir les flux ETL avec Talend. Concevoir et optimiser des bases de données sous SQL Server. Participer à la modélisation et à la mise en place du Data Warehouse. Garantir...",
+    "skills": [
+      {
+        "nom": "Talend",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL Server",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Warehouse",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de bases de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-pas-developer-recrutement-dxc---cdg-rabat-rabat-sale-kenitra-maroc-172895.html",
+    "date_publication": "2025-07-01",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "PAS Developer",
+    "compagnie": "DXC Technology",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +4",
+    "niveau_experience": "junior",
+    "description": "Design, develop, and maintain robust backend applications using Java, SpringMVC/SpringBoot and JDBC/Hibernate. Build and implement RESTful APIs and integrate seamlessly with frontend components. Work with both SQL and NoSQL databases.",
+    "skills": [
+      {
+        "nom": "Java",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Boot",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MSSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MongoDB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AWS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DevOps",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-cost-consolidation-expert-hf-recrutement-alten-maroc-rabat-172586.html",
+    "date_publication": "2025-07-01",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Cost Consolidation Expert (H/F)",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Gestion / Comptabilité / Finance",
+    "niveau_etudes": "Bac +5 et plus",
+    "niveau_experience": "senior",
+    "description": "We are currently looking for a Cost Consolidation Expert to join our team. The ideal candidate will have 3 to 5 years of experience in cost management within the automotive industry and a solid understanding of PCB (Printed Circuit Board) components.",
+    "skills": [
+      {
+        "nom": "Gestion de coûts",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Compréhension des composants PCB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-research-project-coordinator-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-172681.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Research Project Coordinator",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "R&D",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Assist the Project Manager in developing project plans and schedules. Managing projects and collaborations with various research entities. Organize and facilitate team meetings, including setting agendas, tracking action items, and...",
+    "skills": [
+      {
+        "nom": "Remote Sensing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Vegetation Mapping",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Geospatial Data Analysis",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-senior-instrumentation-engineer-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-172662.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Senior Instrumentation Engineer",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "R&D",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "As part of the CRSA's directives, you will be responsible, as a senior instrumentation engineer, for the design, implementation, and monitoring of measurement and control systems. You will be involved in all technical phases, from design to commissioning and maintenance.",
+    "skills": [
+      {
+        "nom": "Matlab",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "R",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse numérique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Traitement de données",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-mobile-app-and-data-platform-developer-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-171842.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Mobile App and DATA Platform Developer",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Doctorat",
+    "niveau_experience": "senior",
+    "description": "Développeur d'applications mobiles et de plateformes de données pour l'Institut International de Recherche sur l'Eau (IWRI) de l'Université Mohammed VI Polytechnique. Le poste nécessite des compétences en machine learning, en développement d'applications et en analyse de données.",
+    "skills": [
+      {
+        "nom": "Machine Learning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement d'applications mobiles",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "R",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Matlab",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SPSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Excel",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-assistant-de-recherche-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-172758.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDD",
+    "titre": "Assistant de Recherche",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "R&D",
+    "niveau_etudes": "Doctorat",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre du projet de développement d'une interface géospatiale intelligente du panneau 8 de la mine de phosphate à Benguerir : intégration des données multidisciplinaires, nous recrutons un expert pour travailler sur...",
+    "skills": [
+      {
+        "nom": "Geoinformatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Geodatascience",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-architecte-cloud-hf-recrutement-sofrecom-maroc-casablanca-172775.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Architecte Cloud",
+    "compagnie": "Sofrecom Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Conception d'Architectures Techniques : Analyser les besoins techniques et concevoir des solutions performantes. Rédiger et valider le dossier d'architecture technique (DAT). Valider les choix techniques et réaliser des...",
+    "skills": [
+      {
+        "nom": "Spring Boot",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Data JPA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Security",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Cloud",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Docker Compose",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cloud Computing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse des besoins techniques",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Conception de solutions techniques",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-otc-analyst-recrutement-hcltech-rabat-rabat-sale-kenitra-morocco-172727.html",
+    "date_publication": "2025-06-25",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "OTC Analyst",
+    "compagnie": "HCLTech",
+    "secteur": "Finance",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Compile data into actionable reports, Prepare pitch and presentation materials, Work collaboratively with team members, Think strategically about improving company operations, Conduct quantitative and qualitative analysis across various projects to optimize company growth and business.",
+    "skills": [
+      {
+        "nom": "Analyse financière",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Modélisation financière",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Présentation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Stratégie",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-devsecops-experimente-runops-gcp-recrutement-alten-maroc-rabat-172711.html",
+    "date_publication": "2025-06-24",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DevSecOps Expérimenté RunOps / GCP",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +5 et plus",
+    "niveau_experience": "senior",
+    "description": "Intégré à l’équipe Infra & DevSecOps, vous assurez le RUN N3 sur des plateformes GCP : gestion des incidents, mises en production, supervision (Prometheus, Grafana, etc.), amélioration des performances,...",
+    "skills": [
+      {
+        "nom": "services GCP (Compute Engine, Cloud Storage, Cloud SQL, Kubernetes)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CI/CD (Jenkins, GitLab CI/CD)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Infrastructure as Code",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Linux, Bash, Python, Ansible",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Observabilité (Prometheus, Grafana, ELK, Datadog)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Outils ITSM (Jira, Service Anywhere)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Agilité (Scrum, Sprint Planning)",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-chef-de-projet-produits-references---fixetransport-recrutement-btechnologie-rabat-172692.html",
+    "date_publication": "2025-06-23",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Chef de Projet Produits Références",
+    "compagnie": "BTECHNOLOGIE",
+    "secteur": "Télécoms / Réseaux",
+    "niveau_etudes": "Bac +5 et plus",
+    "niveau_experience": "senior",
+    "description": "Nous sommes à la recherche d'un(e) Chef de Projet Produits Références - Fixe/Transport Contexte : La mission se déroulera au sein de la Direction Déploiement et Exploitation (DED), en charge du déploiement et...",
+    "skills": [
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Réseau transport",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data centers",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Infrastructures",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Équipements",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Climatisation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-hpc-system-administrator-1-recrutement-um6p---universite-mohammed-vi-polytechnique-marrakech-172676.html",
+    "date_publication": "2025-06-23",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "HPC System Administrator",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Administrateur système HPC expérimenté pour gérer les ressources informatiques de l'Université Mohammed VI Polytechnique. La personne retenue sera responsable de la sécurité, du stockage, de la protection des données et des protocoles de reprise après sinistre.",
+    "skills": [
+      {
+        "nom": "Security",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Storage",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Protection",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Disaster Recovery",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Best Practices",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-corelab-engineer-recrutement-um6p---universite-mohammed-vi-polytechnique-benguerir-172665.html",
+    "date_publication": "2025-06-23",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "CoreLab Engineer",
+    "compagnie": "Université Mohammed VI Polytechnique",
+    "secteur": "Production / Qualité / Sécurité / Maintenance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "The UM6P Corelabs is seeking a dedicated and skilled Analytical Chemistry Engineer to join our team. The UM6P CoreLabs is a state-of-the-art service providing platform designed to support technical and scientific innovation at UM6P while also serving external...",
+    "skills": [
+      {
+        "nom": "Analytical Chemistry",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Method development",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Troubleshooting",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Instrument calibration",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data analysis",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Chemometrics",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Collaboration",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Problem-solving",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Attention to detail",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-cybersecurity-project-manager-recrutement-hcltech-sala-al-jadida-172632.html",
+    "date_publication": "2025-06-22",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Cybersecurity Project Manager",
+    "compagnie": "HCLTech",
+    "secteur": "Informatique / Electronique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "To support our business strategy and digital transformation, the client is setting up a new information security practice to ensure a coordinated response to the increasing threat of cybersecurity, enabling consistent...",
+    "skills": [
+      {
+        "nom": "expertise of best practices around data security",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-system-engineer-recrutement-cnexia-tech-sala-al-jadida-172608.html",
+    "date_publication": "2025-06-20",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "System Engineer",
+    "compagnie": "Cnexia",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "junior",
+    "description": "Are you passionate about infrastructure, networks, and eager to kickstart your IT career in a high-impact environment? Join a fast-paced team as a System Engineer, where you will contribute to the reliability, performance, and evolution of our IT...",
+    "skills": [
+      {
+        "nom": "network equipment provisioning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "cisco",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "juniper",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-architecte-cloud-hf-recrutement-sofrecom-maroc-casablanca-172118.html",
+    "date_publication": "2025-06-19",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Architecte Cloud",
+    "compagnie": "Sofrecom Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Conception d'Architectures Techniques : Analyser les besoins techniques et concevoir des solutions performantes. Rédiger et valider le dossier d'architecture technique (DAT). Valider les choix techniques et réaliser des...",
+    "skills": [
+      {
+        "nom": "Spring Boot",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Data JPA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Security",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring Cloud",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Docker Compose",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse des besoins techniques",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Conception de solutions performantes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-max-it-chief-coordinator-e-commerce-manager-hf-recrutement-sofrecom-maroc-casablanca-172214.html",
+    "date_publication": "2025-06-19",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Max IT Chief Coordinator & E-commerce Manager",
+    "compagnie": "Sofrecom Maroc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Pour renforcer ses équipes, Sofrecom Maroc, filiale du groupe Orange recrute un Max IT Chief Coordinator & E-commerce Manager (h/f). le poste de Max it Product & E-commerce Manager a une double mission : Assurer la définition de...",
+    "skills": [
+      {
+        "nom": "orientation business",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "data",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "user-centric",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-product-marketing-analyst-h-f-recrutement-sorec-rabat-172536.html",
+    "date_publication": "2025-06-18",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Product Marketing Analyst",
+    "compagnie": "Société Royale d'Encouragement du Cheval (SOREC)",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Rattaché(e) à la Direction Marketing, vous aurez comme principale mission gérer le cycle de produits et services proposés tout en identifiant de nouvelles opportunités de croissance.",
+    "skills": [
+      {
+        "nom": "Analyse de données marketing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de produit",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Marketing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-engineer-talend-recrutement-intelcia-its-casablanca-172455.html",
+    "date_publication": "2025-06-16",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Engineer Talend",
+    "compagnie": "Intelcia IT Solutions",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Mission: Répondre aux besoins de l’équipe et du projet: Assimiler la logique métier des produits de la pièce auto ainsi que leur association avec les véhicules Comprendre et recueillir les besoins du...",
+    "skills": [
+      {
+        "nom": "Data Engineering",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Talend",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Base de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de besoins",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-engineer-confirme-microsoft-fabric-recrutement-econocom-maroc-sala-al-jadida-172392.html",
+    "date_publication": "2025-06-13",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Engineer Confirmé (Microsoft Fabric)",
+    "compagnie": "Econocom",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "DATA Engineer Confirmé (Microsoft Fabric) | Sala Al Jadida (Maroc) - Missions principales : • Participer à la conception et à la mise en œuvre d’une Data Platform moderne sur Microsoft Fabric. • Développer des pipelines de données robustes et scalables (ingestion,...",
+    "skills": [
+      {
+        "nom": "Microsoft Fabric",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Engineering",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Certification Microsoft (DP-203, DP-600)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Ingénierie de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-developpeur-power-platform-recrutement-econocom-maroc-sala-al-jadida-172388.html",
+    "date_publication": "2025-06-13",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Développeur Power Platform",
+    "compagnie": "Econocom",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "Missions principales : • Concevoir et développer des applications Power Apps (Canvas Apps et Model-Driven Apps) répondant aux besoins métiers. • Créer et maintenir des flux Power Automate pour automatiser les processus. Profil recherché : maîtrise de Power Apps, Power Automate, SharePoint, Dataverse. Connaissance des bonnes pratiques de développement low-code/no-code. Expérience en administration Power Platform (environnements, connecteurs, sécurité). Capacité à travailler en mode projet avec les équipes métiers et IT. Sens de l’autonomie, rigueur et esprit d’analyse.",
+    "skills": [
+      {
+        "nom": "Power Apps",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Power Automate",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SharePoint",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Dataverse",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement low-code/no-code",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Administration Power Platform",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en mode projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit d’analyse",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-business-analyst-recrutement-alten-maroc-rabat-172385.html",
+    "date_publication": "2025-06-13",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Business Analyst",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Vous aurez comme missions: - Clarifier, analyser et documenter les besoins commerciaux des parties prenantes internes et externes pour être en phase avec les attentes des clients et en conformité avec les contraintes de...",
+    "skills": [
+      {
+        "nom": "Business Intelligence",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Analytics",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de Projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de Systèmes d'Information",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'Équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-bilingual-en-fr-back-office-agents-recrutement-cnexia-casablanca-172351.html",
+    "date_publication": "2025-06-11",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Bilingual (En-Fr) Back office agents",
+    "compagnie": "Cnexia",
+    "secteur": "Call Centers",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Are you a highly motivated and results-oriented individual seeking a challenging and rewarding career in a dynamic call center environment? This is your chance to join a fast-growing company in Casablanca, Morocco, as a Bilingual English-French Back Office...",
+    "skills": [
+      {
+        "nom": "Utilisation de logiciel CRM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication bilingue (anglais-français)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Adaptabilité",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-consultant-dataiku-hf-recrutement-capgemini-casablanca-172331.html",
+    "date_publication": "2025-06-11",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Consultant DATAIKU (H/F)",
+    "compagnie": "Capgemini",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Capgemini Maroc est à la recherche des profils Dataiku. Missions principales : Concevoir, développer et maintenir des workflows de traitement de données dans Dataiku. Automatiser les flux de données et les pipelines de...",
+    "skills": [
+      {
+        "nom": "Dataiku DSS (Data Science Studio)",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Conception de workflows de traitement de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Automatisation des flux de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-consultant-en-strategie-et-conseil-secteur-de-lenergie-recrutement-orh-assessment-rabat-172291.html",
+    "date_publication": "2025-06-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Consultant en stratégie et conseil",
+    "compagnie": "ORH Assessment",
+    "secteur": "Audit / Conseil",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "En tant que Consultant en stratégie et conseil spécialisé dans le secteur de l’énergie, vous accompagnerez les acteurs de la filière (producteurs, distributeurs, opérateurs de réseaux, institutions...)",
+    "skills": [
+      {
+        "nom": "Excel",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PowerPoint",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data analytics",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse stratégique",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Conseil",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-key-account-executive--tanger-recrutement-air-arabia-tanger-172284.html",
+    "date_publication": "2025-06-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Key Account Executive",
+    "compagnie": "Air Arabia",
+    "secteur": "Commercial / Vente",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "To achieve commercial objectives in the assigned area/territory from different channels, building effective business relationships, enhancing brand visibility, and promoting company’s products and services.",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de relations",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-technical-procurement-officer-recrutement-air-arabia-casablanca-172283.html",
+    "date_publication": "2025-06-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Technical Procurement Officer",
+    "compagnie": "Air Arabia",
+    "secteur": "Achats / Supply Chain",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "senior",
+    "description": "To implement the technical procurement processes for the engineering and maintenance activities of Airline fleet and 3rd Party aircrafts including spare parts, components, tools, and equipment. Handles the respective contracts, purchases...",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Recommandation de solutions",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de contrats",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Achats",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-coordinator---legal-recrutement-air-arabia-casablanca-172281.html",
+    "date_publication": "2025-06-10",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Coordinator - Legal",
+    "compagnie": "Air Arabia",
+    "secteur": "Juriste",
+    "niveau_etudes": "Bac +3",
+    "niveau_experience": "junior",
+    "description": "Provides professional administrative support to the Legal Department to ensure smooth run of day-to-day activities, this includes but is not limited to communication, meetings, contracts, verification of invoices, presentations,...",
+    "skills": [
+      {
+        "nom": "Gestion de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de records",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-cost-consolidation-expert-expert-en-analyse-des-couts-recrutement-alten-maroc-tetouan-172206.html",
+    "date_publication": "2025-06-05",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Cost Consolidation Expert (Expert en analyse des coûts)",
+    "compagnie": "ALTEN DELIVERY CENTER MAROC",
+    "secteur": "Finance",
+    "niveau_etudes": "Bac +2",
+    "niveau_experience": "senior",
+    "description": "We are currently looking for a Cost Consolidation Expert to join our team in Rabat. The ideal candidate will have3 to5 years of experience in cost management within the automotive industry and a solid understanding of PCB (Printed Circuit Board) components...",
+    "skills": [
+      {
+        "nom": "Analyse des coûts",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de coûts",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Compréhension des composants PCB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Application de données de référence",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-consultant-gcp-hf-recrutement-capgemini-casablanca-172195.html",
+    "date_publication": "2025-06-04",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Consultant GCP",
+    "compagnie": "Capgemini",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "En tant que Data Engineer GCP, vous serez responsable de la conception, du développement et de la maintenance des pipelines de données sur l’environnement Google Cloud Platform. Vous interviendrez dans un contexte de transformation...",
+    "skills": [
+      {
+        "nom": "Google Cloud Platform",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BigQuery",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cloud Storage",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Dataflow",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Pub/Sub",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Composer",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Vertex AI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Airflow",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Terraform",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GitLab CI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cloud Build",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité des données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gouvernance des données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Lake",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Warehouse",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CI/CD",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-ml-engineer-h-f-recrutement-confidentiel-casablanca-172119.html",
+    "date_publication": "2025-06-03",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "ML Engineer",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Enable the successful development and deployment of Machine-Learning and (Gen)AI applications from conceptualization to production with an emphasis on operations and monitoring. Detect, analyze, address bottlenecks and...",
+    "skills": [
+      {
+        "nom": "Machine Learning",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gen AI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication technique",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-data-scientist-h-f-recrutement-confidentiel-casablanca-172116.html",
+    "date_publication": "2025-06-03",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "DATA Scientist",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Key Responsibilities: Engage with business users to understand the pain points and business challenges Work with data engineers to source, analyse & engineer features, perform data augmentation Design and build efficient data...",
+    "skills": [
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "pandas",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "numpy",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "scikit-learn",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "langchain",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.rekrute.com/offre-emploi-submit-your-spontaneous-application-and-join-stellantis-recrutement-stellantis-casablanca-168605.html",
+    "date_publication": "2025-02-19",
+    "source": "Rekrute",
+    "contrat": "CDI",
+    "titre": "Submit Your Spontaneous Application and Join Stellantis !",
+    "compagnie": "Stellantis",
+    "secteur": "Automobile / R&D",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "We are seeking passionate professionals in the automotive industry with strong expertise in engineering and software development to support the continuous growth and innovation of our company. As we navigate an era of rapid technological advancements, we rely on talented individuals to drive our success.",
+    "skills": [
+      {
+        "nom": "Project Management",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Validation, Integration and Testing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Calibration",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Design and Simulation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Vehicle Architecture / Safety",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data, BI, AI, Cybersecurity",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Manufacturing",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Supply Chain",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187195/Responsable-paie-%E2%80%93-secteur-int%C3%A9rim-casablanca.html",
+    "date_publication": "1900-07-31",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Responsable paie",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "senior",
+    "description": "Responsable paie – secteur intérim / casablanca, CDI, salaire: 6000 - 8000 DH",
+    "skills": [
+      {
+        "nom": "Gestion de la paie",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Ressources humaines",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187181/DATA-ANALYST-(exp%C3%A9rience-dans-le-secteur-bancaire).html",
+    "date_publication": "1900-07-31",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "DATA ANALYST",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "senior",
+    "description": "DATA ANALYST avec expérience dans le secteur bancaire à Casablanca. CDI. Salaire à discuter.",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Finance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bancaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10188087/Full-Stack-NET-Developer.html",
+    "date_publication": "1900-07-30",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Full-Stack .NET Developer",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac + 2",
+    "niveau_experience": "junior",
+    "description": "Développeur Full-Stack .NET expérimenté pour rejoindre notre équipe à Casablanca",
+    "skills": [
+      {
+        "nom": ".NET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement Web",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187846/Stagiaire-traffic-manager-casablanca.html",
+    "date_publication": "1900-07-25",
+    "source": "Maroc_annonces",
+    "contrat": "Stage",
+    "titre": "Stagiaire traffic manager",
+    "compagnie": "Non spécifiée",
+    "secteur": "Marketing",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Stagiaire traffic manager à Casablanca, possibilité de discuter du salaire",
+    "skills": [
+      {
+        "nom": "Gestion de trafic",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Marketing digital",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10169064/Data-analyst-casablanca.html",
+    "date_publication": "1900-06-30",
+    "source": "Maroc_annonces",
+    "contrat": "CDI/CDD/Stage/Freelance à discuter",
+    "titre": "Data analyst",
+    "compagnie": "Non spécifiée",
+    "secteur": "Analyse de données",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Data analyst à Casablanca, mission non spécifiée",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10166808/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-26",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura, région de Bouskoura, contrat intérim, salaire à discuter.",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10165073/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-24",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10164203/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-23",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10162230/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-20",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center à Bouskoura, gestion et maintenance de data center",
+    "skills": [
+      {
+        "nom": "Gestion de data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10161371/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-19",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10122369/%C3%A9lectriciens-data-stewards-(hf)-casablanca.html",
+    "date_publication": "1900-06-18",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "électriciens - data stewards (h/f)",
+    "compagnie": "Non spécifiée",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Offre d'emploi pour des électriciens - data stewards (h/f) à Casablanca",
+    "skills": [
+      {
+        "nom": "Électricité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10159616/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-17",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura, mission intérimaire, région Bouskoura, salaire à discuter.",
+    "skills": [
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance technique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10155072/Veilleur-strat%C3%A9gique-rabat.html",
+    "date_publication": "1900-06-11",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Veilleur stratégique",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Veilleur stratégique basé à Rabat, mission principale : analyser et anticiper les menaces et opportunités stratégiques pour l'entreprise",
+    "skills": [
+      {
+        "nom": "Analyse stratégique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Veille concurrentielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion du temps",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10150685/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-03",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center à Bouskoura, gestion et maintenance de data center",
+    "skills": [
+      {
+        "nom": "Gestion de data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10148024/Technicien-en-eelectricit%C3%A9-bouskoura.html",
+    "date_publication": "1900-06-03",
+    "source": "Maroc_annonces",
+    "contrat": "Intérim",
+    "titre": "Technicien en eelectricité",
+    "compagnie": "Domino Hr MOROCCO",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien en eelectricité - Bouskoura, salaire maximum 3500 MAD net (panier et transport inclus)",
+    "skills": [
+      {
+        "nom": "Électricité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Technicien",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10149645/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-02",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ingénierie - Electro-tech./Automat",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura - Casablanca, Interim, A discuter",
+    "skills": [
+      {
+        "nom": "Technicien multi-technique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Electro-tech",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Automat",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10148037/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-05-30",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique et télécommunications",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Technicien data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10143247/Developpeurs-rabat.html",
+    "date_publication": "1900-05-23",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Developpeurs",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Développeurs à Rabat, secteur Informatique / Multimédia / Internet",
+    "skills": [
+      {
+        "nom": "Développement Hardware",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Informatique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10119641/Hr-assistant-tanger.html",
+    "date_publication": "1900-05-16",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Hr assistant",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Hr assistant basé à Tanger, secteur Ressources Humaines, avec un salaire entre 4000 et 6000 DH.",
+    "skills": [
+      {
+        "nom": "Gestion des ressources humaines",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10128903/Administrateur-syst%C3%A8mes-et-r%C3%A9seaux-et-s%C3%A9curit%C3%A9-casablanca.html",
+    "date_publication": "1900-05-05",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Administrateur systèmes et réseaux et sécurité",
+    "compagnie": "Cabinet CRIT",
+    "secteur": "Informatique - Systèmes/Réseaux",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Administrateur systèmes et réseaux et sécurité basé à Casablanca",
+    "skills": [
+      {
+        "nom": "Administration systèmes",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Réseaux",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10112397/Contr%C3%B4leur-De-Caisse-Permanant-Casablanca.html",
+    "date_publication": "1900-04-12",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Contrôleur De Caisse Permanant",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur De Caisse sur la ville de Casablanca. Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10097857/Ing%C3%A9nieur-data-scientist-junior-casablanca.html",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Ingénieur data scientist junior",
+    "compagnie": "Non spécifiée",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "junior",
+    "description": "Ingénieur data scientist junior à Casablanca",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Programmation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10100445/Contr%C3%B4leur-de-caisse-(-Homme-)-AGADIR.html",
+    "date_publication": "1900-03-25",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Contrôleur de caisse ( Homme ) - AGADIR",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur De Caisse sur la région SOUSS MASSA ( AGADIR ). Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10094691/CONTROLEUR-PERMANANT-MARRAKECH.html",
+    "date_publication": "1900-03-15",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "CONTROLEUR PERMANANT",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur Permanent sur la ville de Casab Marrakech. Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10087726/TETOUAN,-Factory-Planner-Intern-(for-Graduates).html",
+    "date_publication": "1900-03-04",
+    "source": "Maroc_annonces",
+    "contrat": "Stage",
+    "titre": "Factory Planner Intern (for Graduates)",
+    "compagnie": "Non spécifiée",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Stage de Factory Planner pour les diplômés",
+    "skills": [
+      {
+        "nom": "Planification de production",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10085975/Data-analyst.html",
+    "date_publication": "1900-02-28",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Data analyst",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Systèmes d'Information",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "junior",
+    "description": "Data analyst - Tetouan, CDI, secteur Informatique - Systèmes d'Information",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Systèmes d'information",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Problème-solving",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10083483/IOT-Data-Engineer-Developper.html",
+    "date_publication": "1900-02-25",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "IOT Data Engineer / Developper",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac + 2",
+    "niveau_experience": "junior",
+    "description": "Développeur IOT Data Engineer à Kénitra, CDI, salaire plus de 10 000 DH",
+    "skills": [
+      {
+        "nom": "Développement IOT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Engineering",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10069332/Analyste-Business-Data.html",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Analyste Business Data",
+    "compagnie": "Non spécifiée",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "junior",
+    "description": "Analyste Business Data - Poste à pourvoir",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Business Intelligence",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/index.php?a=2&b=10019582",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "Non spécifié",
+    "titre": "Non spécifié",
+    "compagnie": "Non spécifiée",
+    "secteur": "Non spécifié",
+    "niveau_etudes": "Non spécifié",
+    "niveau_experience": "Non spécifié",
+    "description": "Aucune description disponible",
+    "skills": []
+  }
+]

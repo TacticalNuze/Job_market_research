@@ -151,6 +151,21 @@ services:
     - minio
    restart: "no"
 
+  enrechissement_processor:
+    build:
+      context: .
+      dockerfile: enrechissement_process/Dockerfile.enrechissement
+    container_name: enrechissement_processor
+    depends_on:
+      - minio
+    volumes:
+      - .:/app
+    env_file:
+      - .docker.env
+    environment:
+      - PYTHONPATH=/app
+
+  
   skillner:
     build:
       context: ./skillner
