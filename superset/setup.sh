@@ -12,12 +12,20 @@ superset fab create-admin \
 
 superset init
 
-# Ajout de la connexion PostgreSQL
-superset dbs add \
-    --database-name "offers" \
-    --sqlalchemy-uri "postgresql://root:123456@postgres:5432/offers" \
-    --extra '{"metadata_params": {}, "engine_params": {}, "metadata_cache_timeout": {}, "schemas_allowed_for_csv_upload": []}' \
-    --expose-in-sql-lab || true
+
+
+cat <<EOF | flask shell
+from superset import db
+from superset.models.core import Database
+
+db.session.add(Database(
+    database_name="offers",
+    sqlalchemy_uri="postgresql://root:123456@postgres:5432/offers",
+    extra='{"metadata_params": {}, "engine_params": {}, "metadata_cache_timeout": {}, "schemas_allowed_for_csv_upload": []}'
+))
+db.session.commit()
+EOF
+
 
 # Démarrer Superset
 superset run -h 0.0.0.0 -p 8088
