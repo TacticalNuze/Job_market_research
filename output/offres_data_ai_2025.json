@@ -1,0 +1,1208 @@
+[
+  {
+    "job_url": "https://jobsite.com/job/1",
+    "date_publication": "2024-03-15",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Développeur Python Senior",
+    "compagnie": "TechCorp",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Nous recherchons un développeur Python expérimenté pour rejoindre notre équipe de développement. Vous travaillerez sur des projets innovants en utilisant les dernières technologies.",
+    "skills": [
+      {"nom": "Python", "type_skill": "hard"},
+      {"nom": "Django", "type_skill": "hard"},
+      {"nom": "Leadership", "type_skill": "soft"},
+      {"nom": "Communication", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/2",
+    "date_publication": "2024-06-22",
+    "source": "Indeed",
+    "contrat": "CDD",
+    "titre": "Data Scientist",
+    "compagnie": "DataSolutions",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Rejoignez notre équipe d'analyse de données pour développer des modèles prédictifs. Vous utiliserez Python et R pour analyser de gros volumes de données.",
+    "skills": [
+      {"nom": "Python", "type_skill": "hard"},
+      {"nom": "Machine Learning", "type_skill": "hard"},
+      {"nom": "Analyse critique", "type_skill": "soft"},
+      {"nom": "Curiosité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/3",
+    "date_publication": "2024-01-10",
+    "source": "Monster",
+    "contrat": "Stage",
+    "titre": "Stagiaire Marketing Digital",
+    "compagnie": "MarketingPro",
+    "secteur": "Marketing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Stage de 6 mois dans une agence marketing dynamique. Vous participerez à la création de campagnes digitales et à l'analyse des performances.",
+    "skills": [
+      {"nom": "Google Ads", "type_skill": "hard"},
+      {"nom": "Analytics", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Adaptabilité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/4",
+    "date_publication": "2024-11-05",
+    "source": "Glassdoor",
+    "contrat": "Freelance",
+    "titre": "Consultant SAP",
+    "compagnie": "ConseilTech",
+    "secteur": "Conseil",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Mission de conseil SAP pour l'implémentation d'un nouveau système ERP. Expertise requise en modules SAP FI/CO.",
+    "skills": [
+      {"nom": "SAP", "type_skill": "hard"},
+      {"nom": "ABAP", "type_skill": "hard"},
+      {"nom": "Gestion de projet", "type_skill": "soft"},
+      {"nom": "Autonomie", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/5",
+    "date_publication": "2024-08-18",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Infirmier en Cardiologie",
+    "compagnie": "Hôpital Central",
+    "secteur": "Santé",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Junior",
+    "description": "Poste d'infirmier dans le service de cardiologie d'un hôpital de référence. Vous assurerez les soins aux patients cardiaques.",
+    "skills": [
+      {"nom": "Soins infirmiers", "type_skill": "hard"},
+      {"nom": "Cardiologie", "type_skill": "hard"},
+      {"nom": "Empathie", "type_skill": "soft"},
+      {"nom": "Gestion du stress", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/6",
+    "date_publication": "2024-04-30",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Analyste Financier",
+    "compagnie": "BankCorp",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Analysez les risques financiers et élaborez des rapports pour la direction. Expertise en modélisation financière requise.",
+    "skills": [
+      {"nom": "Excel", "type_skill": "hard"},
+      {"nom": "Modélisation financière", "type_skill": "hard"},
+      {"nom": "Rigueur", "type_skill": "soft"},
+      {"nom": "Analyse critique", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/7",
+    "date_publication": "2024-12-01",
+    "source": "Monster",
+    "contrat": "CDD",
+    "titre": "Chef de Projet Web",
+    "compagnie": "WebAgency",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Pilotez des projets web de A à Z pour nos clients. Coordination des équipes techniques et relation client.",
+    "skills": [
+      {"nom": "Gestion de projet", "type_skill": "hard"},
+      {"nom": "Agile", "type_skill": "hard"},
+      {"nom": "Leadership", "type_skill": "soft"},
+      {"nom": "Communication", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/8",
+    "date_publication": "2024-07-14",
+    "source": "Glassdoor",
+    "contrat": "Stage",
+    "titre": "Assistant RH",
+    "compagnie": "HumanFirst",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Débutant",
+    "description": "Assistez l'équipe RH dans le recrutement et la gestion administrative. Formation complète assurée.",
+    "skills": [
+      {"nom": "Recrutement", "type_skill": "hard"},
+      {"nom": "Excel", "type_skill": "hard"},
+      {"nom": "Communication", "type_skill": "soft"},
+      {"nom": "Organisation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/9",
+    "date_publication": "2024-09-03",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Ingénieur DevOps",
+    "compagnie": "CloudTech",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Gérez notre infrastructure cloud et automatisez les déploiements. Expertise Docker et Kubernetes requise.",
+    "skills": [
+      {"nom": "Docker", "type_skill": "hard"},
+      {"nom": "Kubernetes", "type_skill": "hard"},
+      {"nom": "Résolution de problèmes", "type_skill": "soft"},
+      {"nom": "Collaboration", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/10",
+    "date_publication": "2024-02-28",
+    "source": "Indeed",
+    "contrat": "Freelance",
+    "titre": "Designer UX/UI",
+    "compagnie": "DesignStudio",
+    "secteur": "Design",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Confirmé",
+    "description": "Créez des interfaces utilisateur innovantes pour des applications mobiles. Portfolio requis.",
+    "skills": [
+      {"nom": "Figma", "type_skill": "hard"},
+      {"nom": "Adobe Creative Suite", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Écoute active", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/11",
+    "date_publication": "2024-05-17",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Comptable Senior",
+    "compagnie": "FinanceExpert",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Supervisez la comptabilité générale et les clôtures mensuelles. Expertise en normes IFRS requise.",
+    "skills": [
+      {"nom": "Comptabilité", "type_skill": "hard"},
+      {"nom": "IFRS", "type_skill": "hard"},
+      {"nom": "Rigueur", "type_skill": "soft"},
+      {"nom": "Attention aux détails", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/12",
+    "date_publication": "2024-10-12",
+    "source": "Glassdoor",
+    "contrat": "CDD",
+    "titre": "Professeur de Mathématiques",
+    "compagnie": "Lycée Innovation",
+    "secteur": "Éducation",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Junior",
+    "description": "Enseignez les mathématiques au niveau lycée dans un établissement innovant. Méthodes pédagogiques modernes encouragées.",
+    "skills": [
+      {"nom": "Mathématiques", "type_skill": "hard"},
+      {"nom": "Pédagogie", "type_skill": "hard"},
+      {"nom": "Patience", "type_skill": "soft"},
+      {"nom": "Communication", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/13",
+    "date_publication": "2025-01-05",
+    "source": "LinkedIn",
+    "contrat": "Stage",
+    "titre": "Journaliste Web",
+    "compagnie": "MediaOnline",
+    "secteur": "Médias",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Rédigez des articles pour notre site d'actualités tech. Formation au journalisme numérique assurée.",
+    "skills": [
+      {"nom": "Rédaction", "type_skill": "hard"},
+      {"nom": "WordPress", "type_skill": "hard"},
+      {"nom": "Curiosité", "type_skill": "soft"},
+      {"nom": "Esprit de synthèse", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/14",
+    "date_publication": "2024-04-08",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Architecte Logiciel",
+    "compagnie": "SoftwareInc",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Concevez l'architecture de nos applications enterprise. Leadership technique et vision stratégique requis.",
+    "skills": [
+      {"nom": "Architecture logicielle", "type_skill": "hard"},
+      {"nom": "Java", "type_skill": "hard"},
+      {"nom": "Vision stratégique", "type_skill": "soft"},
+      {"nom": "Leadership", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/15",
+    "date_publication": "2024-11-20",
+    "source": "Monster",
+    "contrat": "Freelance",
+    "titre": "Traducteur Technique",
+    "compagnie": "LinguaTech",
+    "secteur": "Services",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Traduisez des documents techniques de l'anglais vers le français. Spécialisation IT souhaitée.",
+    "skills": [
+      {"nom": "Traduction", "type_skill": "hard"},
+      {"nom": "Anglais", "type_skill": "hard"},
+      {"nom": "Précision", "type_skill": "soft"},
+      {"nom": "Gestion du temps", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/16",
+    "date_publication": "2024-06-11",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Pharmacien d'Officine",
+    "compagnie": "Pharmacie Centrale",
+    "secteur": "Santé",
+    "niveau_etudes": "Doctorat",
+    "niveau_experience": "Junior",
+    "description": "Dispensez les médicaments et conseillez la clientèle dans notre pharmacie moderne. Formation continue assurée.",
+    "skills": [
+      {"nom": "Pharmacologie", "type_skill": "hard"},
+      {"nom": "Conseil client", "type_skill": "hard"},
+      {"nom": "Écoute", "type_skill": "soft"},
+      {"nom": "Empathie", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/17",
+    "date_publication": "2024-08-25",
+    "source": "LinkedIn",
+    "contrat": "CDD",
+    "titre": "Chef de Produit",
+    "compagnie": "ProductCorp",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Pilotez le développement et le lancement de nouveaux produits digitaux. Expérience en méthodologie Agile requise.",
+    "skills": [
+      {"nom": "Product Management", "type_skill": "hard"},
+      {"nom": "Agile", "type_skill": "hard"},
+      {"nom": "Coordination", "type_skill": "soft"},
+      {"nom": "Innovation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/18",
+    "date_publication": "2024-03-22",
+    "source": "Indeed",
+    "contrat": "Stage",
+    "titre": "Assistant Juridique",
+    "compagnie": "CabinetDroit",
+    "secteur": "Juridique",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Débutant",
+    "description": "Assistez les avocats dans leurs dossiers et la rédaction d'actes. Formation au droit des affaires.",
+    "skills": [
+      {"nom": "Droit", "type_skill": "hard"},
+      {"nom": "Rédaction juridique", "type_skill": "hard"},
+      {"nom": "Discrétion", "type_skill": "soft"},
+      {"nom": "Organisation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/19",
+    "date_publication": "2024-12-15",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Ingénieur Qualité",
+    "compagnie": "ManufacturePlus",
+    "secteur": "Industrie",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Supervisez les processus qualité dans notre usine de production. Expertise en normes ISO 9001 requise.",
+    "skills": [
+      {"nom": "Contrôle qualité", "type_skill": "hard"},
+      {"nom": "ISO 9001", "type_skill": "hard"},
+      {"nom": "Rigueur", "type_skill": "soft"},
+      {"nom": "Amélioration continue", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/20",
+    "date_publication": "2025-02-18",
+    "source": "Glassdoor",
+    "contrat": "Freelance",
+    "titre": "Community Manager",
+    "compagnie": "SocialBrand",
+    "secteur": "Marketing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Junior",
+    "description": "Animez nos réseaux sociaux et développez notre communauté en ligne. Créativité et réactivité essentielles.",
+    "skills": [
+      {"nom": "Réseaux sociaux", "type_skill": "hard"},
+      {"nom": "Content creation", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Réactivité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/21",
+    "date_publication": "2024-07-07",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Développeur Full Stack",
+    "compagnie": "WebSolutions",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Développez des applications web complètes avec React et Node.js. Rejoignez une équipe passionnée et innovante.",
+    "skills": [
+      {"nom": "React", "type_skill": "hard"},
+      {"nom": "Node.js", "type_skill": "hard"},
+      {"nom": "Collaboration", "type_skill": "soft"},
+      {"nom": "Curiosité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/22",
+    "date_publication": "2024-01-25",
+    "source": "Indeed",
+    "contrat": "CDD",
+    "titre": "Psychologue Clinicien",
+    "compagnie": "Centre Médical",
+    "secteur": "Santé",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Junior",
+    "description": "Accompagnez les patients en thérapie individuelle et de groupe. Spécialisation en thérapies comportementales souhaitée.",
+    "skills": [
+      {"nom": "Psychologie clinique", "type_skill": "hard"},
+      {"nom": "Thérapie", "type_skill": "hard"},
+      {"nom": "Écoute active", "type_skill": "soft"},
+      {"nom": "Bienveillance", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/23",
+    "date_publication": "2024-09-30",
+    "source": "Monster",
+    "contrat": "Stage",
+    "titre": "Chargé d'Études Marketing",
+    "compagnie": "MarketResearch",
+    "secteur": "Marketing",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Débutant",
+    "description": "Réalisez des études de marché et analysez les tendances consommateurs. Formation aux outils d'analyse statistique.",
+    "skills": [
+      {"nom": "Études de marché", "type_skill": "hard"},
+      {"nom": "SPSS", "type_skill": "hard"},
+      {"nom": "Esprit analytique", "type_skill": "soft"},
+      {"nom": "Synthèse", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/24",
+    "date_publication": "2024-05-02",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Responsable Logistique",
+    "compagnie": "SupplyChain Pro",
+    "secteur": "Logistique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Optimisez notre chaîne d'approvisionnement et gérez les équipes entrepôt. Expertise SAP WM requise.",
+    "skills": [
+      {"nom": "Logistique", "type_skill": "hard"},
+      {"nom": "SAP WM", "type_skill": "hard"},
+      {"nom": "Management", "type_skill": "soft"},
+      {"nom": "Optimisation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/25",
+    "date_publication": "2024-11-08",
+    "source": "LinkedIn",
+    "contrat": "Freelance",
+    "titre": "Formateur Excel",
+    "compagnie": "FormationTech",
+    "secteur": "Formation",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Confirmé",
+    "description": "Animez des formations Excel pour entreprises, tous niveaux. Pédagogie adaptée et certification Microsoft souhaitée.",
+    "skills": [
+      {"nom": "Excel avancé", "type_skill": "hard"},
+      {"nom": "Formation", "type_skill": "hard"},
+      {"nom": "Pédagogie", "type_skill": "soft"},
+      {"nom": "Adaptabilité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/26",
+    "date_publication": "2024-04-19",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Ingénieur Cybersécurité",
+    "compagnie": "SecureIT",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Protégez nos infrastructures contre les cybermenaces et définissez les politiques de sécurité. Certifications CISSP appréciées.",
+    "skills": [
+      {"nom": "Cybersécurité", "type_skill": "hard"},
+      {"nom": "Pentest", "type_skill": "hard"},
+      {"nom": "Vigilance", "type_skill": "soft"},
+      {"nom": "Réaction rapide", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/27",
+    "date_publication": "2024-08-03",
+    "source": "Monster",
+    "contrat": "CDD",
+    "titre": "Architecte d'Intérieur",
+    "compagnie": "DesignSpace",
+    "secteur": "Architecture",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Concevez des espaces de travail innovants pour nos clients corporate. Maîtrise d'AutoCAD et 3DS Max requise.",
+    "skills": [
+      {"nom": "AutoCAD", "type_skill": "hard"},
+      {"nom": "3DS Max", "type_skill": "hard"},
+      {"nom": "Sens esthétique", "type_skill": "soft"},
+      {"nom": "Créativité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/28",
+    "date_publication": "2025-03-12",
+    "source": "Glassdoor",
+    "contrat": "Stage",
+    "titre": "Développeur Mobile",
+    "compagnie": "MobileApps",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Participez au développement d'applications mobiles iOS et Android. Formation Flutter et React Native assurée.",
+    "skills": [
+      {"nom": "Flutter", "type_skill": "hard"},
+      {"nom": "React Native", "type_skill": "hard"},
+      {"nom": "Apprentissage rapide", "type_skill": "soft"},
+      {"nom": "Persévérance", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/29",
+    "date_publication": "2024-06-26",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Auditeur Financier",
+    "compagnie": "AuditPlus",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Junior",
+    "description": "Réalisez des missions d'audit chez nos clients grands comptes. Formation continue en normes d'audit internationales.",
+    "skills": [
+      {"nom": "Audit", "type_skill": "hard"},
+      {"nom": "Normes IFRS", "type_skill": "hard"},
+      {"nom": "Esprit critique", "type_skill": "soft"},
+      {"nom": "Intégrité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/30",
+    "date_publication": "2024-02-14",
+    "source": "Indeed",
+    "contrat": "Freelance",
+    "titre": "Rédacteur Web SEO",
+    "compagnie": "ContentFactory",
+    "secteur": "Marketing",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Confirmé",
+    "description": "Rédigez du contenu optimisé SEO pour nos clients e-commerce. Expertise en référencement naturel et outils analytics requis.",
+    "skills": [
+      {"nom": "SEO", "type_skill": "hard"},
+      {"nom": "Rédaction web", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Rigueur", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/31",
+    "date_publication": "2024-10-29",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Technicien de Maintenance",
+    "compagnie": "IndustrialTech",
+    "secteur": "Industrie",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Junior",
+    "description": "Maintenez en état nos équipements industriels et diagnostiquez les pannes. Formation sur machines automatisées.",
+    "skills": [
+      {"nom": "Maintenance industrielle", "type_skill": "hard"},
+      {"nom": "Électrotechnique", "type_skill": "hard"},
+      {"nom": "Débrouillardise", "type_skill": "soft"},
+      {"nom": "Méticulosité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/32",
+    "date_publication": "2024-12-21",
+    "source": "Glassdoor",
+    "contrat": "CDD",
+    "titre": "Business Analyst",
+    "compagnie": "ConsultBiz",
+    "secteur": "Conseil",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Analysez les processus métier et proposez des améliorations. Expertise en modélisation de processus et outils BI requise.",
+    "skills": [
+      {"nom": "Analyse métier", "type_skill": "hard"},
+      {"nom": "Power BI", "type_skill": "hard"},
+      {"nom": "Esprit de synthèse", "type_skill": "soft"},
+      {"nom": "Communication", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/33",
+    "date_publication": "2024-07-21",
+    "source": "LinkedIn",
+    "contrat": "Stage",
+    "titre": "Chargé de Communication",
+    "compagnie": "CommPlus",
+    "secteur": "Communication",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Participez à l'élaboration de notre stratégie de communication digitale. Création de contenus et gestion des relations presse.",
+    "skills": [
+      {"nom": "Communication digitale", "type_skill": "hard"},
+      {"nom": "Relations presse", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Relationnel", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/34",
+    "date_publication": "2024-01-31",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Vétérinaire",
+    "compagnie": "Clinique Animaux",
+    "secteur": "Santé",
+    "niveau_etudes": "Doctorat",
+    "niveau_experience": "Junior",
+    "description": "Soignez nos patients à quatre pattes dans notre clinique moderne. Spécialisation en médecine interne souhaitée.",
+    "skills": [
+      {"nom": "Médecine vétérinaire", "type_skill": "hard"},
+      {"nom": "Chirurgie", "type_skill": "hard"},
+      {"nom": "Empathie", "type_skill": "soft"},
+      {"nom": "Patience", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/35",
+    "date_publication": "2024-09-16",
+    "source": "Monster",
+    "contrat": "Freelance",
+    "titre": "Graphiste Freelance",
+    "compagnie": "VisualArt",
+    "secteur": "Design",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Confirmé",
+    "description": "Créez des supports visuels pour nos campagnes publicitaires. Maîtrise de la suite Adobe et sens artistique développé.",
+    "skills": [
+      {"nom": "Adobe Illustrator", "type_skill": "hard"},
+      {"nom": "Photoshop", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Sens artistique", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/36",
+    "date_publication": "2024-05-23",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Ingénieur Réseaux",
+    "compagnie": "NetworkPro",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Concevez et maintenez notre infrastructure réseau enterprise. Certifications Cisco et expertise en sécurité réseau requises.",
+    "skills": [
+      {"nom": "Cisco", "type_skill": "hard"},
+      {"nom": "Sécurité réseau", "type_skill": "hard"},
+      {"nom": "Résolution de problèmes", "type_skill": "soft"},
+      {"nom": "Anticipation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/37",
+    "date_publication": "2025-04-05",
+    "source": "LinkedIn",
+    "contrat": "CDD",
+    "titre": "Chargé de Recrutement",
+    "compagnie": "TalentSearch",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Junior",
+    "description": "Gérez le processus de recrutement de A à Z pour nos clients. Développez votre réseau et vos techniques d'entretien.",
+    "skills": [
+      {"nom": "Recrutement", "type_skill": "hard"},
+      {"nom": "Entretien", "type_skill": "hard"},
+      {"nom": "Écoute", "type_skill": "soft"},
+      {"nom": "Persuasion", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/38",
+    "date_publication": "2024-03-08",
+    "source": "Indeed",
+    "contrat": "Stage",
+    "titre": "Assistant Chef de Projet",
+    "compagnie": "ProjectMaster",
+    "secteur": "Conseil",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Assistez nos chefs de projet dans le pilotage de missions client. Formation aux méthodologies projet et outils collaboratifs.",
+    "skills": [
+      {"nom": "Gestion de projet", "type_skill": "hard"},
+      {"nom": "MS Project", "type_skill": "hard"},
+      {"nom": "Organisation", "type_skill": "soft"},
+      {"nom": "Proactivité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/39",
+    "date_publication": "2024-11-27",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Responsable QSE",
+    "compagnie": "SafetyFirst",
+    "secteur": "Industrie",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Pilotez la politique Qualité, Sécurité et Environnement de notre site industriel. Expertise réglementaire et certifications ISO requises.",
+    "skills": [
+      {"nom": "Qualité", "type_skill": "hard"},
+      {"nom": "Sécurité industrielle", "type_skill": "hard"},
+      {"nom": "Rigueur", "type_skill": "soft"},
+      {"nom": "Leadership", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/40",
+    "date_publication": "2024-08-12",
+    "source": "Glassdoor",
+    "contrat": "Freelance",
+    "titre": "Consultant BI",
+    "compagnie": "DataViz",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Implémentez des solutions de Business Intelligence pour nos clients. Expertise Tableau, Power BI et data warehouse requise.",
+    "skills": [
+      {"nom": "Tableau", "type_skill": "hard"},
+      {"nom": "Data warehouse", "type_skill": "hard"},
+      {"nom": "Esprit analytique", "type_skill": "soft"},
+      {"nom": "Pédagogie", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/41",
+    "date_publication": "2024-06-04",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Kinésithérapeute",
+    "compagnie": "Centre Rééducation",
+    "secteur": "Santé",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Junior",
+    "description": "Accompagnez nos patients dans leur rééducation fonctionnelle. Spécialisation sport ou neurologie appréciée.",
+    "skills": [
+      {"nom": "Kinésithérapie", "type_skill": "hard"},
+      {"nom": "Rééducation", "type_skill": "hard"},
+      {"nom": "Patience", "type_skill": "soft"},
+      {"nom": "Motivation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/42",
+    "date_publication": "2024-12-09",
+    "source": "Indeed",
+    "contrat": "CDD",
+    "titre": "Responsable E-commerce",
+    "compagnie": "ShopOnline",
+    "secteur": "Commerce",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Développez nos ventes en ligne et optimisez l'expérience client. Expertise marketplaces et analytics digitaux requise.",
+    "skills": [
+      {"nom": "E-commerce", "type_skill": "hard"},
+      {"nom": "Google Analytics", "type_skill": "hard"},
+      {"nom": "Orientation client", "type_skill": "soft"},
+      {"nom": "Innovation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/43",
+    "date_publication": "2024-04-27",
+    "source": "Monster",
+    "contrat": "Stage",
+    "titre": "Développeur Java Junior",
+    "compagnie": "JavaSoft",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Participez au développement d'applications enterprise Java. Formation Spring Boot et microservices assurée.",
+    "skills": [
+      {"nom": "Java", "type_skill": "hard"},
+      {"nom": "Spring Boot", "type_skill": "hard"},
+      {"nom": "Curiosité", "type_skill": "soft"},
+      {"nom": "Persévérance", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/44",
+    "date_publication": "2024-09-13",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Avocat en Droit Social",
+    "compagnie": "Cabinet Juridique",
+    "secteur": "Juridique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Conseillez nos clients entreprises en droit du travail et contentieux sociaux. Expérience en relations collectives requise.",
+    "skills": [
+      {"nom": "Droit social", "type_skill": "hard"},
+      {"nom": "Contentieux", "type_skill": "hard"},
+      {"nom": "Argumentation", "type_skill": "soft"},
+      {"nom": "Négociation", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/45",
+    "date_publication": "2025-01-22",
+    "source": "LinkedIn",
+    "contrat": "Freelance",
+    "titre": "Monteur Vidéo",
+    "compagnie": "VideoCreation",
+    "secteur": "Médias",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Confirmé",
+    "description": "Montez des contenus vidéo pour nos clients corporate et institutionnels. Maîtrise Premiere Pro et After Effects indispensable.",
+    "skills": [
+      {"nom": "Premiere Pro", "type_skill": "hard"},
+      {"nom": "After Effects", "type_skill": "hard"},
+      {"nom": "Sens du rythme", "type_skill": "soft"},
+      {"nom": "Créativité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/46",
+    "date_publication": "2024-07-31",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Contrôleur de Gestion",
+    "compagnie": "FinanceControl",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Junior",
+    "description": "Élaborez les budgets et suivez la performance financière. Expertise en outils de reporting et analyse financière.",
+    "skills": [
+      {"nom": "Contrôle de gestion", "type_skill": "hard"},
+      {"nom": "Budgets", "type_skill": "hard"},
+      {"nom": "Esprit analytique", "type_skill": "soft"},
+      {"nom": "Synthèse", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/47",
+    "date_publication": "2024-02-20",
+    "source": "Monster",
+    "contrat": "CDD",
+    "titre": "Ingénieur Mécanique",
+    "compagnie": "MecaTech",
+    "secteur": "Industrie",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Concevez et développez des systèmes mécaniques innovants. Maîtrise SolidWorks et expérience en bureau d'études requise.",
+    "skills": [
+      {"nom": "SolidWorks", "type_skill": "hard"},
+      {"nom": "Mécanique", "type_skill": "hard"},
+      {"nom": "Innovation", "type_skill": "soft"},
+      {"nom": "Précision", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/48",
+    "date_publication": "2024-10-15",
+    "source": "Glassdoor",
+    "contrat": "Stage",
+    "titre": "Analyste Crédit",
+    "compagnie": "CreditBank",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Débutant",
+    "description": "Analysez les dossiers de crédit et évaluez les risques clients. Formation aux outils de scoring et réglementation bancaire.",
+    "skills": [
+      {"nom": "Analyse de crédit", "type_skill": "hard"},
+      {"nom": "Scoring", "type_skill": "hard"},
+      {"nom": "Rigueur", "type_skill": "soft"},
+      {"nom": "Attention aux détails", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/49",
+    "date_publication": "2024-05-14",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Ergothérapeute",
+    "compagnie": "Centre Thérapie",
+    "secteur": "Santé",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Junior",
+    "description": "Aidez nos patients à retrouver leur autonomie dans les gestes du quotidien. Spécialisation pédiatrie ou gériatrie appréciée.",
+    "skills": [
+      {"nom": "Ergothérapie", "type_skill": "hard"},
+      {"nom": "Réadaptation", "type_skill": "hard"},
+      {"nom": "Patience", "type_skill": "soft"},
+      {"nom": "Créativité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/50",
+    "date_publication": "2024-11-11",
+    "source": "Indeed",
+    "contrat": "Freelance",
+    "titre": "Expert-Comptable",
+    "compagnie": "ComptaPlus",
+    "secteur": "Finance",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Tenez la comptabilité de nos clients PME et conseillez-les en gestion. Diplôme d'expertise comptable et clientèle existante souhaitée.",
+    "skills": [
+      {"nom": "Expertise comptable", "type_skill": "hard"},
+      {"nom": "Conseil fiscal", "type_skill": "hard"},
+      {"nom": "Relation client", "type_skill": "soft"},
+      {"nom": "Conseil", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/51",
+    "date_publication": "2024-08-28",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Responsable Commercial",
+    "compagnie": "SalesForce",
+    "secteur": "Commerce",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Développez notre portefeuille client B2B et managez l'équipe commerciale. Expertise en négociation et CRM requise.",
+    "skills": [
+      {"nom": "Vente B2B", "type_skill": "hard"},
+      {"nom": "CRM", "type_skill": "hard"},
+      {"nom": "Leadership", "type_skill": "soft"},
+      {"nom": "Persuasion", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/52",
+    "date_publication": "2024-06-17",
+    "source": "Glassdoor",
+    "contrat": "CDD",
+    "titre": "Professeur d'Anglais",
+    "compagnie": "École Internationale",
+    "secteur": "Éducation",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Enseignez l'anglais à des classes de lycéens dans un cadre international. Niveau natif et expérience pédagogique requis.",
+    "skills": [
+      {"nom": "Anglais natif", "type_skill": "hard"},
+      {"nom": "Pédagogie", "type_skill": "hard"},
+      {"nom": "Patience", "type_skill": "soft"},
+      {"nom": "Dynamisme", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/53",
+    "date_publication": "2025-02-03",
+    "source": "LinkedIn",
+    "contrat": "Stage",
+    "titre": "Data Analyst",
+    "compagnie": "AnalyticsLab",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Débutant",
+    "description": "Analysez nos données clients et créez des tableaux de bord. Formation Python, SQL et outils de visualisation assurée.",
+    "skills": [
+      {"nom": "Python", "type_skill": "hard"},
+      {"nom": "SQL", "type_skill": "hard"},
+      {"nom": "Curiosité", "type_skill": "soft"},
+      {"nom": "Esprit logique", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/54",
+    "date_publication": "2024-04-12",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Diététicien",
+    "compagnie": "NutriSanté",
+    "secteur": "Santé",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Junior",
+    "description": "Conseillez nos patients en nutrition thérapeutique et préventive. Spécialisation diabétologie ou oncologie appréciée.",
+    "skills": [
+      {"nom": "Nutrition", "type_skill": "hard"},
+      {"nom": "Diététique", "type_skill": "hard"},
+      {"nom": "Écoute", "type_skill": "soft"},
+      {"nom": "Pédagogie", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/55",
+    "date_publication": "2024-12-06",
+    "source": "Monster",
+    "contrat": "Freelance",
+    "titre": "Consultant SEO",
+    "compagnie": "WebOptim",
+    "secteur": "Marketing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Confirmé",
+    "description": "Optimisez le référencement naturel de nos clients e-commerce. Expertise technique SEO et outils d'analyse requis.",
+    "skills": [
+      {"nom": "SEO technique", "type_skill": "hard"},
+      {"nom": "Google Search Console", "type_skill": "hard"},
+      {"nom": "Analyse", "type_skill": "soft"},
+      {"nom": "Veille technologique", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/56",
+    "date_publication": "2024-07-09",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Ingénieur Environnement",
+    "compagnie": "EcoTech",
+    "secteur": "Environnement",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Menez des études d'impact environnemental et proposez des solutions durables. Expertise réglementaire environnementale requise.",
+    "skills": [
+      {"nom": "Études d'impact", "type_skill": "hard"},
+      {"nom": "Réglementation environnementale", "type_skill": "hard"},
+      {"nom": "Conscience écologique", "type_skill": "soft"},
+      {"nom": "Rigueur scientifique", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/57",
+    "date_publication": "2024-01-17",
+    "source": "LinkedIn",
+    "contrat": "CDD",
+    "titre": "Scrum Master",
+    "compagnie": "AgileTeam",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Accompagnez nos équipes de développement dans l'adoption des méthodes agiles. Certification Scrum Master requise.",
+    "skills": [
+      {"nom": "Scrum", "type_skill": "hard"},
+      {"nom": "Agile", "type_skill": "hard"},
+      {"nom": "Facilitation", "type_skill": "soft"},
+      {"nom": "Leadership serviteur", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/58",
+    "date_publication": "2024-09-24",
+    "source": "Indeed",
+    "contrat": "Stage",
+    "titre": "Assistant Export",
+    "compagnie": "GlobalTrade",
+    "secteur": "Commerce",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Assistez nos équipes dans les opérations d'export international. Formation douanes et réglementation internationale.",
+    "skills": [
+      {"nom": "Commerce international", "type_skill": "hard"},
+      {"nom": "Anglais", "type_skill": "hard"},
+      {"nom": "Organisation", "type_skill": "soft"},
+      {"nom": "Rigueur", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/59",
+    "date_publication": "2024-05-08",
+    "source": "Monster",
+    "contrat": "CDI",
+    "titre": "Responsable Paie",
+    "compagnie": "PayrollPro",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Gérez la paie de 500+ salariés et supervisez l'équipe paie. Expertise Silae et droit social approfondi requis.",
+    "skills": [
+      {"nom": "Gestion de paie", "type_skill": "hard"},
+      {"nom": "Silae", "type_skill": "hard"},
+      {"nom": "Management", "type_skill": "soft"},
+      {"nom": "Rigueur", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/60",
+    "date_publication": "2024-11-03",
+    "source": "Glassdoor",
+    "contrat": "Freelance",
+    "titre": "Photographe Événementiel",
+    "compagnie": "EventPhoto",
+    "secteur": "Médias",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Confirmé",
+    "description": "Couvrez nos événements corporate et mariages. Portfolio professionnel et équipement haut de gamme requis.",
+    "skills": [
+      {"nom": "Photographie", "type_skill": "hard"},
+      {"nom": "Lightroom", "type_skill": "hard"},
+      {"nom": "Sens artistique", "type_skill": "soft"},
+      {"nom": "Adaptabilité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/61",
+    "date_publication": "2024-08-06",
+    "source": "LinkedIn",
+    "contrat": "CDI",
+    "titre": "Ingénieur Électronique",
+    "compagnie": "ElectroTech",
+    "secteur": "Industrie",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Concevez des systèmes électroniques embarqués pour l'automobile. Expertise microcontrôleurs et VHDL requise.",
+    "skills": [
+      {"nom": "Électronique", "type_skill": "hard"},
+      {"nom": "VHDL", "type_skill": "hard"},
+      {"nom": "Innovation", "type_skill": "soft"},
+      {"nom": "Précision", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/62",
+    "date_publication": "2024-03-25",
+    "source": "Indeed",
+    "contrat": "CDD",
+    "titre": "Responsable Achat",
+    "compagnie": "ProcurePlus",
+    "secteur": "Commerce",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Confirmé",
+    "description": "Négociez avec nos fournisseurs et optimisez nos coûts d'achat. Expertise en négociation commerciale et supply chain.",
+    "skills": [
+      {"nom": "Négociation", "type_skill": "hard"},
+      {"nom": "Supply Chain", "type_skill": "hard"},
+      {"nom": "Persuasion", "type_skill": "soft"},
+      {"nom": "Analyse coûts", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/63",
+    "date_publication": "2025-03-28",
+    "source": "Monster",
+    "contrat": "Stage",
+    "titre": "Développeur Front-end",
+    "compagnie": "WebDev",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "Débutant",
+    "description": "Développez nos interfaces utilisateur avec React et Vue.js. Formation aux derniers frameworks front-end assurée.",
+    "skills": [
+      {"nom": "React", "type_skill": "hard"},
+      {"nom": "Vue.js", "type_skill": "hard"},
+      {"nom": "Créativité", "type_skill": "soft"},
+      {"nom": "Souci du détail", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/64",
+    "date_publication": "2024-06-29",
+    "source": "Glassdoor",
+    "contrat": "CDI",
+    "titre": "Orthodontiste",
+    "compagnie": "Clinique Dentaire",
+    "secteur": "Santé",
+    "niveau_etudes": "Doctorat",
+    "niveau_experience": "Junior",
+    "description": "Corrigez les malpositions dentaires chez enfants et adultes. Cabinet équipé des dernières technologies numériques.",
+    "skills": [
+      {"nom": "Orthodontie", "type_skill": "hard"},
+      {"nom": "Imagerie dentaire", "type_skill": "hard"},
+      {"nom": "Patience", "type_skill": "soft"},
+      {"nom": "Dextérité", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/65",
+    "date_publication": "2024-12-18",
+    "source": "LinkedIn",
+    "contrat": "Freelance",
+    "titre": "Consultant ERP",
+    "compagnie": "SystemIntegrator",
+    "secteur": "Informatique",
+    "niveau_etudes": "Master",
+    "niveau_experience": "Senior",
+    "description": "Implémentez des solutions ERP chez nos clients industriels. Expertise SAP ou Microsoft Dynamics 365 requise.",
+    "skills": [
+      {"nom": "ERP", "type_skill": "hard"},
+      {"nom": "Microsoft Dynamics", "type_skill": "hard"},
+      {"nom": "Conseil", "type_skill": "soft"},
+      {"nom": "Gestion de projet", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/66",
+    "date_publication": "2024-04-02",
+    "source": "Indeed",
+    "contrat": "CDI",
+    "titre": "Chef Cuisinier",
+    "compagnie": "Restaurant Gourmet",
+    "secteur": "Restauration",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Confirmé",
+    "description": "Dirigez notre brigade en cuisine et créez des menus gastronomiques. Expérience en cuisine étoilée appréciée.",
+    "skills": [
+      {"nom": "Cuisine gastronomique", "type_skill": "hard"},
+      {"nom": "Management d'équipe", "type_skill": "hard"},
+      {"nom": "Créativité culinaire", "type_skill": "soft"},
+      {"nom": "Résistance au stress", "type_skill": "soft"}
+    ]
+  },
+  {
+    "job_url": "https://jobsite.com/job/67",
+    "date_publication": "2024-10-22",
+    "source": "Monster",
+    "contrat": "CDD",
+    "titre": "Technicien Laboratoire",
+    "compagnie": "BioLab",
+    "secteur": "Santé",
+    "niveau_etudes": "Bac+2",
+    "niveau_experience": "Junior",
+    "description": "Réalisez des analyses biologiques et maintenez les équipements de laboratoire. Formation aux bonnes pratiques de laboratoire.",
+    "skills": [
+      {"nom": "Analyses biologiques", "type_skill": "hard"},
+      {"nom": "Maintenance équipements", "type_skill": "hard"},
+      {"nom": "Précision", "type_skill": "soft"},
+      {"nom": "Rigueur", "type_skill": "soft"}
+    ]
+  }
+]
