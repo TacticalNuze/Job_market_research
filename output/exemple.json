@@ -1,0 +1,61 @@
+
+ [
+{
+      "id_offre": 1,
+      "date_publication": "2025-07-21",
+      "source": "LinkedIn",
+      "type_contrat": "CDI",
+      "titre_poste": "Data Scientist",
+      "compagnie": "DXC Technology",
+      "niveau_etudes": "Master",
+      "niveau_experience": "Confirmé",
+      "competences": [
+        {"id_skill": 101, "nom_skill": "Python"},
+        {"id_skill": 102, "nom_skill": "Machine Learning"},
+        {"id_skill": 103, "nom_skill": "SQL"}
+      ],
+      "description": "Vous serez responsable du traitement de données et développement de modèles ML.",
+      "localisation": "Casablanca, Maroc",
+      "salaire": "15000 MAD",
+      "job_url": "https://www.linkedin.com/jobs/view/1234567890"
+    },
+    {
+      "id_offre": 2,
+      "date_publication": "2025-07-19",
+      "source": "Indeed",
+      "type_contrat": "CDD",
+      "titre_poste": "Développeur Python",
+      "compagnie": "Innova Solutions",
+      "niveau_etudes": "Bac+3",
+      "niveau_experience": "Junior",
+      "competences": [
+        {"id_skill": 101, "nom_skill": "Python"},
+        {"id_skill": 104, "nom_skill": "Django"},
+        {"id_skill": 105, "nom_skill": "REST API"}
+      ],
+      "description": "Participation au développement d’applications web en Python avec Django.",
+      "localisation": "Rabat, Maroc",
+      "salaire": "10000 MAD",
+      "job_url": "https://www.indeed.com/viewjob?jk=abcdef12345"
+    },
+    {
+      "id_offre": 3,
+      "date_publication": "2025-07-20",
+      "source": "LinkedIn",
+      "type_contrat": "Stage",
+      "titre_poste": "Analyste Data Junior",
+      "compagnie": "Smart Analytics",
+      "niveau_etudes": "Bac+3",
+      "niveau_experience": "Junior",
+      "competences": [
+        {"id_skill": 106, "nom_skill": "Excel"},
+        {"id_skill": 107, "nom_skill": "Power BI"},
+        {"id_skill": 103, "nom_skill": "SQL"}
+      ],
+      "description": "Stage d’analyse de données, création de rapports et tableaux de bord.",
+      "localisation": "Casablanca, Maroc",
+      "salaire": "5000 MAD",
+      "job_url": "https://www.linkedin.com/jobs/view/0987654321"
+    }
+  ]
+
