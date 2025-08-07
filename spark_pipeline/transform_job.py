@@ -1,11 +1,12 @@
+import json
 import os
 import uuid
 from datetime import datetime
 
 from minio import Minio
-from pyspark.sql import DataFrame, SparkSession
+from pyspark.sql import DataFrame, Row, SparkSession
 from pyspark.sql.functions import col, split, trim, udf
-from pyspark.sql.types import StringType, StructField, StructType
+from pyspark.sql.types import ArrayType, StringType, StructField, StructType
 
 # -----------------------------------------------------------------------------------
 # INITIALISATION
@@ -23,7 +24,16 @@ global_schema = StructType(
         StructField("secteur", StringType(), True),
         StructField("niveau_etudes", StringType(), True),
         StructField("niveau_experience", StringType(), True),
-        StructField("competences", StringType(), True),
+        StructField(
+            "skills",
+            StructType(
+                [
+                    StructField("hard_skills", ArrayType(StringType()), nullable=True),
+                    StructField("soft_skills", ArrayType(StringType()), nullable=True),
+                ]
+            ),
+            nullable=True,
+        ),
     ]
 )
 
@@ -64,7 +74,7 @@ def configure_minio(spark: SparkSession):
 
 def list_valid_json_objects():
     """
-    Retourne les chemins valides des objets JSON présents dans le bucket MinIO 'webscraping'.
+    Retourne les chemins valides des objets JSON présents dans le bucket MinIO 'ner'.
     Seuls les fichiers .json dont la taille > 10 octets sont conservés.
     """
     client = Minio(
@@ -73,9 +83,9 @@ def list_valid_json_objects():
         secret_key=os.getenv("MINIO_ROOT_PASSWORD"),
         secure=False,
     )
-    objects = client.list_objects("webscraping", recursive=True)
+    objects = client.list_objects("ner", recursive=True)
     valid_paths = [
-        f"s3a://webscraping/{obj.object_name}"
+        f"s3a://ner/{obj.object_name}"
         for obj in objects
         if obj.object_name.endswith(".json") and obj.size > 10
     ]
@@ -98,7 +108,7 @@ def read_all_json_from_minio(spark: SparkSession, schema: StructType = global_sc
         print(f"   → {path}")
 
     df = spark.read.schema(global_schema).option("multiLine", True).json(valid_files)
-    print(f"10 first examples read: {df.show(10)}")
+
     return df
 
 
@@ -126,11 +136,44 @@ def normalize_date(date: str):
             ):  # if no year is found in date it defaults to 1900
                 parsed_date = parsed_date.replace(year=datetime.today().year)
 
-            return parsed_date.strftime("%d-%m-%Y")
+            return parsed_date.strftime("%Y-%m-%d")
         except ValueError:
             continue
     return None
 
+
+def flatten_skills_format(skill_col: Row):
+    """
+    Convertit les skills de l'ancien format groupé en liste d'objets avec 'nom' et 'type_skill'.
+    """
+    skills = skill_col.asDict()
+    print(f"-----------Column extracted {skills}")
+    if skills:
+        flat_skills = []
+        for skill_type_key in skills.keys():
+            print(f"-----------SKills types {skill_type_key}")
+
+            # Normalize skill_type_key
+            type_skill = "hard" if "hard" in skill_type_key else "soft"
+            for nom in skills[skill_type_key]:
+                if nom:
+                    flat_skills.append({"nom": nom, "type_skill": type_skill})
+
+        print(f"------------------------The parsed skills : {flat_skills}")
+    return flat_skills
+
+
+flatten_skills_udf = udf(
+    flatten_skills_format,
+    ArrayType(
+        StructType(
+            [
+                StructField("nom", StringType(), True),
+                StructField("type_skill", StringType(), True),
+            ]
+        )
+    ),
+)
 
 normalize_date_udf = udf(normalize_date, StringType())
 
@@ -153,8 +196,8 @@ def clean_data(df: DataFrame):
 
     # Renommage et nettoyage
     df = (
-        df.withColumnRenamed("companie", "compagnie")
-        .withColumnRenamed("competences", "skills")
+        df.dropDuplicates(["job_url"])
+        .withColumnRenamed("companie", "compagnie")
         .withColumnRenamed("publication_date", "date")
     )
 
@@ -170,15 +213,22 @@ def clean_data(df: DataFrame):
         print("⚠️ Colonne 'hard_skills' absente — elle sera ignorée.")
     # Modification des colonnes pour plus de clareté/format
     df = (
+        # formattage des colonnes secteur, etudes et experiences
         df.withColumn("secteur", split(col("secteur"), ",\\s*"))
         .withColumn("niveau_etudes", trim(col("niveau_etudes").cast(StringType())))
         .withColumn(
             "niveau_experience", trim(col("niveau_experience").cast(StringType()))
         )
+        .withColumnRenamed("via", "source")
+        # normalisation du format de date
         .withColumn("date", normalize_date_udf(col("date")))
-        .dropDuplicates(["job_url"])
+        .withColumnRenamed("date", "date_publication")
+        # changement des skills vers le format postgres
+        .withColumn("new_skills", flatten_skills_udf(col("skills")))
+        .drop(col("skills"))
+        .withColumnRenamed("new_skills", "skills")
     )
-    df.fillna("Unspecified")
+    df = df.fillna("Unspecified")
     print(f"✅ Nettoyage terminé. Dataframe a {df.count()} lignes")
     return df
 
@@ -199,7 +249,27 @@ def generate_output_filename():
     return f"processed_jobs_{today}_{file_id}.json"
 
 
-def save_locally(df, path="/tmp/cleaned_output"):
+def save_locally(df: DataFrame, path="/tmp"):
+    """
+    Sauvegarde le DataFrame nettoyé localement dans un fichier JSON unique (liste d'objets).
+    """
+    print(f"💾 Sauvegarde locale dans {path}")
+
+    # Convertir chaque ligne du DataFrame Spark en JSON (chaîne), puis parser en dict Python
+    rows = df.toJSON().collect()
+
+    parsed_data = [json.loads(row) for row in rows]
+
+    # S'assurer que le dossier parent existe
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    # Sauvegarde dans un fichier JSON unique
+    with open(os.path.join(path, "cleaned_output.json"), "w", encoding="utf-8") as f:
+        json.dump(parsed_data, f, ensure_ascii=False, indent=2)
+
+    return path
+
+
+def save_locally_2(df: DataFrame, path="/tmp/cleaned_output"):
     """
     Sauvegarde le DataFrame nettoyé localement en JSON (écrasement du dossier).
     """
@@ -210,11 +280,18 @@ def save_locally(df, path="/tmp/cleaned_output"):
 
 def find_json_in_folder(folder):
     """
-    Cherche le fichier JSON généré dans un dossier local donné.
+    Cherche le premier fichier .json dans un dossier donné.
+    Retourne None si le chemin n'est pas un dossier ou si aucun fichier .json n'est trouvé.
     """
+    if not os.path.isdir(folder):
+        print(f"❌ Le chemin fourni n'est pas un dossier valide : {folder}")
+        return None
+
     for f in os.listdir(folder):
         if f.endswith(".json"):
             return os.path.join(folder, f)
+
+    print(f"⚠️ Aucun fichier JSON trouvé dans : {folder}")
     return None
 
 
@@ -263,8 +340,8 @@ def main():
 
         df_cleaned = clean_data(df_raw)
         filename = generate_output_filename()
-        local_path = "/tmp/cleaned_output"
-        df_cleaned.show(100)
+        local_path = "/tmp"
+
         save_locally(df_cleaned, local_path)
         upload_to_minio(local_path, filename)
 

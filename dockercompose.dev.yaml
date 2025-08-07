@@ -36,6 +36,8 @@ services:
       - ./spark_pipeline:/app/spark_pipeline
       - output:/app/data_extraction/scraping_output
       - logs:/var/log
+      #These two last volumes are for running docker commands inside the container
+      - /usr/bin/docker:/usr/bin/docker
       - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .docker.env
@@ -43,7 +45,9 @@ services:
       - PYTHONPATH=/app
 
   flower:
-    image: app_worker
+    build:
+      context: ./celery_app
+      dockerfile: Dockerfile.flower
     container_name: flower_container
     ports:
       - "5555:5555"
@@ -52,9 +56,6 @@ services:
       - .docker.env
     volumes:
       - ./celery_app:/app/celery_app
-      - ./data_extraction/Websites:/app/data_extraction/Websites
-      - output:/app/data_extraction/scraping_output
-      - logs:/var/log
     depends_on:
       - redis
       - celery
@@ -113,16 +114,13 @@ services:
       timeout: 5s
       retries: 5
 
-
-
-      
   adminer:
     image: adminer
     container_name: adminer
     restart: always
     ports:
     - 8080:8080
-    
+
   spark_transform:
     build:
       context: ./spark_pipeline
@@ -136,21 +134,33 @@ services:
 
     env_file:
       - .docker.env
-   
-    
+
+  superset:
+    build:
+      context: ./superset
+      dockerfile: Dockerfile.superset
+    container_name: superset
+    ports:
+      - "8088:8088"
+    env_file:
+      - .docker.env
+    volumes:
+      - superset_home:/app/superset_home
+      - ./superset:/app/pythonpath
+    depends_on:
+      - postgres
+    command: ["/bin/bash", "/app/setup.sh"]
 
   pipeline_loader:
    build:
-    context: .
+    context: ./postgres
     dockerfile: Dockerfile.pipeline
    container_name: pipeline_loader
 
    volumes:
-    - ./Postgres:/app/Postgres
-   environment:
-      MINIO_API: minio:9000
-      MINIO_ROOT_USER: TEST
-      MINIO_ROOT_PASSWORD: 12345678
+    - ./postgres:/app/postgres
+   env_file:
+    - .docker.env
    depends_on:
     - postgres
     - minio
@@ -166,6 +176,15 @@ services:
     volumes:
       - ./prediction:/app/prediction
     command: ["python", "/app/prediction/init.py"]
+  enrechissement_processor:
+    build:
+      context: .
+      dockerfile: enrechissement_process/Dockerfile.enrechissement
+    container_name: enrechissement_processor
+    depends_on:
+      - minio
+    volumes:
+      - .:/app
     env_file:
       - .docker.env
     environment:
@@ -173,6 +192,19 @@ services:
 
 
   
+  skillner:
+    build:
+      context: ./skillner
+      dockerfile: Dockerfile.skillner
+    container_name: skillner_container
+    env_file:
+      - .docker.env
+    volumes:
+      - ./skillner:/app
+    depends_on:
+      - minio
+    restart: "no"
+
 volumes:
   redis_data:
   minio_data:

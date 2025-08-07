@@ -1,0 +1,18 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Installer gcc, python-dev, libpq-dev et nettoyer apt cache
+RUN apt-get update && \
+    apt-get install -y gcc python3-dev libpq-dev && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY postgres_requirements.txt .
+
+RUN pip install --no-cache-dir -r postgres_requirements.txt
+
+
+COPY . .
+
+
+CMD ["python", "load_offers.py"]
