@@ -1,7 +1,7 @@
 #!/bin/bash
 
 superset db upgrade
-
+superset re-encrypt-secrets
 # Création de l'utilisateur admin (ignorer l'erreur si déjà créé)
 superset fab create-admin \
     --username admin \

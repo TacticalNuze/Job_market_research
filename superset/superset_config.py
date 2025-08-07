@@ -1,10 +1,6 @@
 print("--- superset_config.py loaded successfully ---")
 
-# CACHE_CONFIG = {
-#    'CACHE_TYPE': 'null'
-# }
-CACHE_CONFIG = {"CACHE_TYPE": "SimpleCache", "CACHE_DEFAULT_TIMEOUT": 300}
-
+CACHE_CONFIG = {"CACHE_TYPE": "null"}
 
 FEATURE_FLAGS = {
     "ENABLE_EXPLORE_DRAG_AND_DROP": True,
