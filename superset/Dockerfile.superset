@@ -1,0 +1,19 @@
+FROM apache/superset:latest
+
+USER root
+
+
+RUN pip install psycopg2-binary
+
+COPY superset_config.py /app/pythonpath/superset_config.py
+COPY setup.sh /app/setup.sh
+RUN chmod +x /app/setup.sh
+
+RUN apt-get update && apt-get install -y dos2unix && \
+    dos2unix /app/setup.sh && \
+    chmod +x /app/setup.sh
+
+ENV SUPERSET_CONFIG_PATH=/app/pythonpath/superset_config.py
+ENV PYTHONPATH="/app/pythonpath:${PYTHONPATH}"
+
+USER superset
