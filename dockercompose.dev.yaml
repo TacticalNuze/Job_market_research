@@ -135,6 +135,21 @@ services:
     env_file:
       - .docker.env
 
+  superset:
+    build:
+      context: ./superset
+      dockerfile: Dockerfile.superset
+    container_name: superset
+    ports:
+      - "8088:8088"
+    env_file:
+      - .docker.env
+    volumes:
+      - superset_home:/app/superset_home
+      - ./superset:/app/pythonpath
+    depends_on:
+      - postgres
+    command: ["/bin/bash", "/app/setup.sh"]
 
   pipeline_loader:
    build:
