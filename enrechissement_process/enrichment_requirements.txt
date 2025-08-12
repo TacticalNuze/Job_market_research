@@ -1,0 +1,3 @@
+minio
+groq
+dotenv
