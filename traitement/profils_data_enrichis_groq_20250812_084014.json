@@ -1,0 +1,2210 @@
+[
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/data-analyst-bricoma-casablanca-ain-sebaa-8958600",
+    "date_publication": "2025-07-24",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Data Analyst",
+    "compagnie": "Bricoma",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre de notre développement, nous recherchons un(e) Data Analyst talentueux(se) et motivé(e) pour renforcer notre équipe BI. Vous interviendrez principalement sur la conception, le développement et la maintenance de solutions de Business Intelligence (Power BI), ainsi que sur la gestion et l’orchestration des flux de données via des outils ETL (SSIS, Talend). Vous serez un acteur clé dans la transformation des données en informations exploitables, contribuant ainsi à la prise de décision stratégique de l’entreprise. Vous travaillerez en étroite collaboration avec les équipes métier et IT pour répondre aux besoins analytiques. Missions principales Concevoir, développer et maintenir des rapports et...",
+    "skills": [
+      {
+        "nom": "BI",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Python",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Talend",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TensorFlow",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/developpeurse-odoo-crm-casablanca-8961750",
+    "date_publication": "2025-07-26",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Développeur(se) Odoo & CRM",
+    "compagnie": "CALLIOPE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre du renforcement de notre équipe technique, nous recherchons un(e) Développeur(se) Odoo & CRM . Vous serez chargé(e) de concevoir, personnaliser et maintenir des solutions basées sur Odoo (versions13 à17), en étroite collaboration avec les équipes métiers et les clients. Vos missions : Analyse des besoins Comprendre les besoins fonctionnels des utilisateurs et proposer des solutions efficaces et adaptées dans Odoo. Développement et personnalisation Concevoir et développer de nouveaux modules, ou adapter ceux existants (front-end et back-end) selon les exigences fonctionnelles. Intégration de systèmes Assurer l’interconnexion d’Odoo avec d’autres outils et systèmes",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SOAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/chef-projet-odoo-crm-casablanca-8961772",
+    "date_publication": "2025-07-26",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Chef de Projet Odoo & CRM",
+    "compagnie": "Calliope",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Master",
+    "niveau_experience": "senior",
+    "description": "Dans le cadre de notre développement, nous recherchons un(e) Chef de Projet Odoo & CRM pour piloter la mise en œuvre, l’évolution et la maintenance des solutions ERP Odoo et CRM, en interne ou pour nos clients. Véritable chef d’orchestre, vous jouerez un rôle central dans la conduite de projets digitaux, en assurant la coordination entre les équipes métiers, techniques et partenaires externes. Vos principales responsabilités : Analyse des besoins Recueillir et formaliser les besoins des utilisateurs (finance, ventes, achats, RH, logistique...). Gestion de projet Piloter la mise en œuvre ou la migration vers Odoo (v14 à v17) : définition des roadmaps, plannings, budgets, ressources et suivi d’…",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Coordination d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/aws-solutions-architect-mf-8251961",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AWS Solutions Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AWS Solutions Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Design a robust, secure and optimized AWS architecture to implement large scale enterprise data solutions and applications. Develop and deliver AWS Cloud solutions in areas such as AIML, advanced analytics, microservices, serverless, etc. Build highly scalable, Cloud-native applications on AWS platform using services like API Gateway, Lambda, SQS, DynamoDB and ECS. Implement and manage KuberNetes environments. Ensure configuration and compliance with configuration management tools. Administer and troubleshoot Linux based...",
+    "skills": [
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BIG DATA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CENTOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DMS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HADOOP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTTP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "RDS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SPARK",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TALEND",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/java-jee-developer-mf-8251945",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "JAVA JEE Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Développeur JAVA JEE expérimenté pour travailler sur des projets de développement logiciel. Missions: développement, conception, test et assurance qualité de fonctionnalités complexes. Analyse des exigences clients et production de propositions techniques.",
+    "skills": [
+      {
+        "nom": "JAVA JEE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MySQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Agile",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JavaScript",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML/CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Spring",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Hibernate",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "J2EE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JBoss",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Jenkins",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maven",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Docker",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Initiative",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-architect-mf-8251963",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons des profils de Cloud Architect pour partager avec nos clients pour leurs futures campagnes de recrutement. La mission consiste à mener des analyses, des recommandations et des présentations d'approches sur les feuille de route de migration vers le cloud, l'architecture/conception, etc. Impliqué dans la conduite d'évaluations et d'évaluations de l'état de préparation d'Azure et la fourniture de rapports d'évaluation, de documents d'architecture/conception/déploiement et de présentations. Concevoir des solutions Cloud pour de nouvelles applications. Concevoir des architectures, des environnements et des solutions Cloud qui répondent aux exigences métier avec un accent sur la satisfaction des objectifs métier globaux. Concevoir des solutions hautement disponibles, évolutives et sécurisées en utilisant...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "C#",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COSMOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PAAS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "VM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Leadership",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/aws-cloud-architect-mf-8251960",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AWS Cloud Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Informatique - Cloud Computing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AWS Cloud Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Support and advise clients in the adoption and deployment of AWS services (IT Strategy, Opportunity Study, Audit, Framework and Roadmap). Design solution platforms integrating AWS reference services (Serverless Architecture, Analytics, IoT, EKS, ...) in Native Cloud and Hybrid Cloud contexts. Conduct research, tests, and execute new techniques which could be reused and applied to the project. Accountable for designing, building, and optimizing automation systems that help to execute business web and data infrastructure platforms.",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "ALM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BASH",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTTP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "IOT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JENKINS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LOAD BALANCING",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PUPPET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REACT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "SSL",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-engineer-mf-8251965",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Engineer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Engineer profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Implement IAM policies and configure VPCs to create a scalable and secure Network for the application workloads. Develop and manage AWS development and migration programs. Build Data Integration scripts using Python to integrate with upstream/downstream systems (within AWS Cloud Services ecosystem). Develop application code for programs while following coding standards. Resolve queries/issues and provide Application/functional support. Recommend changes to improve established Data Integration processes.",
+    "skills": [
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BGP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "IAM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PUPPET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "RDS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/network-architect-mf-8251973",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Network Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information et communication",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Network Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Deliver Core Backbone Network Designs in alignment with industry best practices. Deliver Customer Network Designs in alignment with industry best practices. Support and Alignment with Internal Teams. Contributor to Automation Stakeholders to deliver speed and accuracy for the enablement of new services. Perform Core Network Changes. Manage technical Network solutions and framework of [24]7 Network infrastructure. Perform Network troubleshooting to isolate and diagnose common Network problems. Upgrade Network hardware and software components as required...",
+    "skills": [
+      {
+        "nom": "BGP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CISCO",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DHCP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DNS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ETHERNET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JUNIPER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MPLS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SNMP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TCP IP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "WAN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/responsable-infrastructure-securite-si-casablanca-8948525",
+    "date_publication": "2025-07-16",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Responsable Infrastructure et Sécurité SI",
+    "compagnie": "VISION BUSINESS CONSULTING",
+    "secteur": "Informatique et Sécurité",
+    "niveau_etudes": "Bac+5 et plus",
+    "niveau_experience": "senior",
+    "description": "Nous recherchons un(e) Responsable Infrastructure et Sécurité SI expérimenté(e) pour accompagner notre client français pour une mission en CDI. En tant que Responsable Infrastructure et Sécurité, vous êtes le pilier garant de la robustesse, de la performance et de l'inviolabilité de notre système d'information. Rattaché(e) à la Direction des Systèmes d'Information (DSI), vous pilotez la stratégie de sécurité, managez une équipe technique et supervisez l'ensemble des projets d'infrastructure tout en accompagnant la transformation numérique de l’organisation dans un cadre de conformité réglementaire et de gouvernance IT renforcée. Vous jouerez un rôle clé en articulant vos...",
+    "skills": [
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Sécurité informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Stratégie de sécurité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Transformation numérique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/datastage-architect-mf-8251971",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "DATASTAGE Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for DATASTAGE Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Define and supervise all activities within your scope by using and optimising the resources allocated. Control the implementation of the activities under your responsibility and report on the results. Responsible for the level of service quality, compliance with standards and the level of safety within the assigned perimeter. Supervise and monitor of assigned projects (monitoring of workloads, definition of deadlines and delivery milestones, identification of deliverables and work to be carried out, task planning, monitoring of work, management of corrective measures,...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DATASTAGE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "INFORMATICA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "J2EE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ORACLE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TALEND",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/php-developer-mf-8251951",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "PHP Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement Web",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for PHP Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Writing clean, fast code PHP to a high standard, in a timely and scalable way. Design E-Commerce websites and Dashboards using PHP, and Strong Knowledge on Integrations Like, Payment gateway, APi s etc. Establishing and guiding the website s architecture. Conducting analysis of website and application requirements. Writing back-end code and building efficient PHP modules. Developing back-end portals with an optimized database. Updating and altering application features to enhance performance. Helping formulate an effective, responsive design and turning it...",
+    "skills": [
+      {
+        "nom": "AJAX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CODEIGNITER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS3",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LARAVEL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MAGENTO",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MERCURIAL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ORACLE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SYMFONY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ZEND",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-microservices-architect-mf-8251966",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Microservices Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Microservices Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Design, build, and maintain Cloud environments focusing on uptime, access, control, and Network security using automation and configuration management tools. Guide the definition of best practices in collaboration with other areas of engineering group. Research and provide guidance on adoption of new technologies. Provide guidance to Product Managers on feasibility pf product requests. You will be creating, recreating, rewriting and refactor applications. You will be working on Cloud-based application development...",
+    "skills": [
+      {
+        "nom": "ACCESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/nodejs-developer-mf-8251949",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "NODE.JS Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for NODE.JS Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Design and develop business logic and backend services for full-scale applications. Be responsible for designing, coding, testing, and implementing web applications. Write scalable, robust, testable, efficient, and easily maintainable code for our online comparison calculators and internal tools. Be responsible for system design and application development of web applications. Documenting Node.js processes, including database schemas, as well as preparing reports. Design and implementation of low-latency, high-availability, and high-performance applications...",
+    "skills": [
+      {
+        "nom": "NODE JS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JSON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MONGODB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "POSTGRESQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REACT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDIS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "XML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "BOOTSTRAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS3",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JQUERY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JIRA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Work in team",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Problem solving",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-system-administrator-mf-8251967",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud System Administrator",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud System Administrator profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Installing, configuring and maintain softwares, servers (on premise / Cloud), Networks and firewalls . Overseeing/troubleshoot system performance, troubleshooting issues and outages Creating a backup and safeguarding the data(on premise / Cloud) if there are any hindrances Performing system upgrades following new releases. Ensuring/Sustaining Network integrity, server deployment, security and efficiency of IT infrastructure . Monitoring and maintaining Network servers such as file servers, VPN gateways and intrusion detection systems...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CENTOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PERL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PREMISE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PYTHON",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDHAT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "VPN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "WAN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de réseaux",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Administration système",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Dépannage",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/laravel-developer-mf-8251948",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "LARAVEL Developer (M/F)",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement Web",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for LARAVEL Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Develop, test, and maintain applications to specified designs & standards in Laravel. Develop & implement modern web services using service-oriented architecture, RESTful APIs, and SOAP. Write and execute unit tests. Implement front-end interfaces & experiences with modern HTML/CSS/jQuery. Test, troubleshoot, and optimize application components for maximum speed, security, stability and scalability. Developing and maintaining dynamic websites and web applications. Develop and deploy new features to facilitate related procedures and tools if...",
+    "skills": [
+      {
+        "nom": "AJAX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CODEIGNITER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVASCRIPT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JQUERY",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LARAVEL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MARIADB",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MVC",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "NOSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SOAP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TFS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/objective-c-developer-mf-8251950",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "OBJECTIVE-C Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Conception et construction d'applications avancées pour la plate-forme iOS. Analyse des exigences métier des clients et de l'expérience utilisateur pour façonner, concevoir et créer des expériences mobiles personnalisées pour les clients. Collaboration avec des équipes transversales pour définir, concevoir et déployer de nouvelles fonctionnalités. Garantir les performances, la qualité et la réactivité des applications.",
+    "skills": [
+      {
+        "nom": "Objective-C",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "iOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Cocoa",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Git",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Swift",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JavaScript",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "HTML",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CSS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Collaboration",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Analyse",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/qa-tester-mf-8251953",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "QA Tester",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for QA Tester profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Work on tasks identified in the testing strategy and plan. Be responsible for the accurate recording of defects and the collation of metrics and KPI information for reporting purposes. Articulation of defects in detailed manner, assigning defects to technical teams, capturing target fix dates. Identifie the tasks and resources needed to ensure that their specific portion of the testing process meets software quality requirements prior to release into a live environment. Establish the testing process such as test automation, performance testing, testing process, test...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "API",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "APP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "JAVA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MAVEN",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MYSQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SELENIUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/swift-developer-mf-8251956",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD",
+    "titre": "SWIFT Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "Développeur SWIFT pour développer et maintenir des applications iOS et OS X, avec 5-10 ans d'expérience, travaillant en Agile/SCRUM, maîtrise de GIT, MERCURIAL, REST, CVS, et SWIFT.",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "MERCURIAL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REST",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SCRUM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SWIFT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/azure-solutions-architect-mf-8251962",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "AZURE Solutions Architect",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Informatique",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for AZURE Solutions Architect profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Serve as in-house technical expert providing technical guidance on new features & functionalities, drive the deployment of the customers workloads into Azure and provide deployment guidance. Deliver Cloud platform architecture documents detailing the vision for how Azure infrastructure and platform services support the overall application architecture. Proven background in the design and implementation of large scale, global, complex custom application development systems (e.g., high transaction volumes). Experience problem solving...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ACCESS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "ARM",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COSMOS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "PAAS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "REDIS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SHELL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SQL",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Problem solving",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/cloud-computing-virtualization-engineer-mf-8251964",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI",
+    "titre": "Cloud Computing and Virtualization Engineer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Cloud Computing",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for Cloud Computing and Virtualization Engineer profiles / CVs to share with our clients for their future recruitment campaigns. Mission: Must be able to work independently and take ownership. Work proactively and should be result oriented. Discuss with customer to understand the project requirement and suggest industry level Cloud solutions. Design and develop best fit Cloud solutions architecture, Network architecture and evaluate architectural alternatives. Provide technical support for Cloud architecture design, deployment and maintenance. Design secure, scalable and HA / DR strategies on Cloud technologies. Analyse and resolve...",
+    "skills": [
+      {
+        "nom": "AZURE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "DOCKER",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "LINUX",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail indépendant",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Orientation résultats",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication avec les clients",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.emploi.ma/offre-emploi-maroc/ios-developer-mf-8251943",
+    "date_publication": "2025-06-04",
+    "source": "emploi.ma",
+    "contrat": "CDI/CDD/Freelance",
+    "titre": "IOS Developer",
+    "compagnie": "AFRICASHORE",
+    "secteur": "Développement logiciel",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "senior",
+    "description": "We are looking for iOS Developer profiles / CVs to pass on to our clients for their future recruitment campaigns. Mission: Implement, develop, and fix code according to corporate coding standards. Design and build advanced applications for the iOS platform. IOS Developer, who is responsible for App development with quality and by following the best practices. Ability to write scalable and maintainable code. Coordinate with other team members to ensure that all TMs are in sync. Be self-starter and goal-oriented with strong analytical and problem-solving skills. Ability to work cooperatively within a strong diverse technical community to expedite development tasks. Collaborate...",
+    "skills": [
+      {
+        "nom": "AGILE",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "APP",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "COCOA",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "CVS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "FOUNDATION",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "GIT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "SWIFT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "TMS",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse et résolution de problèmes",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10188087/Full-Stack-NET-Developer.html",
+    "date_publication": "1900-08-06",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Full-Stack .NET Developer",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac + 2",
+    "niveau_experience": "junior",
+    "description": "Développeur Full-Stack .NET expérimenté pour rejoindre notre équipe à Casablanca",
+    "skills": [
+      {
+        "nom": ".NET",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Développement Web",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10195798/Gestionnaire-de-Base-de-Donn%C3%A9es-%E2%80%93-Nouveau-magasin.html",
+    "date_publication": "1900-08-06",
+    "source": "Maroc_annonces",
+    "contrat": "CDI/CDD/Stage/Freelance à discuter",
+    "titre": "Gestionnaire de Base de Données",
+    "compagnie": "Non spécifiée",
+    "secteur": "Grande Distribution",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Gestionnaire de Base de Données – Nouveau magasin - Tout le Maroc",
+    "skills": [
+      {
+        "nom": "Gestion de base de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10169064/Data-analyst-casablanca.html",
+    "date_publication": "1900-08-05",
+    "source": "Maroc_annonces",
+    "contrat": "CDI/CDD/Stage/Freelance à discuter",
+    "titre": "Data analyst",
+    "compagnie": "Non spécifiée",
+    "secteur": "Analyse de données",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Data analyst à Casablanca, mission non spécifiée",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187181/DATA-ANALYST-(exp%C3%A9rience-dans-le-secteur-bancaire).html",
+    "date_publication": "1900-08-04",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "DATA ANALYST",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "senior",
+    "description": "DATA ANALYST avec expérience dans le secteur bancaire à Casablanca",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Finance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bancaire",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187195/Responsable-paie-%E2%80%93-secteur-int%C3%A9rim-casablanca.html",
+    "date_publication": "1900-07-31",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Responsable paie",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "senior",
+    "description": "Responsable paie – secteur intérim / casablanca, CDI, salaire: 6000 - 8000 DH",
+    "skills": [
+      {
+        "nom": "Gestion de la paie",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Ressources humaines",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10187846/Stagiaire-traffic-manager-casablanca.html",
+    "date_publication": "1900-07-25",
+    "source": "Maroc_annonces",
+    "contrat": "Stage",
+    "titre": "Stagiaire traffic manager",
+    "compagnie": "Non spécifiée",
+    "secteur": "Marketing / Communication / Publicité / Rp",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Stagiaire traffic manager à Casablanca, possibilité de discuter du salaire",
+    "skills": [
+      {
+        "nom": "Gestion de trafic",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Marketing digital",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Organisation",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10166808/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-26",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura, région de Bouskoura, contrat intérimaire.",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Résolution de problèmes",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10165073/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-24",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10164203/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-23",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Maintenance / Entretien",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura, région de Bouskoura, contrat interim, salaire à discuter",
+    "skills": [
+      {
+        "nom": "Maintenance",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10162230/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-20",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center à Bouskoura, gestion et maintenance de data center",
+    "skills": [
+      {
+        "nom": "Gestion de data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10161371/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-19",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10122369/%C3%A9lectriciens-data-stewards-(hf)-casablanca.html",
+    "date_publication": "1900-06-18",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "électriciens - data stewards (h/f)",
+    "compagnie": "Non spécifiée",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Offre d'emploi pour des électriciens - data stewards (h/f) à Casablanca",
+    "skills": [
+      {
+        "nom": "Électricité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data stewardship",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10159616/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-17",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Systèmes et réseaux",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura, mission intérimaire, région Bouskoura, salaire à discuter.",
+    "skills": [
+      {
+        "nom": "Gestion de Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10155072/Veilleur-strat%C3%A9gique-rabat.html",
+    "date_publication": "1900-06-11",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Veilleur stratégique",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Veilleur stratégique basé à Rabat, mission principale : analyser et anticiper les menaces et opportunités stratégiques pour l'entreprise",
+    "skills": [
+      {
+        "nom": "Analyse stratégique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Veille concurrentielle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Gestion du temps",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10150685/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-03",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Data Center",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center à Bouskoura, gestion et maintenance de data center",
+    "skills": [
+      {
+        "nom": "Gestion de data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10148024/Technicien-en-eelectricit%C3%A9-bouskoura.html",
+    "date_publication": "1900-06-03",
+    "source": "Maroc_annonces",
+    "contrat": "Intérim",
+    "titre": "Technicien en eelectricité",
+    "compagnie": "Domino Hr MOROCCO",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien en eelectricité - Bouskoura, salaire maximum 3500 MAD net (panier et transport inclus)",
+    "skills": [
+      {
+        "nom": "Électricité",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Technicien",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10149645/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-06-02",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center Bouskoura",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ingénierie - Electro-tech./Automat",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura - Casablanca, Interim, A discuter",
+    "skills": [
+      {
+        "nom": "Technicien multi-technique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Electro-tech",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Automat",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10148037/Technicien-multi-technique-Data-Center-Bouskoura.html",
+    "date_publication": "1900-05-30",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Technicien multi-technique Data Center",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique et télécommunications",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Technicien multi-technique Data Center Bouskoura",
+    "skills": [
+      {
+        "nom": "Technicien data center",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Maintenance informatique",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10143247/Developpeurs-rabat.html",
+    "date_publication": "1900-05-23",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Developpeurs",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Développeurs à Rabat, secteur Informatique / Multimédia / Internet",
+    "skills": [
+      {
+        "nom": "Développement Hardware",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Informatique",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10119641/Hr-assistant-tanger.html",
+    "date_publication": "1900-05-16",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Hr assistant",
+    "compagnie": "Non spécifiée",
+    "secteur": "Ressources Humaines",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Hr assistant basé à Tanger, secteur Ressources Humaines, avec un salaire entre 4000 et 6000 DH.",
+    "skills": [
+      {
+        "nom": "Gestion des ressources humaines",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10112397/Contr%C3%B4leur-De-Caisse-Permanant-Casablanca.html",
+    "date_publication": "1900-04-12",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Contrôleur De Caisse Permanant",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur De Caisse sur la ville de Casablanca. Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10097857/Ing%C3%A9nieur-data-scientist-junior-casablanca.html",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Ingénieur data scientist junior",
+    "compagnie": "Non spécifiée",
+    "secteur": "Technologie de l'information",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "junior",
+    "description": "Ingénieur data scientist junior à Casablanca",
+    "skills": [
+      {
+        "nom": "Data Science",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Programmation",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10100445/Contr%C3%B4leur-de-caisse-(-Homme-)-AGADIR.html",
+    "date_publication": "1900-03-25",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "Contrôleur de caisse (Homme) - AGADIR",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur De Caisse sur la région SOUSS MASSA ( AGADIR ). Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10094691/CONTROLEUR-PERMANANT-MARRAKECH.html",
+    "date_publication": "1900-03-15",
+    "source": "Maroc_annonces",
+    "contrat": "Interim",
+    "titre": "CONTROLEUR PERMANANT",
+    "compagnie": "Non spécifiée",
+    "secteur": "Banque / Finance / Assurance",
+    "niveau_etudes": "Bac+3",
+    "niveau_experience": "junior",
+    "description": "Nous recrutons pour le compte de notre client opérant dans le secteur bancaire un Contrôleur Permanent sur la ville de Casab Marrakech. Maintenir à jour le système de contrôle interne de l'entreprise et renforcer son efficacité, Mettre en place des outils et indicateurs de suivi d'efficacité du dispositif de contrôle interne, Contrôler les résultats du secteur de la caisse, détecter les anomalies et les écarts, Sensibiliser les opérationnels sur les anomalies détectées lors des contrôles, Consolider la base des incidents, Contribuer à la rédaction des rapports à destination des instances externes de contrôle, Contrôler la conformité des justificatifs de paiement par rapport aux procédures, Analyse et traitement quotidien des alertes de filtrage des opérations à l’international tout en veillant au respect des embargos commerciaux et financiers internationaux, Analyse et traitement quotidien des alertes de filtrage des Personnes Politiquement Exposées (PPE) et les personnes listées (Sanctions internationales), Extraction, analyse et traitement quotidien des alertes LAB-FT générées par l’outil de profilage et de surveillance des opérations SIRON AML, les requêtes préconfigurées DATA WAREHOUSE, Remonter à la direction les informations du secteur, Faire évoluer l’organisation et les procédures.",
+    "skills": [
+      {
+        "nom": "Maîtrise des méthodes et outils du contrôle interne",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Bonnes connaissances de la réglementation bancaire et des techniques du contrôle",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Autonomie",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Rigueur",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Esprit de synthèse",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Réactivité et respect des délais",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10087726/TETOUAN,-Factory-Planner-Intern-(for-Graduates).html",
+    "date_publication": "1900-03-04",
+    "source": "Maroc_annonces",
+    "contrat": "Stage",
+    "titre": "Factory Planner Intern (for Graduates)",
+    "compagnie": "Non spécifiée",
+    "secteur": "Industrie / Ingénierie / Energie",
+    "niveau_etudes": "Bac",
+    "niveau_experience": "junior",
+    "description": "Stage de Factory Planner pour les diplômés",
+    "skills": [
+      {
+        "nom": "Planification de production",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Gestion de projet",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Travail d'équipe",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10085975/Data-analyst.html",
+    "date_publication": "1900-02-28",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "Data analyst",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique - Systèmes d'Information",
+    "niveau_etudes": "Licence",
+    "niveau_experience": "junior",
+    "description": "Data analyst - Tetouan, CDI, secteur Informatique - Systèmes d'Information",
+    "skills": [
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Systèmes d'information",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Problème-solving",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/categorie/309/Offres-emploi/annonce/10083483/IOT-Data-Engineer-Developper.html",
+    "date_publication": "1900-02-25",
+    "source": "Maroc_annonces",
+    "contrat": "CDI",
+    "titre": "IOT Data Engineer / Developper",
+    "compagnie": "Non spécifiée",
+    "secteur": "Informatique / Multimédia / Internet",
+    "niveau_etudes": "Bac + 2",
+    "niveau_experience": "junior",
+    "description": "Développeur IOT Data Engineer à Kénitra, CDI, salaire plus de 10 000 DH",
+    "skills": [
+      {
+        "nom": "Développement IOT",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Data Engineering",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Analyse de données",
+        "type_skill": "hard"
+      },
+      {
+        "nom": "Travail en équipe",
+        "type_skill": "soft"
+      },
+      {
+        "nom": "Communication",
+        "type_skill": "soft"
+      }
+    ]
+  },
+  {
+    "job_url": "https://www.marocannonces.com/index.php?a=2&b=10069332",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "Non spécifié",
+    "titre": "Non spécifié",
+    "compagnie": "Non spécifiée",
+    "secteur": "Non spécifié",
+    "niveau_etudes": "Non spécifié",
+    "niveau_experience": "Non spécifié",
+    "description": "Aucune description disponible",
+    "skills": []
+  },
+  {
+    "job_url": "https://www.marocannonces.com/index.php?a=2&b=10019582",
+    "date_publication": "Non spécifiée",
+    "source": "Maroc_annonces",
+    "contrat": "Non spécifié",
+    "titre": "Non spécifié",
+    "compagnie": "Non spécifiée",
+    "secteur": "Non spécifié",
+    "niveau_etudes": "Non spécifié",
+    "niveau_experience": "Non spécifié",
+    "description": "Aucune description disponible",
+    "skills": []
+  }
+]

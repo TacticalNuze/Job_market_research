@@ -35,8 +35,8 @@ FORMAT JSON EXACT:
   "titre": "TITRE_POSTE",
   "compagnie": "NOM_ENTREPRISE",
   "secteur": "SECTEUR_ACTIVITE",
-  "niveau_etudes": "Bac/Licence/Master/Doctorat",
-  "niveau_experience": "junior/senior/expert",
+  "niveau_etudes": "Bac/Master/Doctorat",
+  "niveau_experience": "0 a 2 / 2 a 5 / 5 ans et plus",
   "description": "DESCRIPTION_COMPLETE",
   "skills": [
     {"nom": "Compétence1", "type_skill": "hard"},

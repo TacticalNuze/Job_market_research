@@ -15,11 +15,11 @@ def connect():
     Établit une connexion PostgreSQL.
     """
     return psycopg2.connect(
-        user="root",
-        password="123456",
-        host="postgres",
-        database="offers",
-        port=5432
+        user=os.environ.get("POSTGRES_USER"),
+        password=os.environ.get("POSTGRES_PASSWORD"),
+        host=os.environ.get("POSTGRES_HOST"),
+        database=os.environ.get("POSTGRES_DB", "postgres"),
+        port=os.environ.get("POSTGRES_PORT", 5432
     )
 
 
