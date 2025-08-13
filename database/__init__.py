@@ -1,4 +1,6 @@
+import json
 import os
+from io import BytesIO
 
 from minio import Minio, S3Error
 
@@ -87,3 +89,39 @@ def scraping_upload(scraping_dir="/app/data_extraction/scraping_output"):
 
     except Exception as e:
         print(f"Couldn't list the files in the scraping folder:{e}")
+
+
+def upload_list_to_minio(
+    data_list: list, bucket_name="webscraping", object_name="new_offers.json"
+):
+    """
+    Uploads a Python list to MinIO directly from memory.
+    """
+    try:
+        client = start_client()
+    except Exception as e:
+        print(f"Couldn't start client connection to Minio: {e}")
+
+    # Ensure bucket exists
+    found = client.bucket_exists(bucket_name)
+    if not found:
+        client.make_bucket(bucket_name)
+
+    # Convert Python list to JSON string and then bytes
+
+    json_bytes = json.dumps(data_list, ensure_ascii=False).encode("utf-8")
+
+    # Wrap in BytesIO so MinIO can read like a file
+    data_stream = BytesIO(json_bytes)
+
+    # Upload directly
+    client.put_object(
+        bucket_name,
+        object_name,
+        data_stream,
+        length=len(json_bytes),
+        content_type="application/json",
+    )
+
+    print(f"Uploaded {object_name} to bucket {bucket_name}")
+    return None

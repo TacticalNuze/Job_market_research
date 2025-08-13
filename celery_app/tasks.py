@@ -7,7 +7,7 @@ from docker.types import LogConfig
 from dotenv import load_dotenv
 
 from data_extraction.Websites import MarocAnn, Rekrute, bayt, emploi
-from database import scraping_upload
+from database import scraping_upload, upload_list_to_minio
 
 # from skillner.skillner_logic import skillner_extract_and_upload
 
@@ -18,41 +18,62 @@ celery_app.config_from_object("celery_app.celeryconfig")
 # 🚀 Tâches de scraping
 
 
+@shared_task(name="direct_upload")
+def direct_upload(
+    new_data: list, bucket_name="webscraping", object_name="new_offers.json"
+):
+    """Directly upload a list to minio as a json object without making a local copy beforehand, useful for uploading temporary files"""
+    if new_data is not None:
+        try:
+            upload_list_to_minio(new_data, bucket_name, object_name)
+            print(f"Successfully uploaded -{object_name}- to -{bucket_name}-")
+
+        except Exception as e:
+            print(f"Couldn't upload the file directly to MinIO : {e} ")
+    else:
+        print("No new offers to upload, continuing")
+
+
 @shared_task(name="rekrute", bind=True, max_retries=3, default_retry_delay=5)
-def rekrute_task(self):
+def rekrute_task(self, new_offers: list):
     try:
         print("Appel du script rekrute")
-        return Rekrute.main()
+        new_offers.extend(Rekrute.main())
+        return new_offers
+
     except Exception as e:
         print(f"Exception lors de l'execution du script rekrute: {e}")
         raise self.retry(exc=e)
 
 
 @shared_task(name="bayt", bind=True, max_retries=3, default_retry_delay=5)
-def bayt_task(self):
+def bayt_task(self, new_offers: list):
     try:
         print("Appel du script bayt")
-        return bayt.main()
+        new_offers.extend(bayt.main())
+        return new_offers
     except Exception as e:
         print(f"Exception lors de l'execution du script bayt: {e}")
         raise self.retry(exc=e)
 
 
 @shared_task(name="marocannonce", bind=True, max_retries=3, default_retry_delay=5)
-def marocann_task(self):
+def marocann_task(self, new_offers: list):
     try:
         print("Appel du script maroc annonces")
-        return MarocAnn.main()
+        new_offers.extend(MarocAnn.main())
+        return new_offers
     except Exception as e:
         print(f"Exception lors de l'execution du script marocann: {e}")
         raise self.retry(exc=e)
 
 
 @shared_task(name="emploi", bind=True, max_retries=3, default_retry_delay=5)
-def emploi_task(self):
+def emploi_task(self, new_offers: list):
     try:
         print("Appel du script emploi")
-        return emploi.main()
+        new_offers.extend(emploi.main())
+        return new_offers
     except Exception as e:
         print(f"Exception lors de l'execution du script emploi: {e}")
         raise self.retry(exc=e)
@@ -114,6 +135,58 @@ def skillner_ner():
         return "Finished NER task"
     else:
         return "No logs for skillner build"
+
+
+## celery for enrechissement_process
+@shared_task(name="enrichment_process")
+def enrichment_process():
+    client = docker.from_env()
+    load_dotenv(".docker.env")
+
+    try:
+        print("📦 Récupération de l'image enrechissement_processor...")
+        enrechissement_image = client.images.get(
+            "job_analytics_app-enrechissement_processor"
+        )
+    except dock_errors.ImageNotFound as e:
+        print(f"⚠️ Image non trouvée, création en cours : {e}")
+        enrechissement_image, build_logs = client.images.build(
+            path="/app/enrechissement_process",
+            dockerfile="Dockerfile.enrechissement",
+            tag="job_analytics_app-enrechissement_processor",
+        )
+
+    try:
+        container = client.containers.run(
+            image="job_analytics_app-enrechissement_processor",
+            name="enrechissement_process_temp",
+            command="python main_enrechissement_pipeline.py",
+            volumes={
+                os.getcwd(): {"bind": "/app", "mode": "rw"},
+                "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
+            },
+            network="job_analytics_app_default",
+            environment={
+                "GROQ_API_KEY": os.getenv("GROQ_API_KEY"),
+                "MINIO_API": os.getenv("MINIO_API"),
+                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
+                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
+                "PYTHONPATH": "/app",
+            },
+            log_config=LogConfig(
+                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
+            ),
+            detach=True,
+            remove=True,
+        )
+    except docker.errors.APIError as e:
+        return f"❌ Erreur lors du lancement du conteneur d’enrichissement : {str(e)}"
+
+    exit_status = container.wait()
+    if exit_status:
+        logs = container.logs(stdout=True, stderr=True).decode("utf-8")
+        print(logs)
+        return "✅ Enrichissement Groq terminé"
 
 
 @shared_task(name="spark_cleaning")
@@ -219,9 +292,11 @@ def pipeline_loader():
 
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
-    scraping_tasks = chain(emploi_task.si() | rekrute_task.si() | marocann_task.si())
+    scraping_group = chain(emploi_task.si([]) | rekrute_task.s() | marocann_task.s())
+
     workflow = chain(
-        scraping_tasks
+        scraping_group
+        | direct_upload.s()
         | scrape_upload.si()
         | skillner_ner.si()
         | spark_cleaning.si()
@@ -231,56 +306,7 @@ def scraping_workflow():
 
 
 ##celery for enrechissement_process
-## celery for enrechissement_process
-@shared_task(name="enrichment_process")
-def enrichment_process():
-    client = docker.from_env()
-    load_dotenv(".docker.env")
 
-    try:
-        print("📦 Récupération de l'image enrechissement_processor...")
-        enrechissement_image = client.images.get("job_analytics_app-enrechissement_processor")
-    except dock_errors.ImageNotFound as e:
-        print(f"⚠️ Image non trouvée, création en cours : {e}")
-        enrechissement_image, build_logs = client.images.build(
-            path="/app/enrechissement_process",
-            dockerfile="Dockerfile.enrechissement",
-            tag="job_analytics_app-enrechissement_processor",
-        )
-
-    try:
-        container = client.containers.run(
-            image="job_analytics_app-enrechissement_processor",
-            name="enrechissement_process_temp",
-            command="python main_enrechissement_pipeline.py",
-            volumes={
-                os.getcwd(): {"bind": "/app", "mode": "rw"},
-                "/var/run/docker.sock": {"bind": "/var/run/docker.sock", "mode": "rw"},
-            },
-            network="job_analytics_app_default",
-            environment={
-                "GROQ_API_KEY": os.getenv("GROQ_API_KEY"),
-                "MINIO_API": os.getenv("MINIO_API"),
-                "MINIO_ROOT_USER": os.getenv("MINIO_ROOT_USER"),
-                "MINIO_ROOT_PASSWORD": os.getenv("MINIO_ROOT_PASSWORD"),
-                "PYTHONPATH": "/app",
-            },
-            log_config=LogConfig(
-                type=LogConfig.types.JSON, config={"max-size": "10m", "max-file": "3"}
-            ),
-            detach=True,
-            remove=True,
-        )
-    except docker.errors.APIError as e:
-        return f"❌ Erreur lors du lancement du conteneur d’enrichissement : {str(e)}"
-
-    exit_status = container.wait()
-    logs = container.logs(stdout=True, stderr=True).decode("utf-8")
-    print(logs)
-    return "✅ Enrichissement Groq terminé"
-
-    
-    
 
 if __name__ == "__main__":
     print("You launched the task.py script")
