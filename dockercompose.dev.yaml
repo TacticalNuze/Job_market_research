@@ -205,6 +205,18 @@ services:
       - minio
     restart: "no"
 
+  prediction:
+    build:
+      context: ./prediction
+      dockerfile: Dockerfile.prediction
+    container_name: prediction_container
+    depends_on:
+      - postgres
+    volumes:
+      - ./prediction:/app/prediction
+    command: [ "python", "/app/prediction/main.py" ]
+
+
 volumes:
   redis_data:
   minio_data:

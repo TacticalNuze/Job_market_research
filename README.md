@@ -32,18 +32,34 @@ Ce projet propose un pipeline automatisé pour extraire des offres d'emploi en I
 ## Architecture du projet
 
 ```
-Job_market_research/
-├── data/                # Données brutes et traitées
-├── output/              # Résultats, visualisations et rapports
-├── src/                 # Scripts principaux du pipeline
-│   ├── scraping/        # Modules de collecte de données (BeautifulSoup, Scrapy)
-│   ├── preprocessing/   # Nettoyage et transformation des données
-│   ├── analysis/        # Analyse exploratoire et visualisation
-│   └── prediction/      # Modèles prédictifs (scikit-learn)
-├── config.yaml          # Configuration des sources et paramètres
-├── requirements.txt     # Dépendances Python
-└── main.py              # Script principal d'exécution du pipeline
+📁 Project Root
+│
+├── ai_models/                    # Models and scripts related to AI functionalities
+├── celery_app/                  # Celery task definitions and configurations
+├── data_extraction/            # Web scraping or data ingestion scripts
+├── database/                   # Database-related scripts (e.g., schemas, initialization)
+├── docker-entrypoint-initdb.d/ # SQL or scripts to initialize the PostgreSQL container
+├── documents/                  # Reference or documentation files
+├── enrechissement_process/     # Data enrichment processes and scripts
+├── output/                     # Output files or temporary results
+├── postgres/                   # PostgreSQL-related configurations
+├── skillner/                   # Named Entity Recognition for skill extraction
+├── spark_pipeline/             # Spark pipelines for data transformation
+├── superset/                   # Apache Superset configuration and assets
+├── traitement/                 # Data cleaning or transformation scripts
+│
+├── dockercompose.dev.yaml      # Docker Compose file for development environment
+├── dockercompose.prod.yaml     # Docker Compose file for production environment
+├── Dockerfile                  # Dockerfile for containerizing the app
+├── prometheus.yml              # Prometheus monitoring configuration
+├── pyproject.toml              # Python project metadata and dependencies
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies list
+├── skill_db_relax_20.json      # JSON database of skills
+├── uv.lock                     # Lockfile for dependency versions (used with uv)
+
 ```
+
 
 ## Fonctionnalités
 
