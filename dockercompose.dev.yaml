@@ -203,7 +203,7 @@ services:
       - postgres
     volumes:
       - ./prediction:/app/prediction
-    command: [ "python", "/app/prediction/manage_tables.py" ]
+    command: [ "python", "/app/prediction/main.py" ]
 
 
 volumes:
