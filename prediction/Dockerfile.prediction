@@ -16,6 +16,16 @@ RUN pip install --upgrade pip \
     && pip install pandas prophet psycopg2-binary
 
 # 📝 Copier requirements.txt et installer le reste des dépendances si besoin
+ HEAD
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# 📁 Copier ton code dans le conteneur
+COPY ./prediction /app/prediction
+
+# ▶️ Commande de lancement
+CMD ["python", "/app/prediction/init.py"]
+
 COPY requirements_prediction.txt .
 RUN pip install --no-cache-dir -r /app/requirements_prediction.txt
 
@@ -23,4 +33,5 @@ RUN pip install --no-cache-dir -r /app/requirements_prediction.txt
 COPY . .
 
 # ▶️ Commande de lancement
-CMD ["python", "/app/prediction/manage_tables.py"]
+CMD ["python", "/app/prediction/main.py"]
+ main

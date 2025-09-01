@@ -166,6 +166,16 @@ services:
     - minio
    restart: "no"
 
+  prediction:
+    build:
+      context: .
+      dockerfile: prediction/Dockerfile.prediction
+    container_name: prediction_container
+    depends_on:
+      - postgres
+    volumes:
+      - ./prediction:/app/prediction
+    command: ["python", "/app/prediction/init.py"]
   enrechissement_processor:
     build:
       context: .
@@ -179,6 +189,7 @@ services:
       - .docker.env
     environment:
       - PYTHONPATH=/app
+
 
   
   skillner:
@@ -203,7 +214,7 @@ services:
       - postgres
     volumes:
       - ./prediction:/app/prediction
-    command: [ "python", "/app/prediction/manage_tables.py" ]
+    command: [ "python", "/app/prediction/main.py" ]
 
 
 volumes:
