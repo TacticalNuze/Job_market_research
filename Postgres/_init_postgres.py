@@ -1,3 +1,5 @@
+import os
+
 import psycopg2
 from psycopg2 import sql
 from datetime import datetime
@@ -15,11 +17,11 @@ def connect():
     Établit une connexion PostgreSQL.
     """
     return psycopg2.connect(
-        user="root",
-        password="123456",
-        host="postgres",
-        database="offers",
-        port=5432
+        user=os.getenv("POSTGRES_USER", "root"),
+        password=os.getenv("POSTGRES_PASSWORD", "123456"),
+        host=os.getenv("DB_HOST", "postgres"),
+        database=os.getenv("POSTGRES_DB", "offers"),
+        port=int(os.getenv("DB_PORT", 5432))
     )
 
 

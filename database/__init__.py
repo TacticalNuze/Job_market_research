@@ -54,23 +54,29 @@ def read_from_minio(file_path, object_name, bucket_name="webscraping"):
 
 
 def read_all_from_bucket(
-    object_name,
-    file_dir="data_extraction/scraping_output",
+    dest_dir="data_extraction/scraping_output",
     bucket_name="webscraping",
-) -> None:
+) -> list[str]:
+    """Télécharge tous les objets d'un bucket MinIO dans dest_dir.
+
+    Retourne la liste des noms d'objets effectivement téléchargés.
+
+    Un seul bloc try englobe la connexion et le téléchargement : auparavant
+    l'échec de start_client() était seulement imprimé, puis `client` était
+    utilisé non défini. Les objets renvoyés par list_objects sont des instances
+    minio.datatypes.Object, d'où l'usage de `obj.object_name` et non `obj`.
+    """
+    downloaded: list[str] = []
     try:
         client = start_client()
+        for obj in client.list_objects(bucket_name=bucket_name, recursive=True):
+            file_path = os.path.join(dest_dir, obj.object_name)
+            client.fget_object(bucket_name, obj.object_name, file_path)
+            downloaded.append(obj.object_name)
+            print(f"Saved file {obj.object_name} to path {file_path}")
     except Exception as e:
-        print(f"Couldn't start client connection to Minio: {e}")
-    try:
-        file_names = client.list_objects(bucket_name=bucket_name)
-        for file in file_names:
-            file_path = os.path.join(file_dir, file)
-            client.fget_object(bucket_name, object_name, file_path)
-            print(f"Saved file {file} to path {file_path}")
-
-    except Exception:
-        print("Couldn't list the objects in Minio")
+        print(f"Couldn't download the objects from bucket '{bucket_name}': {e}")
+    return downloaded
 
 
 def scraping_upload(scraping_dir="/app/data_extraction/scraping_output"):

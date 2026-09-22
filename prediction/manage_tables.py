@@ -1,17 +1,22 @@
+import os
+
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 from datetime import datetime, timedelta
 import pandas as pd
 
 # 📦 Connexion PostgreSQL
+# dbname reste un paramètre : cette fonction est appelée sur trois bases
+# différentes ('postgres' pour le CREATE DATABASE, 'offers' en source,
+# 'prediction' en destination).
 def connect_db(dbname="offers"):
     try:
         conn = psycopg2.connect(
             dbname=dbname,
-            user="root",
-            password="123456",
-            host="postgres",
-            port=5432
+            user=os.getenv("POSTGRES_USER", "root"),
+            password=os.getenv("POSTGRES_PASSWORD", "123456"),
+            host=os.getenv("DB_HOST", "postgres"),
+            port=int(os.getenv("DB_PORT", 5432))
         )
         print(f"✅ Connexion réussie à la base '{dbname}'")
         return conn

@@ -2,6 +2,8 @@ def main():
     print("Démarrage du script de prédiction...")
 
     # === Ton ancien code init.py ici ===
+    import os
+
     import pandas as pd
     from prophet import Prophet
     import psycopg2
@@ -18,10 +20,10 @@ def main():
         try:
             conn = psycopg2.connect(
                 dbname=dbname,
-                user="root",
-                password="123456",
-                host="localhost",
-                port="5432"
+                user=os.getenv("POSTGRES_USER", "root"),
+                password=os.getenv("POSTGRES_PASSWORD", "123456"),
+                host=os.getenv("DB_HOST", "postgres"),
+                port=os.getenv("DB_PORT", "5432")
             )
             print("Connexion à la base réussie ✅")
             return conn
