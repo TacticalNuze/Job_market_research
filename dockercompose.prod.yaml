@@ -20,7 +20,7 @@ services:
   celery:
     build:
       context: .
-      dockerfile: Dockerfile.celery
+      dockerfile: Dockerfile
     image: app_image
     container_name: celery_container
     command: ["celery", "-A", "celery_app.tasks", "worker", "--loglevel=info", "-E"]
@@ -39,7 +39,8 @@ services:
     container_name: flower_container
     ports:
       - "5555:5555"
-    command: ["celery", "-A", "celery_app.tasks", "flower", "--port=5555","--loglevel=info"]
+    # Broker-only mode — see the comment in celery_app/Dockerfile.flower.
+    command: ["celery", "--broker=redis://redis:6379/0", "flower", "--port=5555", "--loglevel=info"]
     user: celery_user
     volumes:
       - ./celery_app:/app/celery_app

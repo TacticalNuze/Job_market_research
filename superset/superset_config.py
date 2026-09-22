@@ -1,3 +1,5 @@
+import os
+
 print("--- superset_config.py loaded successfully ---")
 
 CACHE_CONFIG = {"CACHE_TYPE": "null"}
@@ -12,7 +14,9 @@ FEATURE_FLAGS = {
     "EMBEDDED_SUPERSET": True,
 }
 
-SECRET_KEY = "testkey"
+# À surcharger via SUPERSET_SECRET_KEY en dehors du poste de dev : cette clé
+# signe les sessions et chiffre les identifiants des connexions enregistrées.
+SECRET_KEY = os.environ.get("SUPERSET_SECRET_KEY", "testkey")
 EXTRA_CATEGORICAL_COLOR_SCHEMES = [
     {
         "id": "dxccolors",

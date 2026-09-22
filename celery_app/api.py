@@ -1,8 +1,7 @@
 from celery.result import AsyncResult
 from fastapi import FastAPI
 
-from celery_app import celery_app
-from celery_app.tasks import scraping_workflow
+from celery_app.tasks import celery_app, scraping_workflow
 
 app = FastAPI()
 

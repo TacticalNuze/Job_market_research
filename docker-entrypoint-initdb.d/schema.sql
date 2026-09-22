@@ -108,5 +108,3 @@ CREATE INDEX idx_fact_offre_contrat ON fact_offre (id_contrat);
 CREATE INDEX idx_fact_offre_titre ON fact_offre (id_titre);
 
 CREATE INDEX idx_fact_offre_company ON fact_offre (id_compagnie);
-
-voici mon schéma de base de données

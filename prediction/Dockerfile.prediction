@@ -19,8 +19,11 @@ RUN pip install --upgrade pip \
 COPY requirements_prediction.txt .
 RUN pip install --no-cache-dir -r /app/requirements_prediction.txt
 
-# 📁 Copier ton code dans le conteneur
-COPY . .
+# 📁 Copier ton code dans le conteneur.
+# Build context is ./prediction, so copy into /app/prediction (not /app) to match
+# both the CMD below and the ./prediction:/app/prediction bind mount in Compose.
+# With a bare `COPY . .` the files land flat in /app and the CMD path is missing.
+COPY . /app/prediction/
 
 # ▶️ Commande de lancement
 CMD ["python", "/app/prediction/manage_tables.py"]

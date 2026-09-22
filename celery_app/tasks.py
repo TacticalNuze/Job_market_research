@@ -175,7 +175,7 @@ def pipeline_loader():
         # Build image from Dockerfile
         print(f"pipeline_loader image couldn't be found, building new one: {e}")
         pipeline_loader_image, build_logs = client.images.build(
-            path="/app/postgres",
+            path="/app/Postgres",
             dockerfile="Dockerfile.pipeline",
             tag="job_analytics_app-pipeline_loader",
         )
@@ -219,15 +219,22 @@ def pipeline_loader():
 
 @shared_task(name="scraping_workflow")
 def scraping_workflow():
-    scraping_tasks = chain(emploi_task.si() | rekrute_task.si() | marocann_task.si())
+    """Enchaîne les quatre scrapers puis les étapes de traitement.
+
+    Retourne l'id de la tâche (une chaîne), et non l'AsyncResult : le backend de
+    résultats Redis ne sait pas sérialiser un AsyncResult.
+    """
     workflow = chain(
-        scraping_tasks
-        | scrape_upload.si()
-        | skillner_ner.si()
-        | spark_cleaning.si()
-        | pipeline_loader.si()
-    )()
-    return workflow
+        emploi_task.si(),
+        rekrute_task.si(),
+        marocann_task.si(),
+        bayt_task.si(),
+        scrape_upload.si(),
+        skillner_ner.si(),
+        spark_cleaning.si(),
+        pipeline_loader.si(),
+    ).apply_async()
+    return workflow.id
 
 
 ##celery for enrechissement_process
@@ -242,9 +249,12 @@ def enrichment_process():
         enrechissement_image = client.images.get("job_analytics_app-enrechissement_processor")
     except dock_errors.ImageNotFound as e:
         print(f"⚠️ Image non trouvée, création en cours : {e}")
+        # Dockerfile.enrechissement copie `enrechissement_process` et
+        # `requirements.txt` : son contexte de build est la racine du repo, pas
+        # le sous-dossier. Identique à dockercompose.dev.yaml.
         enrechissement_image, build_logs = client.images.build(
-            path="/app/enrechissement_process",
-            dockerfile="Dockerfile.enrechissement",
+            path="/app",
+            dockerfile="enrechissement_process/Dockerfile.enrechissement",
             tag="job_analytics_app-enrechissement_processor",
         )
 

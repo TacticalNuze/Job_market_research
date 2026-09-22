@@ -51,7 +51,8 @@ services:
     container_name: flower_container
     ports:
       - "5555:5555"
-    command: ["celery", "-A", "celery_app.tasks", "flower", "--port=5555","--loglevel=info"]
+    # Broker-only mode — see the comment in celery_app/Dockerfile.flower.
+    command: ["celery", "--broker=redis://redis:6379/0", "flower", "--port=5555", "--loglevel=info"]
     env_file:
       - .docker.env
     volumes:
@@ -59,6 +60,24 @@ services:
     depends_on:
       - redis
       - celery
+  api:
+    # Réutilise l'image du worker : c'est la seule qui embarque fastapi + uvicorn
+    # (cf. pyproject.toml), le requirements.txt racine ne les contient pas.
+    image: app_worker
+    container_name: api_container
+    command: ["uvicorn", "celery_app.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+      - celery
+    volumes:
+      - ./celery_app:/app/celery_app
+    env_file:
+      - .docker.env
+    environment:
+      - PYTHONPATH=/app
+
   data_extraction:
     image: app_worker
     container_name: data_extraction_container
@@ -98,18 +117,20 @@ services:
 
     container_name: postgres
 
+    # POSTGRES_USER / POSTGRES_PASSWORD / POSTGRES_DB come from .docker.env.
+    # Do NOT re-declare them under `environment:` with ${...} interpolation:
+    # Compose resolves ${...} from a root .env or the shell, never from env_file,
+    # so they would expand to empty strings and override the values below.
     env_file:
       - .docker.env
-    environment:
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_DB=${POSTGRES_DB}
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     restart: always
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      # $$ escapes to a literal $, so the container shell expands these at
+      # runtime from env_file rather than Compose expanding them at parse time.
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -153,12 +174,14 @@ services:
 
   pipeline_loader:
    build:
-    context: ./postgres
+    context: ./Postgres
     dockerfile: Dockerfile.pipeline
    container_name: pipeline_loader
 
    volumes:
-    - ./postgres:/app/postgres
+    # Dockerfile.pipeline flattens ./Postgres into /app, so the source must be
+    # mounted at /app (as the skillner service does) to shadow the copied code.
+    - ./Postgres:/app
    env_file:
     - .docker.env
    depends_on:
@@ -203,6 +226,8 @@ services:
       - postgres
     volumes:
       - ./prediction:/app/prediction
+    env_file:
+      - .docker.env
     command: [ "python", "/app/prediction/manage_tables.py" ]
 
 

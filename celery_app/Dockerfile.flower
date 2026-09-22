@@ -17,5 +17,8 @@ RUN pip install --no-cache-dir -r  flower_requirements.txt
 
 
 ENV PYTHONPATH=/app
-# Default command to run the script
-CMD ["celery", "-A", "celery_app.tasks", "flower", "--port=5555","--loglevel=info"]
+# Flower runs in broker-only mode: it reads task events off Redis and needs no
+# application code. Pointing it at `-A celery_app.tasks` would import selenium,
+# undetected-chromedriver, the Docker SDK and data_extraction, none of which are
+# installed in this slim image. Broker URL matches celery_app/celeryconfig.py.
+CMD ["celery", "--broker=redis://redis:6379/0", "flower", "--port=5555", "--loglevel=info"]

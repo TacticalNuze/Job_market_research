@@ -166,7 +166,9 @@ def main():
             print(f"Error during the bucket retrieval process: {e}")
         # Reading the data from the bucket
         try:
-            print("Reading the json files present in the ner bucket")
+            # Entrée = offres brutes du bucket `webscraping` (défaut de
+            # read_all_from_bucket). La sortie annotée part vers `ner`.
+            print("Reading the json files present in the webscraping bucket")
             read_all_from_bucket(dest_dir="data")
             print("Success reading the json files")
         except Exception as e:
